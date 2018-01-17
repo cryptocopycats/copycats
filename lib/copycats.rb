@@ -10,6 +10,7 @@ require 'json'
 
 ## our own code
 require 'copycats/version'    # note: let version always go first
+require 'copycats/genome'
 
 
 
