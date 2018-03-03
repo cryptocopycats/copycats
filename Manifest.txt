@@ -4,6 +4,11 @@ Manifest.txt
 README.md
 Rakefile
 lib/copycats.rb
+lib/copycats/base32.rb
+lib/copycats/genome.rb
+lib/copycats/traits.rb
 lib/copycats/version.rb
 test/helper.rb
+test/test_base32.rb
+test/test_genome.rb
 test/test_version.rb
