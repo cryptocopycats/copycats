@@ -4,6 +4,7 @@
 #  trais / kaittributes
 #   see https://cryptokittydex.com/kaittributes
 #       https://docs.google.com/spreadsheets/d/1ShiBKSglFAB2vJe4Uow3iF09FBVq6ZAaOzTCIECf4iA
+#       http://www.rolldice.club/cryptokitties/wkt_tree.php
 #
 
 

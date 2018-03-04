@@ -45,17 +45,17 @@ def test_kitty_100000
   assert_equal "bloodred",    genome.color3
 
 
-  puts genome.genes[:color1].d0
+  puts genome.genes[:color1].d
   puts genome.genes[:color1].r1
   puts genome.genes[:color1].r2
   puts genome.genes[:color1].r3
 
-  puts genome.genes[:eyes].d0
+  puts genome.genes[:eyes].d
   puts genome.genes[:eyes].r1
   puts genome.genes[:eyes].r2
   puts genome.genes[:eyes].r3
 
-  puts TRAITS[:eyes][ genome.genes[:eyes].d0 ]
+  puts TRAITS[:eyes][ genome.genes[:eyes].d ]
   puts TRAITS[:eyes][ genome.genes[:eyes].r1 ]
   puts TRAITS[:eyes][ genome.genes[:eyes].r2 ]
   puts TRAITS[:eyes][ genome.genes[:eyes].r3 ]
