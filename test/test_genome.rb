@@ -65,7 +65,7 @@ def test_kitty_99895
   ## see https://cryptokittydex.com/kitties/99895
   ##     https://www.cryptokitties.co/kitty/99895
 
-  kai = "cdad  55r6 7f2f g9bg 1111 3757 d99d 272h 8k78 k884 9da9 fdee"
+  kai = "cdad 55r6 7f2f g9bg 1111 3757 d99d 272h 8k78 k884 9da9 fdee"
 
   genome = Genome.new( kai )
   pp genome

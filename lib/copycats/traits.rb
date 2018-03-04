@@ -6,6 +6,34 @@
 #       https://docs.google.com/spreadsheets/d/1ShiBKSglFAB2vJe4Uow3iF09FBVq6ZAaOzTCIECf4iA
 #
 
+
+### todo/fix:
+## move meta to traits!!!
+
+TRAITS_META = {
+  body:      { genes: '0-3',   name: 'Fur' },
+  pattern:   { genes: '4-7',   name: 'Pattern' },
+  coloreyes: { genes: '8-11',  name: 'Eye Color' },
+  eyes:      { genes: '12-15', name: 'Eye Shape' },
+  color1:    { genes: '16-19', name: 'Base Color' },
+  color2:    { genes: '20-23', name: 'Highlight Color' },
+  color3:    { genes: '24-27', name: 'Accent Color' },
+  wild:      { genes: '28-31', name: 'Wild' },
+  mouth:     { genes: '32-35', name: 'Mouth' }
+}
+
+
+## ordered by gene position (0,1,3.4,5,... etc.)
+TRAIT_KEYS = [:body,         # 0-3
+              :pattern,      # 4-7
+              :coloreyes,    # 8-11
+              :eyes,         # 12-15
+              :color1,       # 16-19
+              :color2,       # 20-23
+              :color3,       # 24-27
+              :wild,         # 28-31
+              :mouth]        # 32-35
+
 TRAITS =
 {
   body: {     ## 0-3 / fur

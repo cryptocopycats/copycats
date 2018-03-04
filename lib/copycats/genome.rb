@@ -67,4 +67,47 @@ class Genome
 
   ## add cattributes  ?? why? why not?
 
+  def build_tables()   GenomeTables.new( self ).build;  end
+
 end # class Genome
+
+
+class GenomeTables
+  def initialize( genome )
+    @genome = genome
+  end
+
+  def build
+    pos = 0
+    buf = ""
+
+    genes = @genome.genes
+
+    TRAIT_KEYS.each do |key|
+      trait      = TRAITS[key]
+      trait_meta = TRAITS_META[key]
+      gene       = genes[key]
+      buf << "#{trait_meta[:name]} (Genes #{trait_meta[:genes]})\n\n"
+
+      buf << "|Gene  |Binary   |Kai  |Trait    |   |\n"
+      buf << "|------|---------|-----|---------|---|\n"
+      buf << "| #{pos} | #{KAI_TO_BINARY[gene.d0]} | #{gene.d0} | **#{fmt_trait(trait[gene.d0])}** | d |\n"; pos+=1
+      buf << "| #{pos} | #{KAI_TO_BINARY[gene.r1]} | #{gene.r1} | #{fmt_trait(trait[gene.r1])} | r1 |\n"; pos+=1
+      buf << "| #{pos} | #{KAI_TO_BINARY[gene.r2]} | #{gene.r2} | #{fmt_trait(trait[gene.r2])} | r2 |\n"; pos+=1
+      buf << "| #{pos} | #{KAI_TO_BINARY[gene.r3]} | #{gene.r3} | #{fmt_trait(trait[gene.r3])} | r3 |\n"; pos+=1
+      buf << "\n"
+
+      if key == :body    ## add legend for first entry
+        buf << "d = dominant, r1 = 1st order recessive, r2 = 2nd order recessive, r3 = 3rd order recessive\n\n"
+      end
+    end
+
+    buf
+  end
+
+## helpers
+
+  def fmt_trait( trait )
+    (trait.nil? || trait.empty?) ? '??' : trait
+  end
+end  # class GenomeTables
