@@ -10,6 +10,15 @@ require 'copycats'
 
 class TraitsReport
 
+ROMAN = {
+  1 => 'I',
+  2 => 'II',
+  3 => 'III',
+  4 => 'IIII',
+  5 => 'V'
+}
+
+
 def build
   buf = ""
   buf << "# Traits\n\n"
@@ -28,7 +37,7 @@ def build
   buf << "\n"
 
   Kai::ALPHABET.each_char do |kai|
-    tier = Kai::TIER[kai]
+    tier = ROMAN[ Kai::TIER[kai] ]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
     TRAITS.values[0,6].each do |trait|
@@ -55,7 +64,7 @@ def build
   buf << "\n"
 
   Kai::ALPHABET.each_char do |kai|
-    tier = Kai::TIER[kai]
+    tier = ROMAN[ Kai::TIER[kai] ]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
     TRAITS.values[6,6].each do |trait|
@@ -74,7 +83,7 @@ def build
 16 Mutation Pairs (16 x 2 = 32)
 
 ```
-Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+Tier I    Tier II   Tier III  Tier IIII  Tier V
  (1-g)     (h-p)     (q-t)     (u,v)      (w)
 1+2 = h   h+i = q   q+r = u   u+v = w
 3+4 = i   j+k = r   s+t = v

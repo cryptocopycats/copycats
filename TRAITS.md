@@ -3,74 +3,74 @@
 | Tier | Kai | Fur | Pattern | Eye Color | Eye Shape | Base Color | Highlight Color |
 |----|----|----|----|----|----|----|----|
 |    |    | 0-3 | 4-7 | 8-11 | 12-15 | 16-19 | 20-23 |
-| 1 | 1 | savannah | ? | thundergrey | ? | shadowgrey | ? |
-| 1 | 2 | selkirk | tiger | gold | wonky | salmon | ? |
-| 1 | 3 | ? | ? | topaz | serpent | ? | egyptiankohl |
-| 1 | 4 | birman | ganado | mintgreen | googly | orangesoda | ? |
-| 1 | 5 | ? | leopard | ? | otaku | cottoncandy | lilac |
-| 1 | 6 | bobtail | camo  | sizzurp | simple | mauveover | apricot |
-| 1 | 7 | ? | ? | chestnut | crazy | aquamarine | royalpurple |
-| 1 | 8 | ? | spangled | strawberry | thicccbrowz | nachocheez | ? |
-| 1 | 9 | ? | calicool | sapphire | ? | harbourfog | swampgreen |
-| 1 | a | cymric | luckystripe | forgetmenot | ? | ? | violet |
-| 1 | b | chartreux | amur | ? | baddate | greymatter | scarlet |
-| 1 | c | himalayan | aguar | coralsunrise | ? | ? | barkbrown |
-| 1 | d | munchkin | spock | ? | chronic | ? | coffee |
-| 1 | e | sphynx | ? | ? | slyboots | ? | lemonade |
-| 1 | f | ragamuffin | totesbasic | ? | wiley | hintomint | chocolate |
-| 1 | g | ragdoll | totesbasic | ? | stunned | bananacream | ? |
-| 2 | h | norwegianforest | ? | pumpkin | ? | cloudwhite | ? |
-| 2 | i | ? | ? | limegreen | alien | ? | ? |
-| 2 | j | ? | dippedcone | ? | fabulous | oldlace | turtleback |
-| 2 | k | ? | ? | bubblegum | raisedbrow | koala | ? |
-| 2 | m | ? | tigerpunk | twilightsparkle | ? | ? | wolfgrey |
-| 2 | n | mainecoon | henna | ? | ? | ? | cerulian |
-| 2 | o | laperm | ? | ? | sass | ? | skyblue |
-| 2 | p | persian | totesbasic | ? | sweetmeloncakes | verdigris | ? |
-| 3 | q | ? | ? | babypuke | ? | ? | ? |
-| 3 | r | ? | ? | ? | wingtips | onyx | ? |
-| 3 | s | ? | hotrod | ? | ? | ? | royalblue |
-| 3 | t | manx | ? | ? | buzzed | ? | ? |
-| 4 | u | ? | ? | ? | ? | ? | ? |
-| 4 | v | ? | ? | ? | ? | ? | ? |
-| 5 | w | ? | ? | ? | ? | ? | ? |
+| I | 1 | savannah | ? | thundergrey | ? | shadowgrey | ? |
+| I | 2 | selkirk | tiger | gold | wonky | salmon | ? |
+| I | 3 | ? | ? | topaz | serpent | ? | egyptiankohl |
+| I | 4 | birman | ganado | mintgreen | googly | orangesoda | ? |
+| I | 5 | ? | leopard | ? | otaku | cottoncandy | lilac |
+| I | 6 | bobtail | camo  | sizzurp | simple | mauveover | apricot |
+| I | 7 | ? | ? | chestnut | crazy | aquamarine | royalpurple |
+| I | 8 | ? | spangled | strawberry | thicccbrowz | nachocheez | ? |
+| I | 9 | ? | calicool | sapphire | ? | harbourfog | swampgreen |
+| I | a | cymric | luckystripe | forgetmenot | ? | ? | violet |
+| I | b | chartreux | amur | ? | baddate | greymatter | scarlet |
+| I | c | himalayan | aguar | coralsunrise | ? | ? | barkbrown |
+| I | d | munchkin | spock | ? | chronic | ? | coffee |
+| I | e | sphynx | ? | ? | slyboots | ? | lemonade |
+| I | f | ragamuffin | totesbasic | ? | wiley | hintomint | chocolate |
+| I | g | ragdoll | totesbasic | ? | stunned | bananacream | ? |
+| II | h | norwegianforest | ? | pumpkin | ? | cloudwhite | ? |
+| II | i | ? | ? | limegreen | alien | ? | ? |
+| II | j | ? | dippedcone | ? | fabulous | oldlace | turtleback |
+| II | k | ? | ? | bubblegum | raisedbrow | koala | ? |
+| II | m | ? | tigerpunk | twilightsparkle | ? | ? | wolfgrey |
+| II | n | mainecoon | henna | ? | ? | ? | cerulian |
+| II | o | laperm | ? | ? | sass | ? | skyblue |
+| II | p | persian | totesbasic | ? | sweetmeloncakes | verdigris | ? |
+| III | q | ? | ? | babypuke | ? | ? | ? |
+| III | r | ? | ? | ? | wingtips | onyx | ? |
+| III | s | ? | hotrod | ? | ? | ? | royalblue |
+| III | t | manx | ? | ? | buzzed | ? | ? |
+| IIII | u | ? | ? | ? | ? | ? | ? |
+| IIII | v | ? | ? | ? | ? | ? | ? |
+| V | w | ? | ? | ? | ? | ? | ? |
 | ? | x | ? | ? | ? | ? | ? | ? |
 
 
 | Tier | Kai | Accent Color | Wild | Mouth | Future 1 | Future 2 | Future 3 |
 |----|----|----|----|----|----|----|----|
 |    |    | 24-27 | 28-31 | 32-35 | 36-39 | 40-43 | 44-47 |
-| 1 | 1 | belleblue | ? | whixtensions | ? | ? | ? |
-| 1 | 2 | sandalwood | ? | wasntme | ? | ? | ? |
-| 1 | 3 | peach | ? | wuvme | ? | ? | ? |
-| 1 | 4 | icy | ? | gerbil | ? | ? | ? |
-| 1 | 5 | granitegrey | ? | ? | ? | ? | ? |
-| 1 | 6 | ? | ? | ? | ? | ? | ? |
-| 1 | 7 | kittencream | ? | ? | ? | ? | ? |
-| 1 | 8 | emeraldgreen | ? | ? | ? | ? | ? |
-| 1 | 9 | ? | ? | beard | ? | ? | ? |
-| 1 | a | ? | ? | pouty | ? | ? | ? |
-| 1 | b | purplehaze | ? | saycheese | ? | ? | ? |
-| 1 | c | ? | ? | grim | ? | ? | ? |
-| 1 | d | azaleablush | ? | ? | ? | ? | ? |
-| 1 | e | missmuffett | ? | ? | ? | ? | ? |
-| 1 | f | morningglory | ? | happygokitty | ? | ? | ? |
-| 1 | g | ? | ? | soserious | ? | ? | ? |
-| 2 | h | daffodil | ? | cheeky | ? | ? | ? |
-| 2 | i | flamingo | elk | starstruck | ? | ? | ? |
-| 2 | j | ? | ? | ? | ? | ? | ? |
-| 2 | k | bloodred | trioculus | ? | ? | ? | ? |
-| 2 | m | ? | ? | dali | ? | ? | ? |
-| 2 | n | ? | ? | grimace | ? | ? | ? |
-| 2 | o | periwinkle | ? | ? | ? | ? | ? |
-| 2 | p | ? | ? | tongue | ? | ? | ? |
-| 3 | q | seafoam | ? | yokel | ? | ? | ? |
-| 3 | r | ? | ? | ? | ? | ? | ? |
-| 3 | s | ? | ? | neckbeard | ? | ? | ? |
-| 3 | t | ? | ? | ? | ? | ? | ? |
-| 4 | u | ? | ? | ? | ? | ? | ? |
-| 4 | v | ? | ? | ? | ? | ? | ? |
-| 5 | w | ? | ? | ? | ? | ? | ? |
+| I | 1 | belleblue | ? | whixtensions | ? | ? | ? |
+| I | 2 | sandalwood | ? | wasntme | ? | ? | ? |
+| I | 3 | peach | ? | wuvme | ? | ? | ? |
+| I | 4 | icy | ? | gerbil | ? | ? | ? |
+| I | 5 | granitegrey | ? | ? | ? | ? | ? |
+| I | 6 | ? | ? | ? | ? | ? | ? |
+| I | 7 | kittencream | ? | ? | ? | ? | ? |
+| I | 8 | emeraldgreen | ? | ? | ? | ? | ? |
+| I | 9 | ? | ? | beard | ? | ? | ? |
+| I | a | ? | ? | pouty | ? | ? | ? |
+| I | b | purplehaze | ? | saycheese | ? | ? | ? |
+| I | c | ? | ? | grim | ? | ? | ? |
+| I | d | azaleablush | ? | ? | ? | ? | ? |
+| I | e | missmuffett | ? | ? | ? | ? | ? |
+| I | f | morningglory | ? | happygokitty | ? | ? | ? |
+| I | g | ? | ? | soserious | ? | ? | ? |
+| II | h | daffodil | ? | cheeky | ? | ? | ? |
+| II | i | flamingo | elk | starstruck | ? | ? | ? |
+| II | j | ? | ? | ? | ? | ? | ? |
+| II | k | bloodred | trioculus | ? | ? | ? | ? |
+| II | m | ? | ? | dali | ? | ? | ? |
+| II | n | ? | ? | grimace | ? | ? | ? |
+| II | o | periwinkle | ? | ? | ? | ? | ? |
+| II | p | ? | ? | tongue | ? | ? | ? |
+| III | q | seafoam | ? | yokel | ? | ? | ? |
+| III | r | ? | ? | ? | ? | ? | ? |
+| III | s | ? | ? | neckbeard | ? | ? | ? |
+| III | t | ? | ? | ? | ? | ? | ? |
+| IIII | u | ? | ? | ? | ? | ? | ? |
+| IIII | v | ? | ? | ? | ? | ? | ? |
+| V | w | ? | ? | ? | ? | ? | ? |
 | ? | x | ? | ? | ? | ? | ? | ? |
 
 
@@ -79,7 +79,7 @@
 16 Mutation Pairs (16 x 2 = 32)
 
 ```
-Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+Tier I    Tier II   Tier III  Tier IIII  Tier V
  (1-g)     (h-p)     (q-t)     (u,v)      (w)
 1+2 = h   h+i = q   q+r = u   u+v = w
 3+4 = i   j+k = r   s+t = v
