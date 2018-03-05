@@ -2,6 +2,19 @@
 
 ## Mutations / Mewtations
 
+5-bit Gene = 2^5 = 32 Attributes
+
+16 Mutation Pairs (16x2 = 32)
+
+| Tier                   | Count | Total |
+|------------------------|-------|-------|
+| Tier 1 (Basic Traits)  |    16 |    16 |
+| Tier 2 (Mutations)     |     8 |    24 |
+| Tier 3 (Mutations)     |     4 |    28 |
+| Tier 4 (Mutations)     |     2 |    30 |
+| Tier 5 (Mutations)     |     1 |    31 |
+
+
 The formula is `n+(n+1) = n/2+16` if n is an even number (0,2,4,6,...).
 Running:
 
@@ -34,4 +47,35 @@ results in:
 30+31 = 31
 ```
 
+and in kai (base32) notation. 
 
+``` ruby
+ALPHABET = "123456789abcdefghijkmnopqrstuvwx"
+
+(0..31).each do |n|
+  if n.even?
+    puts "#{ALPHABET[n]}+#{ALPHABET[n+1]} = #{ALPHABET[n/2+16]}"
+  end
+end
+```
+
+results in:
+
+```
+1+2 = h
+3+4 = i
+5+6 = j
+7+8 = k
+9+a = m
+b+c = n
+d+e = o
+f+g = p
+h+i = q
+j+k = r
+m+n = s
+o+p = t
+q+r = u
+s+t = v
+u+v = w
+w+x = x
+```
