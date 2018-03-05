@@ -8,36 +8,15 @@
 #
 
 
-### todo/fix:
-## move meta to traits!!!
-
-TRAITS_META = {
-  body:      { genes: '0-3',   name: 'Fur' },
-  pattern:   { genes: '4-7',   name: 'Pattern' },
-  coloreyes: { genes: '8-11',  name: 'Eye Color' },
-  eyes:      { genes: '12-15', name: 'Eye Shape' },
-  color1:    { genes: '16-19', name: 'Base Color' },
-  color2:    { genes: '20-23', name: 'Highlight Color' },
-  color3:    { genes: '24-27', name: 'Accent Color' },
-  wild:      { genes: '28-31', name: 'Wild' },
-  mouth:     { genes: '32-35', name: 'Mouth' }
-}
-
 
 ## ordered by gene position (0,1,3.4,5,... etc.)
-TRAIT_KEYS = [:body,         # 0-3
-              :pattern,      # 4-7
-              :coloreyes,    # 8-11
-              :eyes,         # 12-15
-              :color1,       # 16-19
-              :color2,       # 20-23
-              :color3,       # 24-27
-              :wild,         # 28-31
-              :mouth]        # 32-35
-
+##  12 traits (4 genes each)
 TRAITS =
 {
-  body: {     ## 0-3 / fur
+  body: {
+    genes: '0-3',
+    name:  'Fur',
+    kai: {
     '1' => 'savannah',
     '2' => 'selkirk',
     '3' => '',
@@ -70,8 +49,12 @@ TRAITS =
     'v' => '',
     'w' => '',
     'x' => ''
+    }
   },
-  pattern: {     ## 4-7
+  pattern: {
+    genes: '4-7',
+    name: 'Pattern',
+    kai: {
     '1' => '',
     '2' => 'tiger',
     '3' => '',
@@ -104,8 +87,12 @@ TRAITS =
     'v' => '',
     'w' => '',
     'x' => ''
+    }
   },
-  coloreyes: {    ## 8-11 / eye color
+  coloreyes: {
+    genes: '8-11',
+    name:  'Eye Color',
+    kai: {
     '1' => 'thundergrey',
     '2' => 'gold',
     '3' => 'topaz',
@@ -138,8 +125,12 @@ TRAITS =
     'v' => '',
     'w' => '',
     'x' => ''
+    }
   },
-  eyes: {  ## 12-15 / eye shape / eye type
+  eyes: {
+    genes: '12-15',
+    name: 'Eye Shape', ##  eye type
+    kai: {
     '2' => 'wonky',
     '3' => 'serpent',
     '4' => 'googly',
@@ -159,8 +150,12 @@ TRAITS =
     'p' => 'sweetmeloncakes',
     'r' => 'wingtips',
     't' => 'buzzed'
+    }
   },
-  color1: {    ## 16-19 / colorprimary / body color / base color
+  color1: {
+    genes: '16-19',
+    name: 'Base Color',   ##  colorprimary / body color
+    kai: {
     '1' => 'shadowgrey',
     '2' => 'salmon',
     '4' => 'orangesoda',
@@ -177,8 +172,12 @@ TRAITS =
     'k' => 'koala',
     'p' => 'verdigris',
     'r' => 'onyx'
+    }
   },
-  color2: {  ## 20-23 / colorsecondary / sec color / hi(light) color / pattern color
+  color2: {
+    genes: '20-23',
+    name:  'Highlight Color',  ## colorsecondary / sec color / pattern color
+    kai: {
     '3' => 'egyptiankohl',
     '5' => 'lilac',
     '6' => 'apricot',
@@ -195,8 +194,12 @@ TRAITS =
     'n' => 'cerulian',
     'o' => 'skyblue',
     's' => 'royalblue'
+    }
   },
-  color3: {     ## 24-27 / colortertiary / acc(ent) color
+  color3: {
+    genes: '24-27',
+    name: 'Accent Color',  ## colortertiary
+    kai: {
     '1' => 'belleblue',
     '2' => 'sandalwood',
     '3' => 'peach',
@@ -229,12 +232,20 @@ TRAITS =
     'v' => '',
     'w' => '',
     'x' => ''
+    }
   },
-  wild: {      ## 28-31
+  wild: {
+    genes: '28-31',
+    name: 'Wild',
+    kai: {
     'i' =>  'elk',
     'k' =>  'trioculus'
+    }
   },
-  mouth: {     ## 32-35
+  mouth: {
+    genes: '32-35',
+    name:  'Mouth',
+    kai: {
     '1' => 'whixtensions',
     '2' => 'wasntme',
     '3' => 'wuvme',
@@ -267,5 +278,21 @@ TRAITS =
     'v' => '',
     'w' => '',
     'x' => ''
+   }
+  },
+  future1: {
+      genes: '36-39',
+      name: 'Future 1',
+      kai: { }   ## use alpha_1, alpha_2, ... - why? why not?
+  },
+  future2: {
+      genes: '40-43',
+      name: 'Future 2',
+      kai: { }   ## use beta_1, beta_2, ... - why? why not?
+  },
+  future3: {
+      genes: '44-47',
+      name: 'Future 3',
+      kai: { }   ## use gamma_1, gamma_2, ... - why? why not?
   }
 }

@@ -1,130 +1,57 @@
 # Traits
 
-Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild (28-31) • Mouth (32-35)
-
-## Fur (Genes 0-3)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | savannah | 9 | ?? | h | norwegianforest | q | ?? |
-| 2 | selkirk | a | cymric | i | ?? | r | ?? |
-| 3 | ?? | b | chartreux | j | ?? | s | ?? |
-| 4 | birman | c | himalayan | k | ?? | t | manx |
-| 5 | ?? | d | munchkin | m | ?? | u | ?? |
-| 6 | bobtail | e | sphynx | n | mainecoon | v | ?? |
-| 7 | ?? | f | ragamuffin | o | laperm | w | ?? |
-| 8 | ?? | g | ragdoll | p | persian | x | ?? |
-
-
-## Pattern (Genes 4-7)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | ?? | 9 | calicool | h | ?? | q | ?? |
-| 2 | tiger | a | luckystripe | i | ?? | r | ?? |
-| 3 | ?? | b | amur | j | dippedcone | s | hotrod |
-| 4 | ganado | c | aguar | k | ?? | t | ?? |
-| 5 | leopard | d | spock | m | tigerpunk | u | ?? |
-| 6 | camo  | e | ?? | n | henna | v | ?? |
-| 7 | ?? | f | totesbasic | o | ?? | w | ?? |
-| 8 | spangled | g | totesbasic | p | totesbasic | x | ?? |
-
-
-## Eye Color (Genes 8-11)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | thundergrey | 9 | sapphire | h | pumpkin | q | babypuke |
-| 2 | gold | a | forgetmenot | i | limegreen | r | ?? |
-| 3 | topaz | b | ?? | j | ?? | s | ?? |
-| 4 | mintgreen | c | coralsunrise | k | bubblegum | t | ?? |
-| 5 | ?? | d | ?? | m | twilightsparkle | u | ?? |
-| 6 | sizzurp | e | ?? | n | ?? | v | ?? |
-| 7 | chestnut | f | ?? | o | ?? | w | ?? |
-| 8 | strawberry | g | ?? | p | ?? | x | ?? |
+| Tier | Kai | Fur | Pattern | Eye Color | Eye Shape | Base Color | Highlight Color | Accent Color | Wild | Mouth |
+|----|----|----|----|----|----|----|----|----|----|----|
+|    |    | 0-3 | 4-7 | 8-11 | 12-15 | 16-19 | 20-23 | 24-27 | 28-31 | 32-35 |
+| 1 | 1 | savannah | ? | thundergrey | ? | shadowgrey | ? | belleblue | ? | whixtensions |
+| 1 | 2 | selkirk | tiger | gold | wonky | salmon | ? | sandalwood | ? | wasntme |
+| 1 | 3 | ? | ? | topaz | serpent | ? | egyptiankohl | peach | ? | wuvme |
+| 1 | 4 | birman | ganado | mintgreen | googly | orangesoda | ? | icy | ? | gerbil |
+| 1 | 5 | ? | leopard | ? | otaku | cottoncandy | lilac | granitegrey | ? | ? |
+| 1 | 6 | bobtail | camo  | sizzurp | simple | mauveover | apricot | ? | ? | ? |
+| 1 | 7 | ? | ? | chestnut | crazy | aquamarine | royalpurple | kittencream | ? | ? |
+| 1 | 8 | ? | spangled | strawberry | thicccbrowz | nachocheez | ? | emeraldgreen | ? | ? |
+| 1 | 9 | ? | calicool | sapphire | ? | harbourfog | swampgreen | ? | ? | beard |
+| 1 | a | cymric | luckystripe | forgetmenot | ? | ? | violet | ? | ? | pouty |
+| 1 | b | chartreux | amur | ? | baddate | greymatter | scarlet | purplehaze | ? | saycheese |
+| 1 | c | himalayan | aguar | coralsunrise | ? | ? | barkbrown | ? | ? | grim |
+| 1 | d | munchkin | spock | ? | chronic | ? | coffee | azaleablush | ? | ? |
+| 1 | e | sphynx | ? | ? | slyboots | ? | lemonade | missmuffett | ? | ? |
+| 1 | f | ragamuffin | totesbasic | ? | wiley | hintomint | chocolate | morningglory | ? | happygokitty |
+| 1 | g | ragdoll | totesbasic | ? | stunned | bananacream | ? | ? | ? | soserious |
+| 2 | h | norwegianforest | ? | pumpkin | ? | cloudwhite | ? | daffodil | ? | cheeky |
+| 2 | i | ? | ? | limegreen | alien | ? | ? | flamingo | elk | starstruck |
+| 2 | j | ? | dippedcone | ? | fabulous | oldlace | turtleback | ? | ? | ? |
+| 2 | k | ? | ? | bubblegum | raisedbrow | koala | ? | bloodred | trioculus | ? |
+| 2 | m | ? | tigerpunk | twilightsparkle | ? | ? | wolfgrey | ? | ? | dali |
+| 2 | n | mainecoon | henna | ? | ? | ? | cerulian | ? | ? | grimace |
+| 2 | o | laperm | ? | ? | sass | ? | skyblue | periwinkle | ? | ? |
+| 2 | p | persian | totesbasic | ? | sweetmeloncakes | verdigris | ? | ? | ? | tongue |
+| 3 | q | ? | ? | babypuke | ? | ? | ? | seafoam | ? | yokel |
+| 3 | r | ? | ? | ? | wingtips | onyx | ? | ? | ? | ? |
+| 3 | s | ? | hotrod | ? | ? | ? | royalblue | ? | ? | neckbeard |
+| 3 | t | manx | ? | ? | buzzed | ? | ? | ? | ? | ? |
+| 4 | u | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| 4 | v | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| 5 | w | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| ? | x | ? | ? | ? | ? | ? | ? | ? | ? | ? |
 
 
-## Eye Shape (Genes 12-15)
+## Mutations / Mewtations
 
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | ?? | 9 | ?? | h | ?? | q | ?? |
-| 2 | wonky | a | ?? | i | alien | r | wingtips |
-| 3 | serpent | b | baddate | j | fabulous | s | ?? |
-| 4 | googly | c | ?? | k | raisedbrow | t | buzzed |
-| 5 | otaku | d | chronic | m | ?? | u | ?? |
-| 6 | simple | e | slyboots | n | ?? | v | ?? |
-| 7 | crazy | f | wiley | o | sass | w | ?? |
-| 8 | thicccbrowz | g | stunned | p | sweetmeloncakes | x | ?? |
+16 Mutation Pairs (16 x 2 = 32)
 
+```
+Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+ (1-g)     (h-p)     (q-t)     (u,v)      (w)
+1+2 = h   h+i = q   q+r = u   u+v = w
+3+4 = i   j+k = r   s+t = v
+5+6 = j   m+n = s
+7+8 = k   o+p = t
+9+a = m
+b+c = n
+d+e = o
+f+g = p
+```
 
-## Base Color (Genes 16-19)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | shadowgrey | 9 | harbourfog | h | cloudwhite | q | ?? |
-| 2 | salmon | a | ?? | i | ?? | r | onyx |
-| 3 | ?? | b | greymatter | j | oldlace | s | ?? |
-| 4 | orangesoda | c | ?? | k | koala | t | ?? |
-| 5 | cottoncandy | d | ?? | m | ?? | u | ?? |
-| 6 | mauveover | e | ?? | n | ?? | v | ?? |
-| 7 | aquamarine | f | hintomint | o | ?? | w | ?? |
-| 8 | nachocheez | g | bananacream | p | verdigris | x | ?? |
-
-
-## Highlight Color (Genes 20-23)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | ?? | 9 | swampgreen | h | ?? | q | ?? |
-| 2 | ?? | a | violet | i | ?? | r | ?? |
-| 3 | egyptiankohl | b | scarlet | j | turtleback | s | royalblue |
-| 4 | ?? | c | barkbrown | k | ?? | t | ?? |
-| 5 | lilac | d | coffee | m | wolfgrey | u | ?? |
-| 6 | apricot | e | lemonade | n | cerulian | v | ?? |
-| 7 | royalpurple | f | chocolate | o | skyblue | w | ?? |
-| 8 | ?? | g | ?? | p | ?? | x | ?? |
-
-
-## Accent Color (Genes 24-27)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | belleblue | 9 | ?? | h | daffodil | q | seafoam |
-| 2 | sandalwood | a | ?? | i | flamingo | r | ?? |
-| 3 | peach | b | purplehaze | j | ?? | s | ?? |
-| 4 | icy | c | ?? | k | bloodred | t | ?? |
-| 5 | granitegrey | d | azaleablush | m | ?? | u | ?? |
-| 6 | ?? | e | missmuffett | n | ?? | v | ?? |
-| 7 | kittencream | f | morningglory | o | periwinkle | w | ?? |
-| 8 | emeraldgreen | g | ?? | p | ?? | x | ?? |
-
-
-## Wild (Genes 28-31)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | ?? | 9 | ?? | h | ?? | q | ?? |
-| 2 | ?? | a | ?? | i | elk | r | ?? |
-| 3 | ?? | b | ?? | j | ?? | s | ?? |
-| 4 | ?? | c | ?? | k | trioculus | t | ?? |
-| 5 | ?? | d | ?? | m | ?? | u | ?? |
-| 6 | ?? | e | ?? | n | ?? | v | ?? |
-| 7 | ?? | f | ?? | o | ?? | w | ?? |
-| 8 | ?? | g | ?? | p | ?? | x | ?? |
-
-
-## Mouth (Genes 32-35)
-
-|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
-|---|-------------|---|------------|---|------------|---|------------|
-| 1 | whixtensions | 9 | beard | h | cheeky | q | yokel |
-| 2 | wasntme | a | pouty | i | starstruck | r | ?? |
-| 3 | wuvme | b | saycheese | j | ?? | s | neckbeard |
-| 4 | gerbil | c | grim | k | ?? | t | ?? |
-| 5 | ?? | d | ?? | m | dali | u | ?? |
-| 6 | ?? | e | ?? | n | grimace | v | ?? |
-| 7 | ?? | f | happygokitty | o | ?? | w | ?? |
-| 8 | ?? | g | soserious | p | tongue | x | ?? |
-
-
+Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.

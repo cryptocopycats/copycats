@@ -14,75 +14,58 @@ def build
   buf = ""
   buf << "# Traits\n\n"
 
-  headings = []
-  TRAITS.keys.each do |key|
-    trait_meta = TRAITS_META[key]
-
-    headings << "#{trait_meta[:name]} (#{trait_meta[:genes]})"
+  buf << "| Tier | Kai |"
+  TRAITS.values[0,9].each do |trait|
+    buf << " #{trait[:name]} |"
   end
+  buf << "\n"
+  buf << "|----|----|----|----|----|----|----|----|----|----|----|\n"
 
-  buf << headings.join( " • " )
+  buf << "|    |    |"
+  TRAITS.values[0,9].each do |trait|
+    buf << " #{trait[:genes]} |"
+  end
+  buf << "\n"
+
+  Kai::ALPHABET.each_char do |kai|
+    tier = Kai::TIER[kai]
+    tier = '?'  if tier.nil?
+    buf << "| #{tier} | #{kai} |"
+    TRAITS.values[0,9].each do |trait|
+      value = trait[:kai][kai]
+      value = '?'  if value.nil? || value.empty?
+      buf << " #{value} |"
+    end
+    buf << "\n"
+  end
   buf << "\n\n"
 
+  buf += <<TXT
+## Mutations / Mewtations
 
-  ## pp TRAITS
-  TRAITS.keys.each do |key|
+16 Mutation Pairs (16 x 2 = 32)
 
-    trait      = TRAITS[key]
-    trait_meta = TRAITS_META[key]
+```
+Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+ (1-g)     (h-p)     (q-t)     (u,v)      (w)
+1+2 = h   h+i = q   q+r = u   u+v = w
+3+4 = i   j+k = r   s+t = v
+5+6 = j   m+n = s
+7+8 = k   o+p = t
+9+a = m
+b+c = n
+d+e = o
+f+g = p
+```
 
-    puts "Kai	 Cattribute"
-    items = []
-    Kai::ALPHABET.each_char do |kai|
-      value = trait[kai]
-      value = '??'  if value.nil? || value.empty?
-      items << [kai, value]
-    end
+Note: It's impossible for a mutation to reach `x` e.g. `w+x = x`.
+TXT
 
-    items.each do |item|
-      puts "#{item[0]} #{item[1]}"
-    end
-
-    buf << "## #{trait_meta[:name]} (Genes #{trait_meta[:genes]})\n\n"
-    buf << make_table( items )
-    buf << "\n\n"
-  end
 
   puts buf
 
   buf
 end ## method build
-
-def make_table( items )
-  rows = make_rows( items, columns: 4 )
-  pp rows
-
-  buf = ""
-  buf << "|Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |\n"
-  buf << "|---|-------------|---|------------|---|------------|---|------------|\n"
-
-  rows.each do |row|
-    buf << "| "
-    buf <<  row.map {|item| "#{item[0]} | #{item[1]}" }.join( " | " )
-    buf << " |\n"
-  end
-
-  buf
-end
-
-
-## helpers
-def make_rows( items, columns: 4 )
-  offset = items.size / columns
-  pp offset
-
-  rows = []
-  offset.times.with_index do |row|
-    ## note: construct [items[row],items[offset+row],items[offset*2+row], ...]
-    rows << columns.times.with_index.map { |col| items[offset*col+row] }
-  end
-  rows
-end
 
 
   def save( path )
