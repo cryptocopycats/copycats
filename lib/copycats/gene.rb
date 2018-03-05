@@ -26,7 +26,7 @@ class Gene
     kai = to_kai.reverse      # note: use reverse kai string (kai[0] is first char/digit/letter)
 
     3.downto(1) do |i|
-      if rand(100) < 25
+      if Lottery.rand(100) < 25
         puts " bingo! swap #{i}<>#{i-1}"
         kai[i-1], kai[i] = kai[i], kai[i-1]
       end
@@ -46,7 +46,7 @@ class Gene
     if (gene2 - gene1) == 1 && gene1.even?
       probability = 25
       probability /= 2   if gene1 > 23
-      if rand(100) < probability
+      if Lottery.rand(100) < probability
         genex = (gene1 / 2) + 16       ## 16=2^4
         puts " bingo! mutation #{gene2}+#{gene1} => #{genex}"
         puts "                 #{Kai::ALPHABET[gene2]}+#{Kai::ALPHABET[gene1]} => #{Kai::ALPHABET[genex]}"
@@ -61,20 +61,14 @@ class Gene
 
     new_d = mutate( other )
     if new_d.nil?    ## no mutation of gene.d - use "regular" formula
-      new_d = rand(100) < 50 ? d : other.d
+      new_d = Lottery.rand(100) < 50 ? d : other.d
     end
 
-    new_r1 = rand(100) < 50 ? r1 : other.r1
-    new_r2 = rand(100) < 50 ? r2 : other.r2
-    new_r3 = rand(100) < 50 ? r3 : other.r3
+    new_r1 = Lottery.rand(100) < 50 ? r1 : other.r1
+    new_r2 = Lottery.rand(100) < 50 ? r2 : other.r2
+    new_r3 = Lottery.rand(100) < 50 ? r3 : other.r3
 
-    kai = ""      # note: use reverse kai string (kai[0] is first char/digit/letter)
-    kai << new_d
-    kai << new_r1
-    kai << new_r2
-    kai << new_r3
-
-    gene = Gene.new( kai.reverse )  ## note: do NOT forget to pass in kai (unreversed)
+    gene = Gene.new( new_r3 + new_r2 + new_r1 + new_d )
     pp gene
     gene
   end
