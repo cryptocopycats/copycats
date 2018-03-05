@@ -15,14 +15,14 @@ def build
   buf << "# Traits\n\n"
 
   buf << "| Tier | Kai |"
-  TRAITS.values[0,5].each do |trait|
+  TRAITS.values[0,6].each do |trait|
     buf << " #{trait[:name]} |"
   end
   buf << "\n"
-  buf << "|----|----|----|----|----|----|----|\n"
+  buf << "|----|----|----|----|----|----|----|----|\n"
 
   buf << "|    |    |"
-  TRAITS.values[0,5].each do |trait|
+  TRAITS.values[0,6].each do |trait|
     buf << " #{trait[:genes]} |"
   end
   buf << "\n"
@@ -31,7 +31,7 @@ def build
     tier = Kai::TIER[kai]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
-    TRAITS.values[0,5].each do |trait|
+    TRAITS.values[0,6].each do |trait|
       value = trait[:kai][kai]
       value = '?'  if value.nil? || value.empty?
       buf << " #{value} |"
@@ -42,14 +42,14 @@ def build
 
   ## part ii (split into two tables)
   buf << "| Tier | Kai |"
-  TRAITS.values[5,4].each do |trait|
+  TRAITS.values[6,6].each do |trait|
     buf << " #{trait[:name]} |"
   end
   buf << "\n"
-  buf << "|----|----|----|----|----|----|\n"
+  buf << "|----|----|----|----|----|----|----|----|\n"
 
   buf << "|    |    |"
-  TRAITS.values[5,4].each do |trait|
+  TRAITS.values[6,6].each do |trait|
     buf << " #{trait[:genes]} |"
   end
   buf << "\n"
@@ -58,7 +58,7 @@ def build
     tier = Kai::TIER[kai]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
-    TRAITS.values[5,4].each do |trait|
+    TRAITS.values[6,6].each do |trait|
       value = trait[:kai][kai]
       value = '?'  if value.nil? || value.empty?
       buf << " #{value} |"
