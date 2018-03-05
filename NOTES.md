@@ -15,9 +15,9 @@
 | Tier 5 (Mutations)     |     1 |    31 |
 
 ```
-Tier 1       Tier 2       Tier 3      Tier 4          Tier 5
- 0+1  = 16   16+17 = 24   24+25 = 28  28+29 = 30      (?)
- 2+3  = 17   18+19 = 25   26+27 = 29  30+31 = 31 (?)
+Tier 1       Tier 2       Tier 3       Tier 4       Tier 5
+ 0+1  = 16   16+17 = 24   24+25 = 28   28+29 = 30   30+31 = 31 (?)
+ 2+3  = 17   18+19 = 25   26+27 = 29  
  4+5  = 18   20+21 = 26
  6+7  = 19   22+23 = 27
  8+9  = 20
@@ -29,9 +29,9 @@ Tier 1       Tier 2       Tier 3      Tier 4          Tier 5
 in Kai (base32) notation:
 
 ```
-Tier 1    Tier 2    Tier 3    Tier 4      Tier 5
-1+2 = h   h+i = q   q+r = u   u+v = w     (?)
-3+4 = i   j+k = r   s+t = v   w+x = x (?)
+Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+1+2 = h   h+i = q   q+r = u   u+v = w   w+x = x (?)
+3+4 = i   j+k = r   s+t = v   
 5+6 = j   m+n = s
 7+8 = k   o+p = t
 9+a = m
