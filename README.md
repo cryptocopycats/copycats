@@ -16,7 +16,7 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 Use the `kitty` command line tool to (auto-)read kitty data records
 (in comma-separated values (CSV)) into an in-memory SQLite database
-and to print reports. Example - [`kitties_1-100.csv`](data/kitties_1-100.csv):
+and print reports. Example - [`kitties_1-100.csv`](data/kitties_1-100.csv):
 
 ```
 id,gen,genes_kai
@@ -28,7 +28,7 @@ id,gen,genes_kai
 ...
 ```
 
-Note: By default all datafiles (`**/*.csv`) in the `data` and all subdirectories
+Note: By default all datafiles (`**/*.csv`) in the `./data` and all subdirectories
 get (auto-)read. Use the `-i/--include` option to change the data directory.
 
 
@@ -136,7 +136,7 @@ Mouth (Genes 32-35)
 
 ### Kitty Mix Genes (Matron + Sire) Report
 
-Pass in two ids for the matron and sire kitty to print a mix genes report.
+Pass in two ids for the matron and sire kitties to print a mix genes report.
 Example:
 
 
@@ -242,7 +242,9 @@ Mouth (Genes 32-35)
 ## Quick References / Cheat Sheets
 
 [Traits](TRAITS.md) - Traits (Cattributes) Charts with Mutation (Mewtations) Pairs and Tiers
+
 [Genes](GENES.md)  - Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild (28-31) • Mouth (32-35) • Future 1 (36-39) • Future 2 (40-43) • Future 3 (44-47)
+
 
 
 
