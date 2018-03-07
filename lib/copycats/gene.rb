@@ -11,7 +11,7 @@ class Gene
   def initialize( arg )
      ## (always) assume String in base32/kai for now
      kai = arg
-     puts "Gene.initialize #{kai}"
+     ## puts "Gene.initialize #{kai}"
      kai = kai.reverse
      @d   = kai[0]
      @r1  = kai[1]

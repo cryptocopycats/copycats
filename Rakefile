@@ -18,6 +18,8 @@ Hoe.spec 'copycats' do
   self.history_file = 'HISTORY.md'
 
   self.extra_deps = [
+    ['activerecord'],
+    ['sqlite3'],
   ]
 
   self.licenses = ['Public Domain']
