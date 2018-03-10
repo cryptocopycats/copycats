@@ -16,20 +16,21 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 Use the `kitty` command line tool to (auto-)read kitty data records
 (in comma-separated values (CSV)) into an in-memory SQLite database
-and print reports. Example - [`kitties_1-100.csv`](data/kitties_1-100.csv):
+and print reports. Example - [`kitties/1-99_999/000.csv`](https://github.com/openblockchains/kitties/blob/master/1-99_999/000.csv):
 
 ```
-id,gen,genes_kai
-1,0,ccac7787fa7fafaa16467755f9ee444467667366cccceede
-2,0,ca9c7575f442af9g666455577777444466868667ccccffec
-3,0,ac9a6686ff7f99aa66665575779f444467867748ccccdcfc
-4,0,ccac568622fff99g16167555ffed444486684687ccccdcff
-5,0,ca9c8777747fg99g44117775f77d444477886377ccccffef
+id,gen,matron_id,sire_id,birthdate,genes,name
+1,0,,,2017-11-23 06:19:59,ccac 7787 fa7f afaa 1646 7755 f9ee 4444 6766 7366 cccc eede,
+2,0,,,2017-11-23 06:19:59,ca9c 7575 f442 af9g 6664 5557 7777 4444 6686 8667 cccc ffec,
+3,0,,,2017-11-23 06:19:59,ac9a 6686 ff7f 99aa 6666 5575 779f 4444 6786 7748 cccc dcfc,
+4,0,,,2017-11-23 06:19:59,ccac 5686 22ff f99g 1616 7555 ffed 4444 8668 4687 cccc dcff,
+5,0,,,2017-11-23 06:19:59,ca9c 8777 747f g99g 4411 7775 f77d 4444 7788 6377 cccc ffef,
 ...
 ```
 
 Note: By default all datafiles (`**/*.csv`) in the `./data` and all subdirectories
 get (auto-)read. Use the `-i/--include` option to change the data directory.
+
 
 
 
@@ -245,6 +246,22 @@ Mouth (Genes 32-35)
 
 [Genes](GENES.md)  - Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild (28-31) • Mouth (32-35) • Future 1 (36-39) • Future 2 (40-43) • Future 3 (44-47)
 
+
+
+## Datasets
+
+[(Crypto) Kitties on the Blockchain](https://github.com/openblockchains/kitties) -
+public dataset in comma-separated values (CSV) format in blocks of a thousand kitties each (e.g.
+[`000.csv`](https://github.com/openblockchains/kitties/blob/master/1-99_999/000.csv) incl. 1-999,
+[`001.csv`](https://github.com/openblockchains/kitties/blob/master/1-99_999/001.csv) incl. 1000-1999,
+[`002.csv`](https://github.com/openblockchains/kitties/blob/master/1-99_999/002.csv) incl. 2000-2999,
+and so on). The data records for kitties incl. id, gen(eration), matron+sire ids, birthdate, 48 (12x4) genes in kai (base32) notation, and more.
+
+[(Crypto) Kittydex Kitty Data](https://cryptokittydex.com/resources) - public dataset in comma-separated values (CSV) format in a single file (+250 MiB).
+The data records for kitties incl. id, gen(eration), matron+sire ids, birthdate, 48 (12x4) genes in kai (base32) notation, and more.
+
+
+Add your dataset here!
 
 
 
