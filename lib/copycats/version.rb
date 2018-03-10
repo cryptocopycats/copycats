@@ -5,7 +5,7 @@ module Copycats
 
   MAJOR = 0
   MINOR = 5
-  PATCH = 0
+  PATCH = 1
   VERSION = [MAJOR,MINOR,PATCH].join('.')
 
   def self.version

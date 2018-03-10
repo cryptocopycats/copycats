@@ -87,7 +87,7 @@ def setup( data_dir: './data' )
       k = Copycats::Model::Kitty.new
       k.id    = row['id'].to_i
       k.gen   = row['gen'].to_i
-      k.genes = row['genes_kai']
+      k.genes = (row['genes'] || row['genes_kai'] || '').gsub( ' ', '' )  ## remove all spaces - why? why not?
       ## pp k
 
       ## print ids for progress report - why? why not?
