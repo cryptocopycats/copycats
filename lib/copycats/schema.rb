@@ -1,5 +1,18 @@
 # encoding: utf-8
 
+#######################
+## yuml.me diagram:
+
+=begin
+[Kitties|id;gen;birthdate;day_count;genes_kai;name]1-<>48 (12x4)[Genes|n;gene;gene_n],
+[Genes]0..*<>-1[Traits|n;kai;tier;name],
+[Traits]0..*<>-1[Trait Types|name;key],
+[Kitties]<-parents (matron x sire) [Kitties],
+=end
+
+
+
+
 class CreateDb
 
 def up

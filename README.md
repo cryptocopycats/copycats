@@ -32,6 +32,13 @@ Note: By default all datafiles (`**/*.csv`) in the `./data` and all subdirectori
 get (auto-)read. Use the `-i/--include` option to change the data directory.
 
 
+### Database Tables
+
+Table Diagram
+
+![](copycats-tables.png)
+
+
 
 
 ### Kitty Genes Reader / Report
@@ -236,6 +243,7 @@ Mouth (Genes 32-35)
 | 34 | f | happygokitty  | a | pouty            | r2 |
 | 35 | a | pouty         | f | happygokitty     | r3 |
 ```
+
 
 
 
