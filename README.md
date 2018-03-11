@@ -10,6 +10,13 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 * rdoc  :: [rubydoc.info/gems/copycats](http://rubydoc.info/gems/copycats)
 
 
+## Database Tables
+
+Table Diagram
+
+![](copycats-tables.png)
+
+
 
 
 ## kitty Command Line Tool
@@ -30,14 +37,6 @@ id,gen,matron_id,sire_id,birthdate,genes,name
 
 Note: By default all datafiles (`**/*.csv`) in the `./data` and all subdirectories
 get (auto-)read. Use the `-i/--include` option to change the data directory.
-
-
-### Database Tables
-
-Table Diagram
-
-![](copycats-tables.png)
-
 
 
 
@@ -246,6 +245,84 @@ Mouth (Genes 32-35)
 
 
 
+
+## Database Queries
+
+### SQL
+
+#### Find all kitties with a trait
+
+Note: All traits (12 x 32 = 384) are numbered with ids from 0 to 383 in the traits database table.
+Let's use the trait savannah (fur) with the id 0:
+
+``` sql
+SELECT kitty_id FROM genes WHERE trait_id = 0
+```
+
+
+#### Find all kitties with a dominant (visible) trait
+
+Note: Use `gene` column (`d`/`r1`/`r2`/`r3`) or the numeric `gene_n`
+column (0/1/2/3): Let's use the trait savannah (fur) with the id 0
+and a dominant (d) gene:
+
+
+``` sql
+SELECT kitty_id FROM  genes
+                WHERE trait_id = 0 AND gene='d'
+```
+
+
+#### Find all kitties with two traits
+
+Use two query with "intersect" the result. Let's
+use the trait savannah (fur) with the id 0
+and the trait tiger (pattern) with the id 33:
+
+``` sql
+SELECT kitty_id from genes where trait_id = 0
+INTERSECT
+SELECT kitty_id from genes where trait_id = 33
+```
+
+
+
+### Using Ruby Models w/ ActiveRecord
+
+
+#### Find all kitties with a trait
+
+Let's use the trait savannah (fur):
+
+``` ruby
+genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' ))  # query
+genes.map { |gene| gene.kitty }                                  # get kitties (from gene)
+```
+
+
+#### Find all kitties with a dominant (visible) trait
+
+Let's use the trait savannah (fur) and a dominant (d) gene:
+
+
+``` ruby
+genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' ),
+                      d:     'd' )
+genes.map { |gene| gene.kitty }     # get kitties (from gene)
+```
+
+
+#### Find all kitties with two traits
+
+Use two query with "intersect" the result. Let's
+use the trait savannah (fur)
+and the trait tiger (pattern):
+
+``` ruby
+genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' )) &
+        Gene.find_by( trait: Trait.find_by( name: 'pattern' ))
+genes.map { |gene| gene.kitty }     # get kitties (from gene)
+```
 
 
 ## Quick References / Cheat Sheets
