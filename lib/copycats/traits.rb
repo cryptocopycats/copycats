@@ -5,9 +5,11 @@
 #   see https://cryptokittydex.com/kaittributes
 #       https://docs.google.com/spreadsheets/d/1ShiBKSglFAB2vJe4Uow3iF09FBVq6ZAaOzTCIECf4iA
 #       http://www.rolldice.club/cryptokitties/wkt_tree.php
+#       https://www.cryptokitties.co/cattributes (official cattributes list)
 #
-
-
+#
+#  for latest updates on new cattributes see:
+#      https://updates.cryptokitties.co   (official latest updates/timeline)
 
 ## ordered by gene position (0,1,3.4,5,... etc.)
 ##  12 traits (4 genes each)

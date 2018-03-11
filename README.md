@@ -251,6 +251,25 @@ Table Diagram
 
 #### Find all kitties with a trait
 
+Let's use the trait savannah (fur) with the id 0:
+
+``` sql
+SELECT id FROM kitties WHERE body_id = 0
+```
+
+#### Find all kitties with two traits
+
+Let's use the trait savannah (fur) with the id 0
+and the trait tiger (pattern) with the id 33:
+
+``` sql
+SELECT id FROM  kitties
+          WHERE body_id = 0 AND pattern_id = 33
+```
+
+
+#### Find all kitties with a trait (in any gene d/r1/r2/r3)
+
 Note: All traits (12 x 32 = 384) are numbered with ids from 0 to 383 in the traits database table.
 Let's use the trait savannah (fur) with the id 0:
 
@@ -272,7 +291,7 @@ SELECT kitty_id FROM  genes
 ```
 
 
-#### Find all kitties with two traits
+#### Find all kitties with two traits (in any gene d/r1/r2/r3)
 
 Use two query with "intersect" the result. Let's
 use the trait savannah (fur) with the id 0
@@ -290,23 +309,50 @@ SELECT kitty_id FROM genes WHERE trait_id = 33
 
 #### Find all kitties with a trait
 
-Let's use the trait savannah (fur):
+Let's use the trait savannah (fur) with the id 0:
+
+``` ruby
+Kitty.find_by( body: Trait.find_by( name: 'savannah' ))
+# -or -
+Kitty.find_by( body_id: 0)
+```
+
+#### Find all kitties with two traits
+
+Let's use the trait savannah (fur) with the id 0
+and the trait tiger (pattern) with the id 33:
+
+``` ruby
+Kitty.find_by( body:    Trait.find_by( name: 'savannah' ),
+               pattern: Trait.find_by( name: 'tiger' ))
+# -or -
+Kitty.find_by( body_id: 0, pattern_id: 33 )
+```
+
+
+#### Find all kitties with a trait (in any gene d/r1/r2/r3)
+
+Let's use the trait savannah (fur) with the id 0:
 
 ``` ruby
 genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' ))  # query
+#-or-
+genes = Gene.find_by( trait_id: 0 )  
 genes.map { |gene| gene.kitty }                                  # get kitties (from gene)
 ```
 
 
 #### Find all kitties with a dominant (visible) trait
 
-Let's use the trait savannah (fur) and a dominant (d) gene:
+Let's use the trait savannah (fur) with the id 0 and a dominant (d) gene:
 
 
 ``` ruby
 genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' ),
-                      d:     'd' )
-genes.map { |gene| gene.kitty }     # get kitties (from gene)
+                      d:     'd' )                               #query
+#-or-
+genes = Gene.find_by( trait_id: 0, d: 'd' )
+genes.map { |gene| gene.kitty }                                  # get kitties (from gene)
 ```
 
 
@@ -321,6 +367,7 @@ genes = Gene.select('kitty_id').where( trait: Trait.find_by( name: 'savannah' ))
         Gene.select('kitty_id').where( trait: Trait.find_by( name: 'pattern' )))
 genes.map { |gene| gene.kitty }     # get kitties (from gene)
 ```
+
 
 
 ## Quick References / Cheat Sheets

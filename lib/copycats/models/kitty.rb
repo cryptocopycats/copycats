@@ -13,6 +13,21 @@ class Kitty < ActiveRecord::Base
 
   has_many :genes
 
+  belongs_to :sire,      class_name: 'Kitty', foreign_key: 'sire_id'
+  belongs_to :matron,    class_name: 'Kitty', foreign_key: 'matron_id'
+
+  ## convenience shortcuts for gene (d) traits
+  belongs_to :body,      class_name: 'Trait', foreign_key: 'body_id'
+  belongs_to :pattern,   class_name: 'Trait', foreign_key: 'pattern_id'
+  belongs_to :coloreyes, class_name: 'Trait', foreign_key: 'coloreyes_id'
+  belongs_to :eyes,      class_name: 'Trait', foreign_key: 'eyes_id'
+  belongs_to :color1,    class_name: 'Trait', foreign_key: 'color1_id'
+  belongs_to :color2,    class_name: 'Trait', foreign_key: 'color2_id'
+  belongs_to :color3,    class_name: 'Trait', foreign_key: 'color3_id'
+  belongs_to :wild,      class_name: 'Trait', foreign_key: 'wild_id'
+  belongs_to :mouth,     class_name: 'Trait', foreign_key: 'mouth_id'
+
+  ## todo: add more genes convenience shortcuts
   ## has_many :genes_body
   ## has_many :genes_pattern
 end  # class Kitty

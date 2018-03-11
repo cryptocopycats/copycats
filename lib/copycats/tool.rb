@@ -40,9 +40,11 @@ def run( args )
     id = args[0].to_i
     kitty = Copycats::Model::Kitty.find( id )
 
+    pp kitty
     pp kitty.genes
-    pp kitty.genes.to_a
-    ## pp k
+    pp kitty.body
+    pp kitty.pattern
+    ## pp kitty.genes.to_a
 
     buf = KittyReport.new( kitty ).build
 

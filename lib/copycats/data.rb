@@ -140,6 +140,20 @@ def setup( data_dir: './data' )
       k.birthdate =  birthdate
       k.day_count = (birthdate.to_date.jd - genesisdate.jd)+1
 
+
+      genome = Genome.new( k.genes_kai )
+      genes =  genome.genes
+
+      k.body_id      = TRAIT_IDS_CACHE[:body][:kai][genes[:body].d]
+      k.pattern_id   = TRAIT_IDS_CACHE[:pattern][:kai][genes[:pattern].d]
+      k.coloreyes_id = TRAIT_IDS_CACHE[:coloreyes][:kai][genes[:coloreyes].d]
+      k.eyes_id      = TRAIT_IDS_CACHE[:eyes][:kai][genes[:eyes].d]
+      k.color1_id    = TRAIT_IDS_CACHE[:color1][:kai][genes[:color1].d]
+      k.color2_id    = TRAIT_IDS_CACHE[:color2][:kai][genes[:color2].d]
+      k.color3_id    = TRAIT_IDS_CACHE[:color3][:kai][genes[:color3].d]
+      k.wild_id      = TRAIT_IDS_CACHE[:wild][:kai][genes[:wild].d]
+      k.mouth_id     = TRAIT_IDS_CACHE[:mouth][:kai][genes[:mouth].d]
+
       ## pp k
 
       ## print ids for progress report - why? why not?
@@ -147,9 +161,6 @@ def setup( data_dir: './data' )
       k.save!
 
       ## add genes
-      genome = Genome.new( k.genes_kai )
-      genes =  genome.genes
-
       TRAITS.each_with_index do |(trait_key, trait_hash),i|
         gene    = genes[trait_key]
         next  if gene.nil?   ## skip future_1, future_2, etc. for now - add - why? why not?
