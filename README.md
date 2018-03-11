@@ -10,13 +10,6 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 * rdoc  :: [rubydoc.info/gems/copycats](http://rubydoc.info/gems/copycats)
 
 
-## Database Tables
-
-Table Diagram
-
-![](copycats-tables.png)
-
-
 
 
 ## kitty Command Line Tool
@@ -245,6 +238,12 @@ Mouth (Genes 32-35)
 
 
 
+## Database Tables
+
+Table Diagram
+
+![](copycats-tables.png)
+
 
 ## Database Queries
 
@@ -280,14 +279,15 @@ use the trait savannah (fur) with the id 0
 and the trait tiger (pattern) with the id 33:
 
 ``` sql
-SELECT kitty_id from genes where trait_id = 0
+SELECT kitty_id FROM genes WHERE trait_id = 0
 INTERSECT
-SELECT kitty_id from genes where trait_id = 33
+SELECT kitty_id FROM genes WHERE trait_id = 33
 ```
 
 
 
-### Using Ruby Models w/ ActiveRecord
+
+### Using Models w/ ActiveRecord in Ruby
 
 
 #### Find all kitties with a trait
