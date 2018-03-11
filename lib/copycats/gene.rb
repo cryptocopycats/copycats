@@ -1,5 +1,10 @@
 # encoding: utf-8
 
+
+### todo/check:
+##    find a better name for Gene (incl.4 genes)
+##      e.g. GeneFour, Gene4, GeneGroup, GeneSlice,TraitGenes,... -why? why not?
+
 class Gene
 
   attr_reader :d, :r1, :r2, :r3

@@ -11,7 +11,7 @@ class KittyReport
       ##  for now alsways assume ActiveRecord - Kitty::Model
       kitty = args[0]
       @id   = kitty.id
-      @kai  = fmt_kai( kitty.genes )    ## pretty print in groups of four (4)
+      @kai  = fmt_kai( kitty.genes_kai )    ## pretty print in groups of four (4)
     end
   end
 

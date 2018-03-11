@@ -39,6 +39,9 @@ def run( args )
   if args.size == 1
     id = args[0].to_i
     kitty = Copycats::Model::Kitty.find( id )
+
+    pp kitty.genes
+    pp kitty.genes.to_a
     ## pp k
 
     buf = KittyReport.new( kitty ).build

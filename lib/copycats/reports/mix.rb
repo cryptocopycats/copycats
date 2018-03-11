@@ -5,8 +5,8 @@ class MixReport
   def initialize( matron, sire )
     @matron_id   = matron.id
     @sire_id     = sire.id
-    @matron_kai  = fmt_kai( matron.genes )    ## pretty print in groups of four (4)
-    @sire_kai    = fmt_kai( sire.genes )
+    @matron_kai  = fmt_kai( matron.genes_kai )    ## pretty print in groups of four (4)
+    @sire_kai    = fmt_kai( sire.genes_kai )
   end
 
 
