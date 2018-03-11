@@ -285,8 +285,6 @@ SELECT kitty_id FROM genes WHERE trait_id = 33
 ```
 
 
-
-
 ### Using Models w/ ActiveRecord in Ruby
 
 
@@ -319,8 +317,8 @@ use the trait savannah (fur)
 and the trait tiger (pattern):
 
 ``` ruby
-genes = Gene.find_by( trait: Trait.find_by( name: 'savannah' )) &
-        Gene.find_by( trait: Trait.find_by( name: 'pattern' ))
+genes = Gene.select('kitty_id').where( trait: Trait.find_by( name: 'savannah' )).intersect(
+        Gene.select('kitty_id').where( trait: Trait.find_by( name: 'pattern' )))
 genes.map { |gene| gene.kitty }     # get kitties (from gene)
 ```
 
