@@ -32,36 +32,47 @@ def connect( config={} )
           database: db.path[1..-1],
           encoding: 'utf8'
         }
-      else # assume sqlite3
+    else # assume sqlite3
        config = {
          adapter: db.scheme, # sqlite3
          database: db.path[1..-1] # world.db (NB: cut off leading /, thus 1..-1)
-      }
-      end
+       }
     end
-
-    puts "Connecting to db using settings: "
-    pp config
-    ActiveRecord::Base.establish_connection( config )
-    ActiveRecord::Base.logger = Logger.new( STDOUT )
   end
 
 
-
-
-TRAIT_IDS_CACHE = {}
-
-def setup_in_memory_db
-  # Database Setup & Config
-
-  ## ActiveRecord::Base.logger = Logger.new( STDOUT )
+  puts "Connecting to db using settings: "
+  pp config
+  ActiveRecord::Base.establish_connection( config )
+  ActiveRecord::Base.logger = Logger.new( STDOUT )
   ## ActiveRecord::Base.colorize_logging = false  - no longer exists - check new api/config setting?
 
-  connect( adapter:  'sqlite3',
-           database: ':memory:' )
+  ## if sqlite3 add (use) some pragmas for speedups
+  if config[:adapter] == 'sqlite3'
+      ## check/todo: if in memory e.g. ':memory:' no pragma needed!!
+      con = ActiveRecord::Base.connection
+      con.execute( 'PRAGMA synchronous=OFF;' )
+      con.execute( 'PRAGMA journal_mode=OFF;' )
+      con.execute( 'PRAGMA temp_store=MEMORY;' )
+  end
+end  ## method connect
 
+
+def setup_db
   ## build schema
   CreateDb.new.up
+end
+
+
+
+### todo/fix:
+##  make trait_ids_cache more (re)usable - fix global!!!!
+TRAIT_IDS_CACHE = {}
+
+
+def setup_traits
+  ## for speed - turn off logging for info/debug/etc. levels
+  ActiveRecord::Base.logger.level = :warn
 
   ### add traits
   TRAITS.each do |trait_key, trait_hash|
@@ -94,20 +105,21 @@ def setup_in_memory_db
     TRAIT_IDS_CACHE[ trait_key ] = { id:  trait_t.id,
                                      kai: cache }
   end
-end # setup_in_memory_db (using SQLite :memory:)
+end
 
 
-
-def setup( data_dir: './data' )
+def read_datafiles( data_dir: './data' )
   files = find_datafiles( data_dir )
   pp files
 
-  ## check if files found
+  ## todo: check if files found
 
-  ## setup sqlite in-memory db
-  setup_in_memory_db()
 
-  pp TRAIT_IDS_CACHE
+  ## for speed - turn off logging for info/debug/etc. levels
+  ActiveRecord::Base.logger.level = :warn
+
+
+  ## pp TRAIT_IDS_CACHE
 
   ## add / read / load all datafiles
   files.each_with_index do |file,i|
@@ -135,7 +147,7 @@ def setup( data_dir: './data' )
       ## todo: pretty print (format genes_kai !!!!)
       k.genes_kai = row['genes'] || row['genes_kai']  ### .gsub( ' ', '' )  ## remove all spaces - why? why not?
 
-      pp row['birthdate']
+      ##  pp row['birthdate']
       birthdate = DateTime.strptime( row['birthdate'], '%Y-%m-%d %H:%M:%S' )
       k.birthdate =  birthdate
       k.day_count = (birthdate.to_date.jd - genesisdate.jd)+1
@@ -165,7 +177,7 @@ def setup( data_dir: './data' )
         gene    = genes[trait_key]
         next  if gene.nil?   ## skip future_1, future_2, etc. for now - add - why? why not?
 
-        puts "#{trait_hash[:name]} (Genes #{trait_hash[:genes]})\n\n"
+        ##  puts "#{trait_hash[:name]} (Genes #{trait_hash[:genes]})\n\n"
 
         ## note: start counting for d.n with 1 (NOT 0)
         ##  use idx for zero-based counting - why? why not?
