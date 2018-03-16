@@ -245,6 +245,108 @@ Table Diagram
 ![](copycats-tables.png)
 
 
+SQL Tables (in SQLite Dialect)
+
+``` sql
+CREATE TABLE kitties (
+    id           INTEGER  PRIMARY KEY AUTOINCREMENT
+                          NOT NULL,
+    name         VARCHAR,
+    genes_kai    VARCHAR  NOT NULL,
+    gen          INTEGER  NOT NULL,
+    birthdate    DATETIME NOT NULL,
+    day_count    INTEGER  NOT NULL,
+    matron_id    INTEGER,
+    sire_id      INTEGER,
+    body_id      INTEGER  NOT NULL,
+    pattern_id   INTEGER  NOT NULL,
+    coloreyes_id INTEGER  NOT NULL,
+    eyes_id      INTEGER  NOT NULL,
+    color1_id    INTEGER  NOT NULL,
+    color2_id    INTEGER  NOT NULL,
+    color3_id    INTEGER  NOT NULL,
+    wild_id      INTEGER  NOT NULL,
+    mouth_id     INTEGER  NOT NULL
+);
+
+
+CREATE TABLE genes (
+    id       INTEGER PRIMARY KEY AUTOINCREMENT
+                     NOT NULL,
+    kitty_id INTEGER NOT NULL,
+    n        INTEGER NOT NULL,
+    gene     VARCHAR NOT NULL,
+    gene_n   INTEGER NOT NULL,
+    trait_id INTEGER NOT NULL
+);
+
+
+CREATE TABLE traits (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT
+                          NOT NULL,
+    trait_type_id INTEGER NOT NULL,
+    name          VARCHAR NOT NULL,
+    n             INTEGER NOT NULL,
+    kai           VARCHAR NOT NULL,
+    tier          INTEGER
+);
+
+CREATE TABLE trait_types (
+    id    INTEGER PRIMARY KEY AUTOINCREMENT
+                  NOT NULL,
+    name  VARCHAR NOT NULL,
+    [key] VARCHAR NOT NULL
+);
+
+```
+
+## Database Setup
+
+Use the kitty setup command to setup an SQLite database and (auto-)read
+all datafiles. Example:
+
+```
+$ kitty setup
+```
+
+This will create:
+
+- a single-file SQLite database `kitties.db`
+- setup all tables
+- add all known traits and trait types (body, pattern, eyes, ...) and
+- (auto-)read all datafiles (`**/*.csv`) in the `.` and all subdirectories
+
+
+Note: Use the `-i/--include` option to change the default data directory (that is, `.`)
+and use the `-n/--dbname` option to change the default SQLite database name (that is, `kitties.db`)
+and use the `-d/--dbpath` option to change the default SQLite database path (that is, `.`).
+
+
+Showtime! Use the sqlite3 command line tool
+and try some queries. Example:
+
+```
+$ sqlite3 kitties.db
+
+sqlite> SELECT * FROM kitties WHERE id=1;
+
+1||ccac 7787 fa7f afaa 1646 7755 f9ee 4444 6766 7366 cccc eede|0|2017-11-23 06:19:59|1|||14|44|70|102|132|174|197|230|26
+6
+
+sqlite> SELECT * FROM genes WHERE trait_id = 14;    -- sphynx (14)
+
+1|1|0|d|0|14
+3|1|2|r2|2|14
+4|1|3|r3|3|14
+38|2|1|r1|1|14
+146|5|1|r1|1|14
+181|6|0|d|0|14
+183|6|2|r2|2|14
+...
+```
+
+
+
 ## Database Queries
 
 ### SQL
