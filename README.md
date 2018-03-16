@@ -328,10 +328,9 @@ and try some queries. Example:
 ```
 $ sqlite3 kitties.db
 
-sqlite> SELECT * FROM kitties WHERE id=1;
+sqlite> SELECT * FROM kitties WHERE id = 1;
 
-1||ccac 7787 fa7f afaa 1646 7755 f9ee 4444 6766 7366 cccc eede|0|2017-11-23 06:19:59|1|||14|44|70|102|132|174|197|230|26
-6
+1||ccac 7787 fa7f afaa 1646 7755 f9ee 4444 6766 7366 cccc eede|0|2017-11-23 06:19:59|...
 
 sqlite> SELECT * FROM genes WHERE trait_id = 14;    -- sphynx (14)
 
