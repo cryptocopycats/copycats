@@ -21,34 +21,58 @@ New Traits / Catttributes:
 - Mar/16: **thunderstruck**  (i) - pattern
 - Mar/16: **rascal**         (3) - pattern 
 
+<!-- break -->
+
 - Mar/14: **dragonfruit**    (e) - base color
 
+<!-- break -->
+
 - Mar/9:  **belch**          (7) - mouth
+
+<!-- break -->
 
 - Mar/8:  **pixiebob**       (8) - fur
 - Mar/8:  **poisonberry**    (4) - highlight color 
 - Mar/8:  **safetyvest**     (i) - highlight color 
 
+<!-- break -->
+
 - Mar/5:  **cyan**           (g) - eye color
+
+<!-- break -->
 
 - Feb/28: **missmuffet**     (e) - accent color
 - Feb/28: **wiley**          (f) - eye shape
 
+<!-- break -->
+
 - Feb/23: **dippedcone**     (j) - pattern
 - Feb/23: **leopard**        (5) - pattern
 
+<!-- break -->
+
 - Feb/20: **harbourfog**     (9) - base color 
 
+<!-- break -->
+
 - Feb/13: **baddate**        (b) - eye shape
+
+<!-- break -->
 
 - Feb/12: **wuvme**          (3) - mouth          
 - Feb/12: **yokel**          (q) - mouth
 - Feb/12: **starstruck**     (i) - mouth
 
+<!-- break -->
+
 - Feb/9:  **egyptiankohl**   (3) - highlight color 
 - Feb/9:  **bobtail**        (6) - fur
 
+<!-- break -->
+
 - Feb/6:  **tiger**          (2) - pattern
+
+<!-- break -->
 
 - Feb/2:  **birman**         (4) - fur
 - Feb/2:  **coralsunrise**   (c) - eye color
