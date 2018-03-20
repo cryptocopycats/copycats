@@ -129,26 +129,70 @@ def read_datafiles( data_dir: './data' )
     kitties = CSV.read( file, headers:true )
     pp kitties.headers
 
-    ## note: for now use first 5 rows for testing
-    ## kitties[0..4].each do |row|
+    ## check format
+    if kitties.headers.include?( 'id' ) &&
+       kitties.headers.include?( 'gen' ) &&
+       kitties.headers.include?( 'matron_id' ) &&
+       kitties.headers.include?( 'sire_id' ) &&
+       kitties.headers.include?( 'birthdate' ) &&
+       kitties.headers.include?( 'genes' ) &&
+       kitties.headers.include?( 'name' )
+       ## "standard" format
+       ##   required headers include: id, gen, matron_id, sire_id, birthdate, genes, name
+       headers = {
+         'id'         => 'id',
+         'gen'        => 'gen',
+         'matron_id'  => 'matron_id',
+         'sire_id'    => 'sire_id',
+         'birthdate'  => 'birthdate',
+         'genes'      => 'genes',
+         'name'       => 'name'
+       }
+    elsif kitties.headers.include?( 'id' ) &&
+          kitties.headers.include?( 'matron_id' ) &&
+          kitties.headers.include?( 'sire_id' ) &&
+          kitties.headers.include?( 'gen' ) &&
+          kitties.headers.include?( 'birth_date' ) &&
+          kitties.headers.include?( 'genes_kai' )
+      ## "kittydex" format
+      ##   see  https://cryptokittydex.com/resources
+      ##    required headers include: id, matron_id, sire_id, gen, birth_date, genes_kai
+       headers = {
+         'id'         => 'id',
+         'matron_id'  => 'matron_id',
+         'sire_id'    => 'sire_id',
+         'gen'        => 'gen',
+         'birthdate'  => 'birth_date',
+         'genes'      => 'genes_kai',
+         'name'       => 'name'   ## note: will always be nil (is missing in kittydex)
+       }
+    else
+      ## unknown format
+      puts "!!! unknown datafile format; matching headers NOT found / missing"
+      exit 1
+    end
+
 
     ## start of kitties blockchain / genesis
     genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 
+    ## note: for now use first 5 rows for testing
+    ## kitties[0..4].each do |row|
+
     kitties.each do |row|
       ## puts row['id'] + '|' + row['gen'] + '|' + row['genes_kai']
       k = Copycats::Model::Kitty.new
-      k.id        = row['id'].to_i
-      k.gen       = row['gen'].to_i
-      k.matron_id = row['matron_id']   unless row['matron_id'].blank?
-      k.sire_id   = row['sire_id']     unless row['sire_id'].blank?
-      k.name      = row['name']        unless row['name'].blank?
+      k.id        = row[headers['id']].to_i
+      k.gen       = row[headers['gen']].to_i
+      k.matron_id = row[headers['matron_id']].to_i   unless row[headers['matron_id']].blank? || row[headers['matron_id']] == '0'
+      k.sire_id   = row[headers['sire_id']].to_i    unless row[headers['sire_id']].blank?   || row[headers['sire_id']] == '0'
+      k.name      = row[headers['name']]             unless row[headers['name']].blank?
 
-      ## todo: pretty print (format genes_kai !!!!)
-      k.genes_kai = row['genes'] || row['genes_kai']  ### .gsub( ' ', '' )  ## remove all spaces - why? why not?
+      ## todo: pretty print (format genes !!!!)
+      k.genes_kai = row[headers['genes']]   ### .gsub( ' ', '' )  ## remove all spaces - why? why not?
 
       ##  pp row['birthdate']
-      birthdate = DateTime.strptime( row['birthdate'], '%Y-%m-%d %H:%M:%S' )
+      birthdate = DateTime.strptime( row[headers['birthdate']], '%Y-%m-%d %H:%M:%S' )
       k.birthdate =  birthdate
       k.day_count = (birthdate.to_date.jd - genesisdate.jd)+1
 
