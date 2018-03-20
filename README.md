@@ -16,7 +16,9 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 New Traits / Catttributes:
 
-2018
+### 2018
+
+March
 
 - Mar/16: **thunderstruck**   - pattern (i)
 - Mar/16: **rascal**          - pattern (3)
@@ -39,7 +41,9 @@ New Traits / Catttributes:
 
 - Mar/5:  **cyan**            - eye color (g)
 
-<!-- break -->
+
+
+February
 
 - Feb/28: **missmuffet**      - accent color (e)
 - Feb/28: **wiley**           - eye shape (f)
