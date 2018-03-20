@@ -18,66 +18,67 @@ New Traits / Catttributes:
 
 2018
 
-- Mar/16: **thunderstruck**  (i) - pattern
-- Mar/16: **rascal**         (3) - pattern 
+- Mar/16: **thunderstruck**   - pattern (i)
+- Mar/16: **rascal**          - pattern (3)
 
 <!-- break -->
 
-- Mar/14: **dragonfruit**    (e) - base color
+- Mar/14: **dragonfruit**     - base color (e)
 
 <!-- break -->
 
-- Mar/9:  **belch**          (7) - mouth
+- Mar/9:  **belch**           - mouth (7)
 
 <!-- break -->
 
-- Mar/8:  **pixiebob**       (8) - fur
-- Mar/8:  **poisonberry**    (4) - highlight color 
-- Mar/8:  **safetyvest**     (i) - highlight color 
+- Mar/8:  **pixiebob**        - fur (8)
+- Mar/8:  **poisonberry**     - highlight color (4)
+- Mar/8:  **safetyvest**      - highlight color (i)
 
 <!-- break -->
 
-- Mar/5:  **cyan**           (g) - eye color
+- Mar/5:  **cyan**            - eye color (g)
 
 <!-- break -->
 
-- Feb/28: **missmuffet**     (e) - accent color
-- Feb/28: **wiley**          (f) - eye shape
+- Feb/28: **missmuffet**      - accent color (e)
+- Feb/28: **wiley**           - eye shape (f)
 
 <!-- break -->
 
-- Feb/23: **dippedcone**     (j) - pattern
-- Feb/23: **leopard**        (5) - pattern
+- Feb/23: **dippedcone**      - pattern (j)
+- Feb/23: **leopard**         - pattern (5)
 
 <!-- break -->
 
-- Feb/20: **harbourfog**     (9) - base color 
+- Feb/20: **harbourfog**      - base color (9)
 
 <!-- break -->
 
-- Feb/13: **baddate**        (b) - eye shape
+- Feb/13: **baddate**         - eye shape (b)
 
 <!-- break -->
 
-- Feb/12: **wuvme**          (3) - mouth          
-- Feb/12: **yokel**          (q) - mouth
-- Feb/12: **starstruck**     (i) - mouth
+- Feb/12: **wuvme**           - mouth (3)
+- Feb/12: **yokel**           - mouth (q)
+- Feb/12: **starstruck**      - mouth (i)
 
 <!-- break -->
 
-- Feb/9:  **egyptiankohl**   (3) - highlight color 
-- Feb/9:  **bobtail**        (6) - fur
+- Feb/9:  **egyptiankohl**    - highlight color (3)
+- Feb/9:  **bobtail**         - fur (6)
 
 <!-- break -->
 
-- Feb/6:  **tiger**          (2) - pattern
+- Feb/6:  **tiger**           - pattern (2)
 
 <!-- break -->
 
-- Feb/2:  **birman**         (4) - fur
-- Feb/2:  **coralsunrise**   (c) - eye color
+- Feb/2:  **birman**          - fur (4)
+- Feb/2:  **coralsunrise**    - eye color (c)
 
 (Source: [CryptoKitties Updates](https://updates.cryptokitties.co))
+
 
 
 
