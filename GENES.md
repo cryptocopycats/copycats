@@ -13,7 +13,7 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 5 | ? | d | munchkin | m | ? | u | ? |
 | 6 | bobtail | e | sphynx | n | mainecoon | v | ? |
 | 7 | ? | f | ragamuffin | o | laperm | w | ? |
-| 8 | ? | g | ragdoll | p | persian | x | ? |
+| 8 | pixiebob | g | ragdoll | p | persian | x | ? |
 
 
 ## Pattern (Genes 4-7)
@@ -21,9 +21,9 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 |Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
 |---|-------------|---|------------|---|------------|---|------------|
 | 1 | ? | 9 | calicool | h | ? | q | ? |
-| 2 | tiger | a | luckystripe | i | ? | r | ? |
-| 3 | ? | b | amur | j | dippedcone | s | hotrod |
-| 4 | ganado | c | aguar | k | ? | t | ? |
+| 2 | tiger | a | luckystripe | i | thunderstruck | r | ? |
+| 3 | rascal | b | amur | j | dippedcone | s | hotrod |
+| 4 | ganado | c | jaguar | k | ? | t | ? |
 | 5 | leopard | d | spock | m | tigerpunk | u | ? |
 | 6 | camo  | e | ? | n | henna | v | ? |
 | 7 | ? | f | totesbasic | o | ? | w | ? |
@@ -41,7 +41,7 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 5 | ? | d | ? | m | twilightsparkle | u | ? |
 | 6 | sizzurp | e | ? | n | ? | v | ? |
 | 7 | chestnut | f | ? | o | ? | w | ? |
-| 8 | strawberry | g | ? | p | ? | x | ? |
+| 8 | strawberry | g | cyan | p | ? | x | ? |
 
 
 ## Eye Shape (Genes 12-15)
@@ -66,7 +66,7 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 2 | salmon | a | ? | i | ? | r | onyx |
 | 3 | ? | b | greymatter | j | oldlace | s | ? |
 | 4 | orangesoda | c | ? | k | koala | t | ? |
-| 5 | cottoncandy | d | ? | m | ? | u | ? |
+| 5 | cottoncandy | d | dragonfruit | m | ? | u | ? |
 | 6 | mauveover | e | ? | n | ? | v | ? |
 | 7 | aquamarine | f | hintomint | o | ? | w | ? |
 | 8 | nachocheez | g | bananacream | p | verdigris | x | ? |
@@ -77,9 +77,9 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 |Kai|Cattribute   |Kai|Cattribute  |Kai|Cattribute  |Kai|Cattribute  |
 |---|-------------|---|------------|---|------------|---|------------|
 | 1 | ? | 9 | swampgreen | h | ? | q | ? |
-| 2 | ? | a | violet | i | ? | r | ? |
+| 2 | ? | a | violet | i | safetyvest | r | ? |
 | 3 | egyptiankohl | b | scarlet | j | turtleback | s | royalblue |
-| 4 | ? | c | barkbrown | k | ? | t | ? |
+| 4 | poisonberry | c | barkbrown | k | ? | t | ? |
 | 5 | lilac | d | coffee | m | wolfgrey | u | ? |
 | 6 | apricot | e | lemonade | n | cerulian | v | ? |
 | 7 | royalpurple | f | chocolate | o | skyblue | w | ? |
@@ -124,7 +124,7 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 4 | gerbil | c | grim | k | ? | t | ? |
 | 5 | ? | d | ? | m | dali | u | ? |
 | 6 | ? | e | ? | n | grimace | v | ? |
-| 7 | ? | f | happygokitty | o | ? | w | ? |
+| 7 | belch | f | happygokitty | o | ? | w | ? |
 | 8 | ? | g | soserious | p | tongue | x | ? |
 
 

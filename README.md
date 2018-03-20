@@ -579,6 +579,11 @@ $ gem install copycats
 ```
 
 
+## Questions? Comments?
+
+Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
+
+
 
 ## License
 

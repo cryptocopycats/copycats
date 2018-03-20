@@ -1,13 +1,19 @@
 # encoding: utf-8
 
+####################
+# bulk converter for csv datafile
+#
+#  use:
+#    $ ruby ./script/convert.rb
+#
+#  Note: change the input file (at the end of the script)!
+
+
+
 require 'csv'
 require 'pp'
 require 'fileutils'
 
-
-####################
-## bulk converter for csv datafile
-##
 
 class KittyConverter
 
@@ -156,4 +162,4 @@ end # class KittyConverter
 
 
 conv = KittyConverter.new
-conv.convert( 'dl/kittydex-20180309.csv', out_dir: '../kitties' )
+conv.convert( 'dl/kittydex-20180320.csv', out_dir: '../kitties' )
