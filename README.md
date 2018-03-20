@@ -12,6 +12,51 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 
 
+## Updates
+
+New Traits / Catttributes:
+
+2018
+
+- Mar/16: **thunderstruck**  (i) - pattern
+- Mar/16: **rascal**         (3) - pattern 
+
+- Mar/14: **dragonfruit**    (e) - base color
+
+- Mar/9:  **belch**          (7) - mouth
+
+- Mar/8:  **pixiebob**       (8) - fur
+- Mar/8:  **poisonberry**    (4) - highlight color 
+- Mar/8:  **safetyvest**     (i) - highlight color 
+
+- Mar/5:  **cyan**           (g) - eye color
+
+- Feb/28: **missmuffet**     (e) - accent color
+- Feb/28: **wiley**          (f) - eye shape
+
+- Feb/23: **dippedcone**     (j) - pattern
+- Feb/23: **leopard**        (5) - pattern
+
+- Feb/20: **harbourfog**     (9) - base color 
+
+- Feb/13: **baddate**        (b) - eye shape
+
+- Feb/12: **wuvme**          (3) - mouth          
+- Feb/12: **yokel**          (q) - mouth
+- Feb/12: **starstruck**     (i) - mouth
+
+- Feb/9:  **egyptiankohl**   (3) - highlight color 
+- Feb/9:  **bobtail**        (6) - fur
+
+- Feb/6:  **tiger**          (2) - pattern
+
+- Feb/2:  **birman**         (4) - fur
+- Feb/2:  **coralsunrise**   (c) - eye color
+
+(Source: [CryptoKitties Updates](https://updates.cryptokitties.co))
+
+
+
 ## kitty Command Line Tool
 
 Use the `kitty` command line tool to (auto-)read kitty data records
