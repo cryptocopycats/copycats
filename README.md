@@ -14,9 +14,7 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 ## Timeline / Updates
 
-New Traits / Catttributes:
-
-### March
+### New Traits / Catttributes
 
 Mar 21, 2018
 - **Springcrocus** - highlight color (2) trait is discovered. #Cattribute
@@ -43,10 +41,7 @@ Mar 5, 2018
 See [Updates - Traits](updates/TRAITS.md) for more.
 
 
-
-
-New Fancies / Exclusives:
-
+### New Fancies / Exclusives
 
 Mar 16, 2018
 - **Berry** (?) Fancy Cat is discovered. #Fancy Cat
