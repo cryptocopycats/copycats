@@ -12,76 +12,56 @@ copycats command line tool (and core library) - crypto cats / kitties collectibl
 
 
 
-## Updates
+## Timeline / Updates
 
 New Traits / Catttributes:
 
-### 2018
+### March
 
-March
+Mar 21, 2018
+- **Springcrocus** - highlight color (2) trait is discovered. #Cattribute
 
-- Mar/16: **thunderstruck**   - pattern (i)
-- Mar/16: **rascal**          - pattern (3)
+Mar 16, 2018
+- **Thunderstruck** - pattern (i) trait is discovered. #Cattribute
+- **Rascal** - pattern (3) trait is discovered. #Cattribute
 
-<!-- break -->
+Mar 14, 2018
+- **Dragonfruit** - base color (e) trait is discovered. #Cattribute
 
-- Mar/14: **dragonfruit**     - base color (e)
+Mar 9, 2018
+- **Belch** - mouth (7) trait is discovered. #Cattribute
 
-<!-- break -->
+Mar 8, 2018
+- **Pixiebob** - fur (8) trait is discovered. #Cattribute
+- **Poisonberry** - highlight color (4) trait is discovered. #Cattribute
+- **Safetyvest** - highlight color (i) trait is discovered. #Cattribute
 
-- Mar/9:  **belch**           - mouth (7)
-
-<!-- break -->
-
-- Mar/8:  **pixiebob**        - fur (8)
-- Mar/8:  **poisonberry**     - highlight color (4)
-- Mar/8:  **safetyvest**      - highlight color (i)
-
-<!-- break -->
-
-- Mar/5:  **cyan**            - eye color (g)
+Mar 5, 2018
+- **Cyan** - eye color (g) trait is discovered. #Cattribute
 
 
+See [Updates - Traits](updates/TRAITS.md) for more.
 
-February
 
-- Feb/28: **missmuffet**      - accent color (e)
-- Feb/28: **wiley**           - eye shape (f)
 
-<!-- break -->
 
-- Feb/23: **dippedcone**      - pattern (j)
-- Feb/23: **leopard**         - pattern (5)
+New Fancies / Exclusives:
 
-<!-- break -->
 
-- Feb/20: **harbourfog**      - base color (9)
+Mar 16, 2018
+- **Berry** (?) Fancy Cat is discovered. #Fancy Cat
 
-<!-- break -->
+Mar 7, 2018
+- **Lion Dance** (888) Fancy Cat is discovered. #Fancy Cat
 
-- Feb/13: **baddate**         - eye shape (b)
+Mar 2, 2018
+- **Dogcat** (88) Fancy Cat is discovered. #Fancy Cat
 
-<!-- break -->
+Mar 1, 2018
+- Exclusive **Knight Kitty** (?) is released. #Fancy Cat #Exclusive
 
-- Feb/12: **wuvme**           - mouth (3)
-- Feb/12: **yokel**           - mouth (q)
-- Feb/12: **starstruck**      - mouth (i)
 
-<!-- break -->
-
-- Feb/9:  **egyptiankohl**    - highlight color (3)
-- Feb/9:  **bobtail**         - fur (6)
-
-<!-- break -->
-
-- Feb/6:  **tiger**           - pattern (2)
-
-<!-- break -->
-
-- Feb/2:  **birman**          - fur (4)
-- Feb/2:  **coralsunrise**    - eye color (c)
-
-(Source: [CryptoKitties Updates](https://updates.cryptokitties.co))
+See [Updates - Fancies / Exclusives](updates/FANCIES.md) for more.
 
 
 
