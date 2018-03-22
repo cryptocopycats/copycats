@@ -19,16 +19,28 @@ Mar ??, 2018
 
 
 Mar 16, 2018
-- **Berry** (?) Fancy Cat is discovered. #Fancy Cat
+- **Berry** (200) Fancy Cat is discovered. #Fancy Cat
+
+![](../i/fancy-berry.png)
+
 
 Mar 7, 2018
 - **Lion Dance** (888) Fancy Cat is discovered. #Fancy Cat
 
+![](../i/fancy-liondance.png)
+
 Mar 2, 2018
 - **Dogcat** (88) Fancy Cat is discovered. #Fancy Cat
 
+![](../i/fancy-wangxingye.png)
+
+<!-- fix: rename to dogcat or DogCat !!! -->
+
 Mar 1, 2018
-- Exclusive **Knight Kitty** (?) is released. #Fancy Cat #Exclusive
+- Exclusive **Knight Kitty** (10) is released. #Fancy Cat #Exclusive
+
+![](../i/fancy-knightkitty.png)
+
 
 
 ### February (5)
