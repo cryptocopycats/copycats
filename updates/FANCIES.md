@@ -9,27 +9,28 @@ see <https://updates.cryptokitties.co>
 
 
 <!--  Mar ??, 2018 -->
-- **PussForProgress** (1 920)  -- Women's Day  
+- [**PussForProgress**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Apussforprogress) (1 920)  -- Women's Day  
 
 ![](../i/fancy-pussforprogress.png)
 
 
 <!--  Mar ??, 2018   use fortune cat ??-->
-- **FortuneKitty** (888)
+- [**FortuneKitty (红包喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E7%BA%A2%E5%8C%85%E5%96%B5) (888)
 
 ![](../i/fancy-fortunekitty.png)
 
 
 <!--  Mar ??, 2018  ??-->
-- **DragonKitty** (1 - [#888](https://www.cryptokitties.co/kitty/888))   #Fancy Cat #Exclusive
+- [**DragonKitty (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1 - [#888](https://www.cryptokitties.co/kitty/888))   #Fancy Cat #Exclusive
 
 ![](../i/fancy-dragonkitty.png)
 
 <!--  Mar ??, 2018  ??-->
-- **Wang Cai Wang** (??) 
+- [**Wang Cai Wang (旺财汪)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E6%97%BA%E8%B4%A2%E6%B1%AA) (11 - [#1802](https://www.cryptokitties.co/kitty/1802),[#1803](https://www.cryptokitties.co/kitty/1803),[#1805](https://www.cryptokitties.co/kitty/1805),[#1806](https://www.cryptokitties.co/kitty/1806),[#1808](https://www.cryptokitties.co/kitty/1808),[#1809](https://www.cryptokitties.co/kitty/1809),[#1812](https://www.cryptokitties.co/kitty/1812),[#1816](https://www.cryptokitties.co/kitty/1816),[#1826](https://www.cryptokitties.co/kitty/1826),[#1827](https://www.cryptokitties.co/kitty/1827),[#1828](https://www.cryptokitties.co/kitty/1828)) 
 
 ![](../i/fancy-wangcaiwang.png)
 
+<!-- find the "official" latin/english name ?? -->
 
 
 
