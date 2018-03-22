@@ -5,17 +5,32 @@ see <https://updates.cryptokitties.co>
 ## 2018
 
 
-<!--
-Add Puss  ??
--->
+### March
 
 
-### March (4)
+<!--  Mar ??, 2018 -->
+- **PussForProgress** (???)  -- Women's Day
 
-<!--
-Mar ??, 2018
-- FortuneCat (888) Fancy Cat is discovered. #Fancy Cat
--->
+![](../i/fancy-pussforpgress.png)
+
+
+<!--  Mar ??, 2018   use fortune cat ??-->
+- **FortuneKitty** (888)
+
+![](../i/fancy-fortunekitty.png)
+
+
+<!--  Mar ??, 2018  ??-->
+- **DragonKitty** (1)   #Fancy Cat #Exclusive
+
+![](../i/fancy-dragonkitty.png)
+
+<!--  Mar ??, 2018  ??-->
+- **Wang Cai Wang** (??) 
+
+![](../i/fancy-wangcaiwang.png)
+
+
 
 
 Mar 16, 2018
@@ -30,7 +45,7 @@ Mar 7, 2018
 ![](../i/fancy-liondance.png)
 
 Mar 2, 2018
-- **Dogcat** (88) Fancy Cat is discovered. #Fancy Cat
+- **Dogcat** (88) Fancy Cat is discovered -- Year of the Dog. #Fancy Cat
 
 ![](../i/fancy-wangxingye.png)
 
@@ -49,10 +64,10 @@ Feb 26, 2018
 - **Tabby** (250) Fancy Cat is discovered.  #Fancy Cat
 
 Feb 20, 2018
-- **YuriCatsuki** (250) Fancy Cat is discovered.  #Fancy Cat
+- **YuriCatsuki** (250) Fancy Cat is discovered -- Winter Olympics in Korea.  #Fancy Cat
 
 Feb 14, 2018
-- **Mister Purrfect** (1 000) Fancy Cat discovered.  #Fancy Cat
+- **Mister Purrfect** (1 000) Fancy Cat discovered -- Valentine's Day.  #Fancy Cat
 
 Feb 13, 2018
 - **Earnie** (500) Fancy Cat discovered.  #Fancy Cat
