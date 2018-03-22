@@ -2,6 +2,34 @@
 
 see <https://updates.cryptokitties.co>
 
+[**PussForProgress**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Apussforprogress) (1 920)
+[**FortuneKitty (红包喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E7%BA%A2%E5%8C%85%E5%96%B5) (888)
+[**DragonKitty (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1)
+[**Wang Cai Wang (旺财汪)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E6%97%BA%E8%B4%A2%E6%B1%AA) (11)
+[**Berry**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aberry) (200)
+[**Lion Dance (咚咚锵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%92%9A%E5%92%9A%E9%94%B5) (888)
+[**DogCat (汪星爷)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E6%B1%AA%E6%98%9F%E7%88%B7) (88)
+[**Knight Kitty**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aknightkitty) (11)
+[**Tabby**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Atabby) (250)
+[**YuriCatsuki**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Ayuricatsuki) (250)
+[**Mister Purrfect**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Amisterpurrfect) (1 000)
+[**Earnie**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aearnie) (500)
+[**Cathena**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Acathena) (1)
+[**Momo-chan**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Amomo-chan) (500)
+[**Negato**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Anegato) (500)
+[**Stitches**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Astitches) (500)
+[**PhuZiqaat**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aphuziqaat)  (1 000)
+[**SantaClaws**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Asantaclaws)  (1 000)
+[**Mistletoe**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Amistletoe)  (2 000)
+[**Dracula**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Adracula) (2 000)
+[**Ducat**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aducat) (10 000)
+[**Genesis**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Agenesis) (1)
+[**ShipCat**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Ashipcat) (2 000)
+[**BugCat**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Abugcat) (3)
+
+
+
+
 ## 2018
 
 
