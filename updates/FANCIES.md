@@ -9,7 +9,7 @@ see <https://updates.cryptokitties.co>
 
 
 <!--  Mar ??, 2018 -->
-- **PussForProgress** (???)  -- Women's Day
+- **PussForProgress** (1 920)  -- Women's Day  
 
 ![](../i/fancy-pussforprogress.png)
 
@@ -21,7 +21,7 @@ see <https://updates.cryptokitties.co>
 
 
 <!--  Mar ??, 2018  ??-->
-- **DragonKitty** (1)   #Fancy Cat #Exclusive
+- **DragonKitty** (1 - [#888](https://www.cryptokitties.co/kitty/888))   #Fancy Cat #Exclusive
 
 ![](../i/fancy-dragonkitty.png)
 
@@ -52,7 +52,7 @@ Mar 2, 2018
 <!-- fix: rename to dogcat or DogCat !!! -->
 
 Mar 1, 2018
-- Exclusive **Knight Kitty** (10) is released. #Fancy Cat #Exclusive
+- Exclusive **Knight Kitty** (11 - [#104](https://www.cryptokitties.co/kitty/104),[#105](https://www.cryptokitties.co/kitty/105),[#106](https://www.cryptokitties.co/kitty/106),[#107](https://www.cryptokitties.co/kitty/107),[#108](https://www.cryptokitties.co/kitty/108),[#109](https://www.cryptokitties.co/kitty/109),[#110](https://www.cryptokitties.co/kitty/110),[#111](https://www.cryptokitties.co/kitty/111),[#112](https://www.cryptokitties.co/kitty/112),[#113](https://www.cryptokitties.co/kitty/113),[#114](https://www.cryptokitties.co/kitty/114)) is released. #Fancy Cat #Exclusive
 
 ![](../i/fancy-knightkitty.png)
 
@@ -85,7 +85,7 @@ Feb 13, 2018
 
 
 Feb 6, 2018
-- **Cathena** (1) Fancy Cat discovered -- 500 000 Kitties.  #Fancy Cat  #Exclusive
+- **Cathena** (1 - [#500000](https://www.cryptokitties.co/kitty/500000)) Fancy Cat discovered -- 500 000 Kitties.  #Fancy Cat  #Exclusive
 
 ![](../i/fancy-cathena.png)
 
@@ -149,7 +149,7 @@ Nov 29, 2017
 
 
 Nov 24, 2017
-- **Genesis** (1) Fancy Cat discovered.  #Fancy Cat #Exclusive
+- **Genesis** (1 - [#1](https://www.cryptokitties.co/kitty/101)) Fancy Cat discovered.  #Fancy Cat #Exclusive
 
 ![](../i/fancy-genesis.png)
 
@@ -157,10 +157,12 @@ Nov 24, 2017
 Nov 23, 2017
 - **ShipCat** (2 000)  Fancy Cat discovered.  #Fancy Cat
 
-![](../i/fancy-shipcat.png)
+![](../i/fance-shipcat.png)
+
+<!-- fix: name to fancy!!! -->
 
 
-- **BugCat** (3)  Fancy Cat discovered.  #Fancy Cat #Exclusive
+- **BugCat** (3 - [#101](https://www.cryptokitties.co/kitty/101), [#102](https://www.cryptokitties.co/kitty/102), [#103](https://www.cryptokitties.co/kitty/103))  Fancy Cat discovered.  #Fancy Cat #Exclusive
 
 ![](../i/fancy-bugcat.png)
 
