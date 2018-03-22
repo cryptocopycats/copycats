@@ -8,17 +8,18 @@ see <https://updates.cryptokitties.co>
 ### March
 
 Mar 21, 2018
-- **Springcrocus** - highlight color (2) trait is discovered. #Cattribute
+- [**Springcrocus**](https://www.cryptokitties.co/marketplace/all?search=springcrocus) - highlight color (2) trait is discovered. #Cattribute
 
 Mar 16, 2018
-- **Thunderstruck** - pattern (i) trait is discovered. #Cattribute
-- **Rascal** - pattern (3) trait is discovered. #Cattribute
+- [**Thunderstruck**](https://www.cryptokitties.co/marketplace/all?search=thunderstruck) - pattern (i) trait is discovered. #Cattribute
+- [**Rascal**](https://www.cryptokitties.co/marketplace/all?search=rascal) - pattern (3) trait is discovered. #Cattribute
 
 Mar 14, 2018
-- **Dragonfruit** - base color (e) trait is discovered. #Cattribute
+- [**Dragonfruit**](https://www.cryptokitties.co/marketplace/all?search=dragonfruit) - base color (e) trait is discovered. #Cattribute
 
 Mar 9, 2018
-- **Belch** - mouth (7) trait is discovered. #Cattribute
+- [**Belch**](https://www.cryptokitties.co/marketplace/all?search=belch) - mouth (7) trait is discovered. #Cattribute
+
 
 Mar 8, 2018
 - **Pixiebob** - fur (8) trait is discovered. #Cattribute
