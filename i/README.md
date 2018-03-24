@@ -12,7 +12,7 @@
 ![](200x200/fancy-fortunecat.png)
 ![](200x200/fancy-genesis.png)
 ![](200x200/fancy-goldendogcat.png)
-![](200x200/fancy-goldendragon.png)
+![](200x200/fancy-goldendragoncat.png)
 ![](200x200/fancy-knightkitty.png)
 ![](200x200/fancy-liondance.png)
 ![](200x200/fancy-misterpurrfect.png)

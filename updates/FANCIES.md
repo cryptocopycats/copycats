@@ -4,7 +4,7 @@ see <https://updates.cryptokitties.co>
 
 [**Puss For Progress**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Apussforprogress) (1 920)
 [**Fortune Cat (红包喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E7%BA%A2%E5%8C%85%E5%96%B5) (888)
-[**Golden Dragon (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1)
+[**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1)
 [**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E6%97%BA%E8%B4%A2%E6%B1%AA) (11)
 [**Berry**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Aberry) (200)
 [**Lion Dance (咚咚锵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%92%9A%E5%92%9A%E9%94%B5) (888)
@@ -49,9 +49,9 @@ see <https://updates.cryptokitties.co>
 
 
 <!--  Mar ??, 2018  ??-->
-- [**Golden Dragon (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1 - [#888](https://www.cryptokitties.co/kitty/888))   #Fancy Cat #Exclusive
+- [**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1 - [#888](https://www.cryptokitties.co/kitty/888))   #Fancy Cat #Exclusive
 
-![](../i/200x200/fancy-goldendragon.png)
+![](../i/200x200/fancy-goldendragoncat.png)
 
 <!--  Mar ??, 2018  ??-->
 - [**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E6%97%BA%E8%B4%A2%E6%B1%AA) (11 - [#1802](https://www.cryptokitties.co/kitty/1802),[#1803](https://www.cryptokitties.co/kitty/1803),[#1805](https://www.cryptokitties.co/kitty/1805),[#1806](https://www.cryptokitties.co/kitty/1806),[#1808](https://www.cryptokitties.co/kitty/1808),[#1809](https://www.cryptokitties.co/kitty/1809),[#1812](https://www.cryptokitties.co/kitty/1812),[#1816](https://www.cryptokitties.co/kitty/1816),[#1826](https://www.cryptokitties.co/kitty/1826),[#1827](https://www.cryptokitties.co/kitty/1827),[#1828](https://www.cryptokitties.co/kitty/1828))
