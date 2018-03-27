@@ -60,9 +60,15 @@ class Genome
     sgenes = other.genes    ## sire genes
     new_genes  = {}
 
-    ## todo/fix: use insertion order from "official" api - why? why not?
-    ##   -- preinitialize with empty hash and than use byte order ??
-    TRAIT_KEYS.each do |key|
+    [:body,
+     :pattern,
+     :coloreyes,
+     :eyes,
+     :color1,
+     :color2,
+     :color3,
+     :wild,
+     :mouth].each do |key|
       mgene = mgenes[key]
       sgene = sgenes[key]
 

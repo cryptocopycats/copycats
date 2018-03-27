@@ -10,12 +10,6 @@ require 'helper'
 
 class TestGenome < MiniTest::Test
 
-def xx_test_traits
-   pp TRAITS
-
-   assert true  ## (for now) everything ok if we get here
-end
-
 
 def test_kitty_100000
   ## see https://cryptokittydex.com/kitties/100000

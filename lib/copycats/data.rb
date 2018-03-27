@@ -88,7 +88,7 @@ def setup_traits
       name = trait_hash[:kai][kai]
       name = '?'  if name.nil? || name.empty?
 
-      tier = Kai::TIER[kai]
+      tier = Gene::TIER[kai]
 
       puts "Kai: #{kai} (#{n}) /#{tier}, Cattribute: #{name}"
       trait  = Copycats::Model::Trait.new
@@ -187,6 +187,10 @@ def read_datafiles( data_dir: './data' )
       k.matron_id = row[headers['matron_id']].to_i   unless row[headers['matron_id']].blank? || row[headers['matron_id']] == '0'
       k.sire_id   = row[headers['sire_id']].to_i    unless row[headers['sire_id']].blank?   || row[headers['sire_id']] == '0'
       k.name      = row[headers['name']]             unless row[headers['name']].blank?
+
+      ##  founder cats - first one hundret (1 to 100 - note: includes genesis (1))
+      k.is_founder = true    if k.id >= 1 && k.id <= 100
+
 
       ## todo: pretty print (format genes !!!!)
       k.genes_kai = row[headers['genes']]   ### .gsub( ' ', '' )  ## remove all spaces - why? why not?

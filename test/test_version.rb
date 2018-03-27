@@ -18,5 +18,4 @@ def test_version
    assert true  ## (for now) everything ok if we get here
 end
 
-
 end  # class TestVersion

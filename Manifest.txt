@@ -5,8 +5,8 @@ README.md
 Rakefile
 bin/kitty
 lib/copycats.rb
-lib/copycats/base32.rb
 lib/copycats/data.rb
+lib/copycats/fancies.rb
 lib/copycats/gene.rb
 lib/copycats/genome.rb
 lib/copycats/models/kitty.rb
@@ -19,7 +19,8 @@ lib/copycats/tool.rb
 lib/copycats/traits.rb
 lib/copycats/version.rb
 test/helper.rb
-test/test_base32.rb
 test/test_genome.rb
 test/test_mixgenes.rb
+test/test_models.rb
+test/test_traits.rb
 test/test_version.rb

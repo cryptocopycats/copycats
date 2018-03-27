@@ -15,11 +15,13 @@ require 'logger'    # note: use for ActiveRecord::Base.logger -- remove/replace 
 ## 3rd party gems
 require 'active_record'   ## todo: add sqlite3? etc.
 
+require 'base32-kai'      ## base32 / kai encoding / decoding for genes
+
 
 ## our own code
 require 'copycats/version'    # note: let version always go first
-require 'copycats/base32'
 require 'copycats/traits'
+require 'copycats/fancies'
 require 'copycats/gene'
 require 'copycats/genome'
 

@@ -32,6 +32,12 @@ create_table :kitties do |t|
   t.references  :matron   ## optional references kitty (with matron id)
   t.references  :sire     ## optional references kitty (with sire id)
 
+
+  t.boolean  :is_fancy,      null: false, default: false
+  t.boolean  :is_exclusive,  null: false, default: false
+  t.boolean  :is_founder,    null: false, default: false   # ids 1 to 100 (in cryptokitties)
+
+
   ## for easy queries add convenience gene-d for all traits
   t.references  :body,      null: false    ## gene 0 (d)
   t.references  :pattern,   null: false    ## gene 4 (d)

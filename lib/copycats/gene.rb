@@ -43,8 +43,8 @@ class Gene
   def mutate( other )
     puts "Gene#mutate"
 
-    gene1 = KAI_TO_INT[d]          ## dominant gene1
-    gene2 = KAI_TO_INT[other.d]    ## dominant gene2
+    gene1 = Kai::NUMBER[d]          ## dominant gene1
+    gene2 = Kai::NUMBER[other.d]    ## dominant gene2
     if gene1 > gene2
       gene1, gene2 = gene2, gene1     ## make sure gene2 is always bigger
     end
@@ -88,5 +88,47 @@ class Gene
     pp gene
     gene
   end
+
+
+
+  #############################
+  #  Tier 1    Tier 2    Tier 3    Tier 4    Tier 5
+  ##  (1-g)     (h-p)     (q-t)     (u,v)      (w)
+
+   ### todo/check: move TIER mapping to Genome class or ... - why? why not?
+  TIER = {    ## todo/fix: use an algo to calculate - why? why not?
+    '1' => 1,
+    '2' => 1,
+    '3' => 1,
+    '4' => 1,
+    '5' => 1,
+    '6' => 1,
+    '7' => 1,
+    '8' => 1,
+    '9' => 1,
+    'a' => 1,
+    'b' => 1,
+    'c' => 1,
+    'd' => 1,
+    'e' => 1,
+    'f' => 1,
+    'g' => 1,
+    'h' => 2,
+    'i' => 2,
+    'j' => 2,
+    'k' => 2,
+    'm' => 2,
+    'n' => 2,
+    'o' => 2,
+    'p' => 2,
+    'q' => 3,
+    'r' => 3,
+    's' => 3,
+    't' => 3,
+    'u' => 4,
+    'v' => 4,
+    'w' => 5,
+    'x' => nil
+  }
 
 end  # class Gene

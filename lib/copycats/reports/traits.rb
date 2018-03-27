@@ -29,7 +29,7 @@ def build
   buf << "\n"
 
   Kai::ALPHABET.each_char do |kai|
-    tier = ROMAN[ Kai::TIER[kai] ]
+    tier = ROMAN[ Gene::TIER[kai] ]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
     TRAITS.values[0,6].each do |trait|
@@ -56,7 +56,7 @@ def build
   buf << "\n"
 
   Kai::ALPHABET.each_char do |kai|
-    tier = ROMAN[ Kai::TIER[kai] ]
+    tier = ROMAN[ Gene::TIER[kai] ]
     tier = '?'  if tier.nil?
     buf << "| #{tier} | #{kai} |"
     TRAITS.values[6,6].each do |trait|
