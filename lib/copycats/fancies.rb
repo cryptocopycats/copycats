@@ -48,6 +48,6 @@ FANCIES =
   negato:          { name: 'Negato',    limit: 500, desc: 'Ninja Kitty' },
   pussforprogress: { name: 'Puss For Progress', limit: 1_920, desc: "Women's Day" },
   tabby:           { name: 'Tabby', limit: 250 },
-  yuricatsuki:     { name: 'Yuri Catsuki', limit: 250, desc: 'Figure Scating Kitty - Winter Olympics (Korea)' }
-
+  yuricatsuki:     { name: 'Yuri Catsuki', limit: 250, desc: 'Figure Scating Kitty - Winter Olympics (Korea)' },
+  vernon:          { name: 'Vernon', limit: 320, desc: 'Spring Equinox Kitty' },  ## first, see https://www.cryptokitties.co/kitty/696398
 }
