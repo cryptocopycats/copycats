@@ -5,6 +5,135 @@ see <https://updates.cryptokitties.co>
 
 ## 2018
 
+### November
+
+Nov 21, 2018
+- Dune trait is discovered. #Cattribute
+- Secretgarden trait is discovered. #Cattribute
+- Floorislava trait is discovered. #Cattribute
+- Junglebook trait is discovered. #Cattribute
+
+Nov 16, 2018
+- Meowgarine trait is discovered. #Cattribute
+- Cornflower trait is discovered. #Cattribute
+- Icicle trait is discovered. #Cattribute
+- Hotcocoa trait is discovered. #Cattribute
+- Firstblush trait is discovered. #Cattribute
+
+Nov 13, 2018
+- Featherbrain trait is discovered. #Cattribute
+- Foghornpawhorn trait is discovered. #Cattribute
+- Alicorn trait is discovered. #Cattribute
+- Wyrm trait is discovered. #Cattribute
+
+Nov 6, 2018
+- Mittens trait is discovered. #Cattribute
+- Arcreactor trait is discovered. #Cattribute
+- Allyouneed trait is discovered. #Cattribute
+- Gyre trait is discovered. #Cattribute
+- Moonrise trait is discovered. #Cattribute
+
+
+### October
+
+Oct 26, 2018
+- Metime trait is discovered. #Cattribute
+- Jacked trait is discovered. #Cattribute
+- Prism trait is discovered. #Cattribute
+
+Oct 23, 2018
+- Isotope trait is discovered. #Cattribute
+- Bridesmaid trait is discovered. #Cattribute
+- Downbythebay trait is discovered. #Cattribute
+- Gemini trait is discovered. #Cattribute
+- Kaleidoscope trait is discovered. #Cattribute
+
+Oct 21, 2018
+- Thatsawrap trait is discovered. #Cattribute
+
+Oct 19, 2018
+- Duckduckcat trait is discovered. #Cattribute
+
+Oct 17, 2018
+- Siberian trait is discovered. #Cattribute
+- Lynx trait is discovered. #Cattribute
+- Toyger trait is discovered. #Cattribute
+- Burmilla trait is discovered. #Cattribute
+- Liger trait is discovered. #Cattribute
+
+Oct 10, 2018
+- Moue trait is discovered. #Cattribute
+- Majestic trait is discovered. #Cattribute
+- Satiated trait is discovered. #Cattribute
+- Struck trait is discovered. #Cattribute
+- Delite trait is discovered. #Cattribute
+
+Oct 3, 2018
+- Myparade trait is discovered. #Cattribute
+- Roadtogold trait is discovered. #Cattribute
+
+
+### September
+
+Sep 21, 2018
+- Dreamboat trait is discovered. #Cattribute
+- Fallspice trait is discovered. #Cattribute
+- Mallowflower trait is discovered. #Cattribute
+- Hanauma trait is discovered. #Cattribute
+- Summerbonnet trait is discovered. #Cattribute
+
+Sep 19, 2018
+- Prune trait is discovered. #Cattribute
+- Furball trait is discovered. #Cattribute
+
+
+Sep 6, 2018
+- Fired up trait is discovered. #Cattribute
+- Hacker trait is discovered. #Cattribute
+- Drama trait is discovered. #Cattribute
+- Candyshoppe trait is discovered. #Cattribute
+
+Sep 5, 2018
+- Asif trait is discovered. #Cattribute
+
+
+### August
+
+Aug 29, 2018
+- Dragonwings trait is discovered. #Cattribute
+- Aflutter trait is discovered. #Cattribute
+- Ducky trait is discovered. #Cattribute
+
+Aug 23, 2018
+- Chantilly trait is discovered. #Cattribute
+- Mekong trait is discovered. #Cattribute
+- Fox trait is discovered. #Cattribute
+- Lykoi trait was discovered. #Cattribute
+
+Aug 17, 2018
+- Tundra trait is discovered. #Cattribute
+- Glacier trait is discovered. #Cattribute
+- Hyacinth trait is discovered. #Cattribute
+- Shamrock trait is discovered. #Cattribute
+
+Aug 8, 2018
+- Inflatablepool trait is discovered. #Cattribute
+- Peppermint trait is discovered. #Cattribute
+- Ooze trait is discovered. #Cattribute
+- Cyborg trait is discovered. #Cattribute
+
+Aug 1, 2018
+- Scorpius trait is discovered. #Cattribute
+- Splat trait is discovered. #Cattribute
+- Vigilante trait is discovered. #Cattribute
+- Avatar trait is discovered. #Cattribute
+
+
+
+<!-- todo:
+   add -august
+-->
+
 ### March
 
 Mar 21, 2018
