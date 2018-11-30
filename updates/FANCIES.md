@@ -2,6 +2,8 @@
 
 see <https://updates.cryptokitties.co>
 
+
+
 [**Puss For Progress**](https://www.cryptokitties.co/marketplace/all?search=fancy%3Apussforprogress) (1 920)
 [**Fortune Cat (红包喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E7%BA%A2%E5%8C%85%E5%96%B5) (888)
 [**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/marketplace/all?search=fancy%3A%E5%B8%9D%E9%BE%99%E5%96%B5) (1)
@@ -31,6 +33,63 @@ see <https://updates.cryptokitties.co>
 
 
 ## 2018
+
+
+### November
+
+Nov 26, 2018
+- [**Draco Junior**](https://www.cryptokitties.co/search/all?search=fancy:DracoJunior) Fancy Cat is discovered. #Fancy Cat
+
+Nov 21, 2018
+- [**Dreggo Fancy**](https://www.cryptokitties.co/search/all?search=fancy:Dreggo) Cat is discovered. #Fancy Cat
+
+Nov 14, 2018
+- [**Pickles**](https://www.cryptokitties.co/search/all?search=fancy:Pickles) (303) Fancy Cat is discovered. #Fancy Cat
+
+
+Nov 13, 2018
+- [**Lil BUB**](https://www.cryptokitties.co/search/all?search=fancy:LilBUB) Special Edition Cat is discovered. #Special Edition Cat
+- [**Lil BUB The Magical Space Cat**](https://www.cryptokitties.co/search/all?search=exclusive:Lilbubthemagicalspacecat) is released. #Exclusive Cat
+
+
+### October
+
+Oct 18, 2018
+- [**Dukecat**](https://www.cryptokitties.co/search/all?search=fancy:Dukecat) (1366) Fancy Cat is discovered. #Fancy Cat
+
+Oct 4, 2018
+- [**Sheila Purren**](https://www.cryptokitties.co/search/all?search=fancy:SheilaPurren) (1971) Fancy Cat is discovered. #Fancy Cat
+
+
+### September
+
+Sep 22, 2018
+- [**Pawzilla**](https://www.cryptokitties.co/search/all?search=fancy:Pawzilla) (1185) Fancy Cat is discovered. #Fancy Cat
+
+Sep 9, 2018
+- [**Meowstro**](https://www.cryptokitties.co/search/all?search=fancy:Meowstro) (1698) Fancy Cat is discovered. #Fancy Cat
+
+Sep 7, 2018
+- [**Atlas**](https://www.cryptokitties.co/search/all?search=fancy:Atlas) (998) Fancy Cat is discovered. #Fancy Cat
+
+
+### August
+
+Aug 31, 2018
+- [**Vulcant**](https://www.cryptokitties.co/search/all?search=fancy:Vulcant) Exclusive Cat is discovered. #Fancy Cat
+
+Aug 23, 2018
+- [**Purrity**](https://www.cryptokitties.co/search/all?search=fancy:Purrity) (5984) Fancy Cat is discovered. #Fancy Cat
+
+Aug 16, 2018
+- [**Squiddlesworth**](https://www.cryptokitties.co/search/all?search=fancy:Squiddlesworth) (1510) Fancy Cat is discovered. #Fancy Cat
+
+
+
+<!-- todo 
+  add   -august
+-->
+
 
 
 ### March
