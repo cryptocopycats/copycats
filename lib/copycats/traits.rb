@@ -292,6 +292,7 @@ TRAITS =
     'm' => 'daemonwings',
     'n' => 'featherbrain',
     'o' => 'flapflap',
+    'p' => 'daemonhorns',
     'q' => 'dragontail',
     'r' => 'aflutter',
     's' => 'foghornpawhorn',

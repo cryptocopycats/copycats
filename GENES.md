@@ -111,7 +111,7 @@ Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base 
 | 5 | ? | d | ? | m | daemonwings | u | dragonwings |
 | 6 | ? | e | ? | n | featherbrain | v | alicorn |
 | 7 | ? | f | ? | o | flapflap | w | wyrm |
-| 8 | ? | g | ? | p | ? | x | ? |
+| 8 | ? | g | ? | p | daemonhorns | x | ? |
 
 
 ## Mouth (Genes 32-35)

@@ -13,7 +13,7 @@ pp FANCIES
 
 buf = ""
 buf += <<TXT
-# Updates - Fancies / Exclusives / Special Editions
+# Updates - Fancies / Exclusives / Special Editions - Timeline
 
 see <https://updates.cryptokitties.co>
 

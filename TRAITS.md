@@ -63,7 +63,7 @@
 | II | m | atlantis | daemonwings | dali | myparade | ? | ? |
 | II | n | summerbonnet | featherbrain | grimace | finalfrontier | ? | ? |
 | II | o | periwinkle | flapflap | majestic | metime | ? | ? |
-| II | p | patrickstarfish | ? | tongue | drift | ? | ? |
+| II | p | patrickstarfish | daemonhorns | tongue | drift | ? | ? |
 | III | q | seafoam | dragontail | yokel | secretgarden | ? | ? |
 | III | r | cobalt | aflutter | topoftheworld | frozen | ? | ? |
 | III | s | mallowflower | foghornpawhorn | neckbeard | roadtogold | ? | ? |
