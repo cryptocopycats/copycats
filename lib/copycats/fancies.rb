@@ -23,7 +23,7 @@ FANCIES =
   dreggo:      { name: 'Dreggo',       date: '2018-11-21' },
   pickles:     { name: 'Pickles',      date: '2018-11-14',  limit: 303 },
   lilbub:      { name: 'Lil Bub Ub Bub (BUB)',   date: '2018-11-13',  limit: 42, special: true },  ## for search use specialedition:
-  lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13', limit: 3, exclusvie: true, ids: [266,267,268] },
+  lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13', limit: 3, exclusive: true, ids: [266,267,268] },
 
   ## October
   dukecat:       { name: 'Dukecat',       date: '2018-10-18', limit: 1366 },
@@ -61,7 +61,7 @@ FANCIES =
   "schrödingerscat": { name: "Schrödinger's Cat", date: '2018-05-20',  limit: 73 },
   chatplongeur:      { name: 'Chat Plongeur',     date: '2018-05-19',  limit: 1910 },
   docpurr:             { name: 'Doc Purr',         date: '2018-05-16',  limit: 250 },
-  celestialcyberdimension: { name: 'Celestial Cyber Dimension', date: '2018-05-12', limit: 1, exclusive: true },
+  celestialcyberdimension: { name: 'Celestial Cyber Dimension', date: '2018-05-12', limit: 1, exclusive: true, ids: [127] },
   swish:               { name: 'Swish', date: '2018-05-08', limit: 2880 },
 
   ## April
@@ -69,7 +69,7 @@ FANCIES =
   vernon:      { name: 'Vernon',     date: '2018-04-16', limit: 320, desc: 'Spring Equinox Kitty' },  ## first, see https://www.cryptokitties.co/kitty/696398
 
   ## March
-  berry:           { name: 'Berry',   date: '2018-03-16' limit: 200  },
+  berry:           { name: 'Berry',   date: '2018-03-16', limit: 200  },
   pussforprogress: { name: 'Puss For Progress', date: '2018-03-08', limit: 1920, desc: "Women's Day" },
   fortunecat:      { name: 'Fortune Cat', name_cn: '红包喵', date: '2018-03-08', limit: 888 },  ## todo: check date for china launch specials!!!
   goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08', limit: 1, exclusive: true, ids: [888], desc: 'China Launch' }, ## todo: check date for china launch specials!!!
