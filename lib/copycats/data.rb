@@ -126,19 +126,23 @@ def read_datafiles( data_dir: './data' )
 
     puts "== #{i+1}/#{files.size} reading datafile '#{file}'..."
 
-    kitties = CSV.read( file, headers:true )
-    pp kitties.headers
 
+    kitties_headers = CsvReader.header( file )
+    pp kitties_headers
+
+    ##  todo: fix - use field index not name!!!! - why? why not?
     ## check format
-    if kitties.headers.include?( 'id' ) &&
-       kitties.headers.include?( 'gen' ) &&
-       kitties.headers.include?( 'matron_id' ) &&
-       kitties.headers.include?( 'sire_id' ) &&
-       kitties.headers.include?( 'birthdate' ) &&
-       kitties.headers.include?( 'genes' ) &&
-       kitties.headers.include?( 'name' )
+    if kitties_headers.include?( 'id' ) &&
+       kitties_headers.include?( 'gen' ) &&
+       kitties_headers.include?( 'matron_id' ) &&
+       kitties_headers.include?( 'sire_id' ) &&
+       kitties_headers.include?( 'birthdate' ) &&
+       kitties_headers.include?( 'genes' ) &&
+       kitties_headers.include?( 'name' )
        ## "standard" format
        ##   required headers include: id, gen, matron_id, sire_id, birthdate, genes, name
+
+       ##  todo: fix - use field index not name!!!! - why? why not?
        headers = {
          'id'         => 'id',
          'gen'        => 'gen',
@@ -148,12 +152,12 @@ def read_datafiles( data_dir: './data' )
          'genes'      => 'genes',
          'name'       => 'name'
        }
-    elsif kitties.headers.include?( 'id' ) &&
-          kitties.headers.include?( 'matron_id' ) &&
-          kitties.headers.include?( 'sire_id' ) &&
-          kitties.headers.include?( 'gen' ) &&
-          kitties.headers.include?( 'birth_date' ) &&
-          kitties.headers.include?( 'genes_kai' )
+    elsif kitties_headers.include?( 'id' ) &&
+          kitties_headers.include?( 'matron_id' ) &&
+          kitties_headers.include?( 'sire_id' ) &&
+          kitties_headers.include?( 'gen' ) &&
+          kitties_headers.include?( 'birth_date' ) &&
+          kitties_headers.include?( 'genes_kai' )
       ## "kittydex" format
       ##   see  https://cryptokittydex.com/resources
       ##    required headers include: id, matron_id, sire_id, gen, birth_date, genes_kai
@@ -179,13 +183,14 @@ def read_datafiles( data_dir: './data' )
     ## note: for now use first 5 rows for testing
     ## kitties[0..4].each do |row|
 
+    kitties = CsvHash.read( file )
     kitties.each do |row|
       ## puts row['id'] + '|' + row['gen'] + '|' + row['genes_kai']
       k = Copycats::Model::Kitty.new
       k.id        = row[headers['id']].to_i
       k.gen       = row[headers['gen']].to_i
       k.matron_id = row[headers['matron_id']].to_i   unless row[headers['matron_id']].blank? || row[headers['matron_id']] == '0'
-      k.sire_id   = row[headers['sire_id']].to_i    unless row[headers['sire_id']].blank?   || row[headers['sire_id']] == '0'
+      k.sire_id   = row[headers['sire_id']].to_i     unless row[headers['sire_id']].blank?   || row[headers['sire_id']] == '0'
       k.name      = row[headers['name']]             unless row[headers['name']].blank?
 
       ##  founder cats - first one hundret (1 to 100 - note: includes genesis (1))

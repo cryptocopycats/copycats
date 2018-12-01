@@ -8,7 +8,7 @@ Hoe.spec 'copycats' do
   self.summary = "copycats - command line tool (and core library) crypto cats / kitties collectibles unchained - buy! sell! hodl! sire! - play for free - runs off the blockchain w/ ledger lite - no ether / gas required; run your own peer-to-peer (P2P) network node over HTTP"
   self.description = summary
 
-  self.urls    = ['https://github.com/openblockchains/copycats']
+  self.urls    = ['https://github.com/cryptocopycats/copycats']
 
   self.author  = 'Gerald Bauer'
   self.email   = 'wwwmake@googlegroups.com'
@@ -21,6 +21,7 @@ Hoe.spec 'copycats' do
     ['base32-kai'],
     ['activerecord'],
     ['sqlite3'],
+    ['csvreader']
   ]
 
   self.licenses = ['Public Domain']

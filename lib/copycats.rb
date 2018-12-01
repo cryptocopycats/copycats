@@ -6,7 +6,6 @@ require 'date'
 require 'time'
 require 'uri'
 require 'json'
-require 'csv'
 require 'enumerator'    ## needed for each_slice
 require 'optparse'      # note: used for command line tool (see Tool in tool.rb)
 
@@ -16,6 +15,7 @@ require 'logger'    # note: use for ActiveRecord::Base.logger -- remove/replace 
 require 'active_record'   ## todo: add sqlite3? etc.
 
 require 'base32-kai'      ## base32 / kai encoding / decoding for genes
+require 'csvreader'
 
 
 ## our own code
