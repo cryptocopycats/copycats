@@ -372,5 +372,6 @@ TRAITS =
       genes: '44-47',
       name: 'Purrstige',
       kai: { }   ## use gamma_1, gamma_2, ... - why? why not?
+      ##  prune, furball, duckduckcat, or thatsawrap
   }
 }

@@ -27,7 +27,7 @@ FANCIES =
 
   ## October
   dukecat:       { name: 'Dukecat',       date: '2018-10-18', limit: 1366 },
-  sheilapurren:  { name: 'Sheila Purren', date: '2018-10-04', limit: 1971 },
+  sheilapurren:  { name: 'Sheila Purren', date: '2018-10-04', limit: 1971, desc: 'Sheila Warren Kitty-fied - Head of Blockchain and Distributed Ledger Technology at the World Economic Forum (WEF)' },
 
   ## September
   pawzilla: { name: 'Pawzilla', date: '2018-09-22', limit: 1185 },
@@ -38,17 +38,19 @@ FANCIES =
   ## August
   vulcant:        { name: 'Vulcant',        date: '2018-08-31', limit: 20, exclusive: true, ids: [932914,937360,938299,946526,948925,949058,950617,952280,952981,956374,956908,958570,964205,967234,983046,984451,990713,992861,995745,997469] },
   purrity:        { name: 'Purrity',        date: '2018-08-23', limit: 5984 },
-  rabbidkitty:    { name: 'Rabbid Kitty',   date: '2018-08-23', limit: 6, exclusive: true, ids: (260..265).to_a },
-  squiddlesworth: { name: 'Squiddlesworth', date: '2018-08-16', limit: 1510 },
+  rabbidkitty:    { name: 'Rabbid Kitty',   date: '2018-08-23', limit: 6, exclusive: true, ids: (260..265).to_a, desc: 'Ubisoft Blockchain Heroes Hackathon' },
+  squiddlesworth: { name: 'Squiddlesworth', date: '2018-08-16', limit: 1510, desc: 'Lava Squid Cat' },
 
   ## July
   purrspero:      { name: 'Purrspero',   date: '2018-07-27', limit: 4448 },
   catbury:        { name: 'Catbury',     date: '2018-07-25', limit: 76 },
-  honu:           { name: 'Honu',        date: '2018-07-20', limit: 1, exclusive: true, ids: [251] },
+  honu:           { name: 'Honu',        date: '2018-07-20', limit: 1, exclusive: true, ids: [251], desc: 'Kitties for Good - Save Turtle Habitats' },
   victoire:       { name: 'Victoire',    date: '2018-07-18', limit: 1, exclusive: true, ids: [402], desc: 'France Football World Cup Champion' },
   lulu:           { name: 'Lulu',        date: '2018-07-13', limit: 999 },
   boot:           { name: 'Boot',        date: '2018-07-05', limit: 1440,  desc: 'Football World Cup' },
   ## note: boot - different variants for world cup teams!!! make sub-fancies - why? why not?
+  ##  Although there are 8 unique Fancies, they’re actually each a variant on the same Fancy — Boot.
+  ##  Their colours are different, and you can collect all 8 as a set
 
   ## June
   raspoutine:    { name: 'Raspoutine',  date: '2018-06-28', limit: 1867 },
