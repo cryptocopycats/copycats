@@ -90,7 +90,7 @@ FANCIES =
   ## January
   'momo-chan':     { name: 'Momo-chan',       date: '2018-01-31',  limit: 500, desc: 'Ninja Kitty' },
   negato:          { name: 'Negato',          date: '2018-01-29',  limit: 500, desc: 'Ninja Kitty' },
-  stiches:         { name: 'Stiches',         date: '2018-01-10',  limit: 500, desc: 'Zombie Kitty' },
+  stitches:        { name: 'Stitches',         date: '2018-01-10',  limit: 500, desc: 'Zombie Kitty' },
 
   ## 2017
   ## December
