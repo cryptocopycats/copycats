@@ -46,7 +46,8 @@ end
 
 FANCIES.each do |key,h|
 
-  name = h[:name]
+  name = ""
+  name << h[:name]
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
 
@@ -67,24 +68,42 @@ buf << "\n\n\n"
 ##################
 ## step 2 - add fancy cat details / chronic
 
-=begin
-Nov 26, 2018
-- [**Draco Junior**](https://www.cryptokitties.co/search/all?search=fancy:DracoJunior) Fancy Cat is discovered. #Fancy Cat
 
-Nov 21, 2018
-- [**Dreggo Fancy**](https://www.cryptokitties.co/search/all?search=fancy:Dreggo) Cat is discovered. #Fancy Cat
-=end
-
+month = nil
+year  = nil
+last_date = nil
 
 FANCIES.each do |key,h|
   date = Date.strptime( h[:date], '%Y-%m-%d' )
 
-  buf << "\n"
-  buf << date.strftime( '%b %-d, %Y')
-  buf << "\n"
+  if year != date.year
+    buf << "\n"
+    buf << "\n"
+    buf << "## #{date.year}"
+    buf << "\n"
+  end
+
+  if month != date.month
+    buf << "\n"
+    buf << "### #{date.strftime( '%B')}"
+    buf << "\n"
+  end
+
+  year  = date.year
+  month = date.month
 
 
-  name = h[:name]
+  buf << "\n"
+
+  if last_date != date
+    buf << date.strftime( '%b %-d, %Y')
+    buf << "\n"
+  end
+  last_date = date
+
+
+  name = ""
+  name << h[:name]
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
   line = "- [**#{name}**]"
@@ -131,7 +150,7 @@ end
 puts buf
 
 
-File.open( "./updates/FANCIES.v2.md", 'w:utf-8' ) do |f|
+File.open( "./updates/FANCIES.md", 'w:utf-8' ) do |f|
   f.write buf
 end
 
