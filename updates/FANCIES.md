@@ -30,7 +30,7 @@ see <https://updates.cryptokitties.co>
 
 
 
-## "Normal" Fancy Cats (43)"
+## "Normal" Fancy Cats (43)
 
 [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?)
 [**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (?)

@@ -92,7 +92,7 @@ buf << "\n\n"
 buf << build_fancies( exclusives )
 buf << "\n\n\n"
 
-buf << %Q{## "Normal" Fancy Cats (#{fancies.size})"}
+buf << %Q{## "Normal" Fancy Cats (#{fancies.size})}
 buf << "\n\n"
 buf << build_fancies( fancies )
 buf << "\n\n\n"
