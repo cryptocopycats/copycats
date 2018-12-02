@@ -13,7 +13,7 @@ pp FANCIES
 
 buf = ""
 buf += <<TXT
-# Updates - Fancies / Exclusives / Special Editions - Timeline
+# Updates - "Normal" / Exclusive / Special Edition Fancy Cats - Timeline
 
 see <https://updates.cryptokitties.co>
 
@@ -42,26 +42,59 @@ def kitties_search_url( key, h )
   "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
 end
 
-
+specials   = {}  # special edition fancies
+exclusives = {}  # exclusive fancies
+fancies    = {}  # "normal" fancies
 
 FANCIES.each do |key,h|
+  if h[:special]
+    specials[key] = h
+  elsif h[:exclusive]
+    exclusives[key] = h
+  else
+    fancies[key] = h
+  end
+end
 
+
+
+def build_fancy( key, h )
   name = ""
   name << h[:name]
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
-
 
   line = "[**#{name}**]"
   line << "(#{kitties_search_url( key, h )})"
 
   limit = h[:limit] ? h[:limit] : '?'  # add limit if present/known
   line << " (#{limit})"
-
-  buf << line
-  buf << "\n"
+  line
 end
 
 
+def build_fancies( fancies )
+  buf = ""
+  fancies.each do |key,h|
+    buf << build_fancy( key, h )
+    buf << "\n"
+  end
+  buf
+end
+
+
+buf << "## Special Edition Fancy Cats (#{specials.size})"
+buf << "\n\n"
+buf << build_fancies( specials )
+buf << "\n\n\n"
+
+buf << "## Exclusive Fancy Cats (#{exclusives.size})"
+buf << "\n\n"
+buf << build_fancies( exclusives )
+buf << "\n\n\n"
+
+buf << %Q{## "Normal" Fancy Cats (#{fancies.size})"}
+buf << "\n\n"
+buf << build_fancies( fancies )
 buf << "\n\n\n"
 
 

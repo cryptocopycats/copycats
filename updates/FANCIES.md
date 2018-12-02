@@ -1,57 +1,71 @@
-# Updates - Fancies / Exclusives / Special Editions - Timeline
+# Updates - "Normal" / Exclusive / Special Edition Fancy Cats - Timeline
 
 see <https://updates.cryptokitties.co>
 
 
-[**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?)
+## Special Edition Fancy Cats (1)
+
+[**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (42)
+
+
+
+## Exclusive Fancy Cats (16)
+
 [**Draco The Magnificent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dracothemagnificent) (12)
 [**Bug Cat V2**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcatv2) (20)
+[**Lil Bub Ub Bub (BUB) The Magical Space Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:lilbubthemagicalspacecat) (3)
+[**Vulcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcat) (1)
+[**Vulcant**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcant) (20)
+[**Rabbid Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:rabbidkitty) (6)
+[**Honu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:honu) (1)
+[**Victoire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:victoire) (1)
+[**Furlin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:furlin) (52)
+[**Celestial Cyber Dimension**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:celestialcyberdimension) (1)
+[**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:帝龙喵) (1)
+[**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:旺财汪) (11)
+[**Knight Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:knightkitty) (11)
+[**Cathena**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cathena) (1)
+[**Genesis**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:genesis) (1)
+[**Bug Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcat) (3)
+
+
+
+## "Normal" Fancy Cats (43)"
+
+[**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?)
 [**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (?)
 [**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo) (?)
 [**Pickles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pickles) (303)
-[**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (42)
-[**Lil Bub Ub Bub (BUB) The Magical Space Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:lilbubthemagicalspacecat) (3)
 [**Dukecat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dukecat) (1366)
 [**Sheila Purren**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:sheilapurren) (1971)
 [**Pawzilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawzilla) (1185)
-[**Vulcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcat) (1)
 [**Meowstro**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:meowstro) (1698)
 [**Atlas**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:atlas) (998)
-[**Vulcant**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:vulcant) (20)
 [**Purrity**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrity) (5984)
-[**Rabbid Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:rabbidkitty) (6)
 [**Squiddlesworth**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:squiddlesworth) (1510)
 [**Purrspero**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrspero) (4448)
 [**Catbury**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:catbury) (76)
-[**Honu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:honu) (1)
-[**Victoire**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:victoire) (1)
 [**Lulu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:lulu) (999)
 [**Boot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:boot) (1440)
 [**Raspoutine**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:raspoutine) (1867)
-[**Furlin**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:furlin) (52)
 [**Kitty Pride**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:kittypride) (1316)
 [**Furrmingo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:furrmingo) (333)
 [**Page**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:page) (50000)
 [**Schrödinger's Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:schrödingerscat) (73)
 [**Chat Plongeur**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:chatplongeur) (1910)
 [**Doc Purr**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:docpurr) (250)
-[**Celestial Cyber Dimension**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:celestialcyberdimension) (1)
 [**Swish**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:swish) (2880)
 [**Flutterbee**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:flutterbee) (275)
 [**Vernon**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:vernon) (320)
 [**Berry**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:berry) (200)
 [**Puss For Progress**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pussforprogress) (1920)
 [**Fortune Cat (红包喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:红包喵) (888)
-[**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:帝龙喵) (1)
-[**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:旺财汪) (11)
 [**Lion Dance (咚咚锵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:咚咚锵) (888)
 [**Dog Cat (汪星爷)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:汪星爷) (88)
-[**Knight Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:knightkitty) (11)
 [**Tabby**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:tabby) (250)
 [**Yuri Catsuki**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:yuricatsuki) (250)
 [**Mister Purrfect**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:misterpurrfect) (1000)
 [**Earnie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:earnie) (500)
-[**Cathena**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:cathena) (1)
 [**Momo-chan**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:momo-chan) (500)
 [**Negato**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:negato) (500)
 [**Stitches**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:stitches) (500)
@@ -60,9 +74,7 @@ see <https://updates.cryptokitties.co>
 [**Mistletoe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:mistletoe) (2000)
 [**Dracula**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracula) (2000)
 [**Du Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:ducat) (10000)
-[**Genesis**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:genesis) (1)
 [**Ship Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:shipcat) (2000)
-[**Bug Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcat) (3)
 
 
 
