@@ -87,7 +87,8 @@ see <https://updates.cryptokitties.co>
 Nov 30, 2018
 - [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?) Fancy Cat discovered. #Fancy Cat
 
-![](../i/200x200/fancy-draco.png)
+![](../../media/kitties/200x200/fancy-draco.png)
+
 
 Nov 27, 2018
 - [**Draco The Magnificent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dracothemagnificent) (12 - [#270](https://www.cryptokitties.co/kitty/270), [#271](https://www.cryptokitties.co/kitty/271), [#272](https://www.cryptokitties.co/kitty/272), [#273](https://www.cryptokitties.co/kitty/273), [#274](https://www.cryptokitties.co/kitty/274), [#275](https://www.cryptokitties.co/kitty/275), [#276](https://www.cryptokitties.co/kitty/276), [#277](https://www.cryptokitties.co/kitty/277), [#278](https://www.cryptokitties.co/kitty/278), [#279](https://www.cryptokitties.co/kitty/279), [#280](https://www.cryptokitties.co/kitty/280), [#281](https://www.cryptokitties.co/kitty/281)) Fancy Cat released. #Fancy Cat #Exclusive
