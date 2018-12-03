@@ -87,7 +87,7 @@ see <https://updates.cryptokitties.co>
 Nov 30, 2018
 - [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?) Fancy Cat discovered. #Fancy Cat
 
-![](../../media/kitties/200x200/fancy-draco.png)
+![](https://cryptocopycats.github.io/media/kitties/200x200/fancy-draco.png)
 
 
 Nov 27, 2018
