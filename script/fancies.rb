@@ -13,7 +13,7 @@ pp FANCIES
 
 buf = ""
 buf += <<TXT
-# Updates - "Normal" / Exclusive / Special Edition Fancy Cats - Timeline
+# Updates - Fancy / Exclusive / Special Edition Cats - Timeline
 
 see <https://updates.cryptokitties.co>
 
@@ -82,20 +82,21 @@ def build_fancies( fancies )
 end
 
 
-buf << "## Special Edition Fancy Cats (#{specials.size})"
+buf << "## Special Edition Cats (#{specials.size})"
 buf << "\n\n"
 buf << build_fancies( specials )
 buf << "\n\n\n"
 
-buf << "## Exclusive Fancy Cats (#{exclusives.size})"
+buf << "## Exclusive Cats (#{exclusives.size})"
 buf << "\n\n"
 buf << build_fancies( exclusives )
 buf << "\n\n\n"
 
-buf << %Q{## "Normal" Fancy Cats (#{fancies.size})}
+buf << "## Fancy Cats (#{fancies.size})}"
 buf << "\n\n"
 buf << build_fancies( fancies )
 buf << "\n\n\n"
+
 
 
 ##################
@@ -173,7 +174,7 @@ FANCIES.each do |key,h|
   buf << "\n"
 
   buf << "\n"
-  buf << "![](../i/200x200/fancy-#{key}.png)"
+  buf << "![](https://cryptocopycats.github.io/media/kitties/200x200/fancy-#{key}.png)"
   buf << "\n"
 end
 
