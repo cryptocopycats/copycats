@@ -66,8 +66,9 @@ def build_fancy( key, h )
   line = "[**#{name}**]"
   line << "(#{kitties_search_url( key, h )})"
 
-  limit = h[:limit] ? h[:limit] : '?'  # add limit if present/known
-  line << " (#{limit})"
+  line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
+  line << "+#{h[:overflow]}"    if h[:overflow]
+  line << ")"
   line
 end
 
@@ -107,6 +108,10 @@ month = nil
 year  = nil
 last_date = nil
 
+## start of kitties blockchain / genesis
+genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
+
+
 FANCIES.each do |key,h|
   date = Date.strptime( h[:date], '%Y-%m-%d' )
 
@@ -131,26 +136,42 @@ FANCIES.each do |key,h|
 
   if last_date != date
     buf << date.strftime( '%b %-d, %Y')
+
+    day_count = (date.to_date.jd - genesisdate.jd)+1
+    buf << " (#{day_count}d)"
     buf << "\n"
   end
   last_date = date
 
 
+  line = ""
   name = ""
+
+  line << "- "
+  if h[:special]
+    line << "Special Edition "
+  elsif h[:exclusive]
+    line << "Exlusive "
+  else
+  end
+
+
   name << h[:name]
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
-  line = "- [**#{name}**]"
+  line << "[**#{name}**]"
   line << "(#{kitties_search_url( key, h )})"
 
-  limit = h[:limit] ? h[:limit] : '?'  # add limit if present/known
+
+  line << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
+  line << "+#{h[:overflow]}"   if h[:overflow]
 
   if h[:ids]
     id_links = h[:ids].map { |id| "[##{id}](#{kitties_kitty_url(id)})" }
-    line << " (#{limit} - #{id_links.join(', ')})"
-  else
-    line << " (#{limit})"
+    line << " - #{id_links.join(', ')}"
   end
+  line << ")"
+
 
 
   if h[:special]
@@ -174,8 +195,16 @@ FANCIES.each do |key,h|
   buf << "\n"
 
   buf << "\n"
-  buf << "![](https://cryptocopycats.github.io/media/kitties/200x200/fancy-#{key}.png)"
-  buf << "\n"
+
+  if h[:variants]
+    h[:variants].each do |variant_key,variant_h|
+      buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}-#{variant_key}.png)"
+      buf << "\n"
+    end
+  else
+    buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}.png)"
+    buf << "\n"
+  end
 end
 
 

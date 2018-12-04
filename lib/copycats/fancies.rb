@@ -11,16 +11,24 @@
 
 ## todo: add formula: []
 
+##
+## note:
+##  for time limits for fancies use:
+##     e.g. time: { end: '2018-12-07' }   # until dec/7
+##
+##  for overflows for limited edition use:
+##     e.g. overflow: 1      #   888+1  (=889)
+
 
 FANCIES =
 {
   ## 2018
   ## November
-  draco:                { name: 'Draco',        date: '2018-11-30' },
+  draco:                { name: 'Draco',        date: '2018-11-30', time: { end: '2018-12-07' } },
   dracothemagnificent:  { name: 'Draco The Magnificent', date: '2018-11-27', limit: 12, exclusive: true, ids:	(270..281).to_a },
   bugcatv2:             { name: 'Bug Cat V2',            date: '2018-11-27', limit: 20, exclusive: true, ids: (167..186).to_a, desc: 'Bug Bounty II (Offers Contract) Kitty' },
-  dracojunior: { name: 'Draco Junior', date: '2018-11-26' },
-  dreggo:      { name: 'Dreggo',       date: '2018-11-21' },
+  dracojunior: { name: 'Draco Junior', date: '2018-11-26', time: { end: '2018-12-07' } },
+  dreggo:      { name: 'Dreggo',       date: '2018-11-21', time: { end: '2018-12-07' } },
   pickles:     { name: 'Pickles',      date: '2018-11-14',  limit: 303 },
   lilbub:      { name: 'Lil Bub Ub Bub (BUB)',   date: '2018-11-13',  limit: 42, special: true },  ## for search use specialedition:
   lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13', limit: 3, exclusive: true, ids: [266,267,268] },
@@ -47,14 +55,25 @@ FANCIES =
   honu:           { name: 'Honu',        date: '2018-07-20', limit: 1, exclusive: true, ids: [251], desc: 'Kitties for Good - Save Turtle Habitats' },
   victoire:       { name: 'Victoire',    date: '2018-07-18', limit: 1, exclusive: true, ids: [402], desc: 'France Football World Cup Champion' },
   lulu:           { name: 'Lulu',        date: '2018-07-13', limit: 999 },
-  boot:           { name: 'Boot',        date: '2018-07-05', limit: 1440,  desc: 'Football World Cup' },
-  ## note: boot - different variants for world cup teams!!! make sub-fancies - why? why not?
-  ##  Although there are 8 unique Fancies, they’re actually each a variant on the same Fancy — Boot.
+  boot:           { name: 'Boot',        date: '2018-07-05', limit: 1440,  desc: 'Football World Cup',
+                    variants: {
+                      belgium: { name: 'Belgium', limit: 97  },
+                      brazil:  { name: 'Brazil',  limit: 195 },
+                      croatia: { name: 'Croatia', limit: 253 },
+                      england: { name: 'England', limit: 168 },
+                      france:  { name: 'France',  limit: 317 },
+                      russia:  { name: 'Russia',  limit: 94  },
+                      sweden:  { name: 'Sweden',  limit: 123 },
+                      uruguay: { name: 'Uruguay', limit: 193 }
+                    },
+                  },
+  ## note: boot - different variants for world cup teams
+  ##  Although there are 8 unique Fancies, they're actually each a variant on the same Fancy - Boot.
   ##  Their colours are different, and you can collect all 8 as a set
 
   ## June
   raspoutine:    { name: 'Raspoutine',  date: '2018-06-28', limit: 1867 },
-  furlin:        { name: 'Furlin',      date: '2018-06-26', limit: 52, exclusive: true, ids: (115..166).to_a },
+  furlin:        { name: 'Furlin',      date: '2018-06-26', limit: 52, exclusive: true, ids: (115..126).to_a + (128..166).to_a },
   kittypride:    { name: 'Kitty Pride', date: '2018-06-21', limit: 1316 },
   furrmingo:     { name: 'Furrmingo',   date: '2018-06-14', limit: 333  },
 
@@ -75,8 +94,8 @@ FANCIES =
   pussforprogress: { name: 'Puss For Progress', date: '2018-03-08', limit: 1920, desc: "Women's Day" },
   fortunecat:      { name: 'Fortune Cat', name_cn: '红包喵', date: '2018-03-08', limit: 888 },  ## todo: check date for china launch specials!!!
   goldendragoncat: { name: 'Golden Dragon Cat', name_cn: '帝龙喵', date: '2018-03-08', limit: 1, exclusive: true, ids: [888], desc: 'China Launch' }, ## todo: check date for china launch specials!!!
-  goldendogcat:    { name: 'Golden Dog Cat', name_cn: '旺财汪', date: '2018-03-08', limit: 11, exclusive: true, ids: [1802,1803,1805,1806,1808,1809,1812,1816,1826,1827,1828], desc: 'China Launch' },  ## todo: check date for china launch specials!!!
-  liondance:    { name: 'Lion Dance', name_cn: '咚咚锵', date: '2018-03-07', limit: 888 },
+  goldendogcat:    { name: 'Golden Dog Cat', name_cn: '旺财汪', date: '2018-03-08', limit: 11, exclusive: true, ids: [1802,1803,1805,1806,1808,1809,1812,1816]+(1825..1828).to_a, desc: 'China Launch' },  ## todo: check date for china launch specials!!!
+  liondance:    { name: 'Lion Dance', name_cn: '咚咚锵', date: '2018-03-07', limit: 888, overflow: 1 },
   dogcat:       { name: 'Dog Cat',    name_cn: '汪星爷', date: '2018-03-02', limit: 88, desc: 'Year of the Dog (Greater China)' },
   knightkitty:  { name: 'Knight Kitty',  date: '2018-03-01',  limit: 11, exclusive: true, ids: (104..114).to_a },
 
@@ -95,7 +114,7 @@ FANCIES =
   ## 2017
   ## December
   phuziqaat:    { name: 'Phu Ziqaat',    date: '2017-12-31',  limit: 1000,  desc: 'Alien Kitty' },
-  santaclaws:   { name: 'Santa Claws',   date: '2017-12-12',  limit: 1000,  desc: 'Ho Ho Ho - Santa Claus Kitty' },
+  santaclaws:   { name: 'Santa Claws',   date: '2017-12-12',  limit: 1000, overflow: 2, desc: 'Ho Ho Ho - Santa Claus Kitty' },
   mistletoe:    { name: 'Mistletoe',     date: '2017-12-09',  limit: 2000,  desc: "XMas Kitty" },
   dracula:      { name: 'Dracula',       date: '2017-12-01',  limit: 2000  },
 
