@@ -1,4 +1,4 @@
-# Cattributes Rarity / Statistics
+# Cattributes Statistics / Rarity
 
 
 (Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [Tabular Dataset (CSV)](../datasets/cattributes.csv))
