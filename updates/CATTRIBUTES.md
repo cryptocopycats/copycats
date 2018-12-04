@@ -9,7 +9,7 @@
 _1191246 Cats with 31 Cattributes_
 
 |#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+|--:|---------:|----------|----|
 | 1/31 | 149 (0.01) | [**liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) IIII (w) | FU30 |
 | 2/31 | 498 (0.04) | [**burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) III (v) | FU29 |
 | 3/31 | 1151 (0.10) | [**balinese**](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese) I (k) | FU19 |
