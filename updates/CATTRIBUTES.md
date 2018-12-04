@@ -1,6 +1,5 @@
 # Cattributes Statistics / Rarity
 
-
 (Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [Tabular Dataset (CSV)](../datasets/cattributes.csv))
 
 
@@ -8,8 +7,8 @@
 
 _1191246 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|--:|---------:|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 149 (0.01) | [**liger**](https://www.cryptokitties.co/search?include=sale,sire,other&search=liger) IIII (w) | FU30 |
 | 2/31 | 498 (0.04) | [**burmilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=burmilla) III (v) | FU29 |
 | 3/31 | 1151 (0.10) | [**balinese**](https://www.cryptokitties.co/search?include=sale,sire,other&search=balinese) I (k) | FU19 |
@@ -47,8 +46,8 @@ _1191246 Cats with 31 Cattributes_
 
 _1191232 Cats with 29 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/29 | 327 (0.03) | [**moonrise**](https://www.cryptokitties.co/search?include=sale,sire,other&search=moonrise) IIII (w) | PA30 |
 | 2/29 | 654 (0.05) | [**allyouneed**](https://www.cryptokitties.co/search?include=sale,sire,other&search=allyouneed) II (t) | PA27 |
 | 3/29 | 694 (0.06) | [**gyre**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gyre) III (v) | PA29 |
@@ -84,8 +83,8 @@ _1191232 Cats with 29 Cattributes_
 
 _1191238 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 427 (0.04) | [**downbythebay**](https://www.cryptokitties.co/search?include=sale,sire,other&search=downbythebay) II (r) | EC25 |
 | 2/31 | 478 (0.04) | [**bridesmaid**](https://www.cryptokitties.co/search?include=sale,sire,other&search=bridesmaid) I (j) | EC18 |
 | 3/31 | 582 (0.05) | [**gemini**](https://www.cryptokitties.co/search?include=sale,sire,other&search=gemini) III (u) | EC28 |
@@ -123,8 +122,8 @@ _1191238 Cats with 31 Cattributes_
 
 _1191240 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 572 (0.05) | [**drama**](https://www.cryptokitties.co/search?include=sale,sire,other&search=drama) IIII (w) | ES30 |
 | 2/31 | 595 (0.05) | [**candyshoppe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=candyshoppe) III (v) | ES29 |
 | 3/31 | 613 (0.05) | [**firedup**](https://www.cryptokitties.co/search?include=sale,sire,other&search=firedup) II (s) | ES26 |
@@ -162,8 +161,8 @@ _1191240 Cats with 31 Cattributes_
 
 _1191242 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 168 (0.01) | [**firstblush**](https://www.cryptokitties.co/search?include=sale,sire,other&search=firstblush) IIII (w) | BC30 |
 | 2/31 | 405 (0.03) | [**hotcocoa**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hotcocoa) III (u) | BC28 |
 | 3/31 | 477 (0.04) | [**cornflower**](https://www.cryptokitties.co/search?include=sale,sire,other&search=cornflower) I (i) | BC17 |
@@ -201,8 +200,8 @@ _1191242 Cats with 31 Cattributes_
 
 _1191241 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 432 (0.04) | [**prairierose**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prairierose) IIII (w) | HC30 |
 | 2/31 | 456 (0.04) | [**inflatablepool**](https://www.cryptokitties.co/search?include=sale,sire,other&search=inflatablepool) III (u) | HC28 |
 | 3/31 | 546 (0.05) | [**ooze**](https://www.cryptokitties.co/search?include=sale,sire,other&search=ooze) I (h) | HC16 |
@@ -240,8 +239,8 @@ _1191241 Cats with 31 Cattributes_
 
 _1191222 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 188 (0.02) | [**dreamboat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dreamboat) IIII (w) | AC30 |
 | 2/31 | 440 (0.04) | [**fallspice**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fallspice) III (v) | AC29 |
 | 3/31 | 464 (0.04) | [**mallowflower**](https://www.cryptokitties.co/search?include=sale,sire,other&search=mallowflower) II (s) | AC26 |
@@ -279,8 +278,8 @@ _1191222 Cats with 31 Cattributes_
 
 _59967 Cats with 15 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/15 | 647 (1.08) | [**wyrm**](https://www.cryptokitties.co/search?include=sale,sire,other&search=wyrm) IIII (w) | WE30 |
 | 2/15 | 689 (1.15) | [**featherbrain**](https://www.cryptokitties.co/search?include=sale,sire,other&search=featherbrain) I (n) | WE21 |
 | 3/15 | 909 (1.52) | [**foghornpawhorn**](https://www.cryptokitties.co/search?include=sale,sire,other&search=foghornpawhorn) II (s) | WE26 |
@@ -302,8 +301,8 @@ _59967 Cats with 15 Cattributes_
 
 _1191236 Cats with 31 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/31 | 343 (0.03) | [**struck**](https://www.cryptokitties.co/search?include=sale,sire,other&search=struck) III (v) | MO29 |
 | 2/31 | 343 (0.03) | [**delite**](https://www.cryptokitties.co/search?include=sale,sire,other&search=delite) IIII (w) | MO30 |
 | 3/31 | 703 (0.06) | [**satiated**](https://www.cryptokitties.co/search?include=sale,sire,other&search=satiated) II (t) | MO27 |
@@ -341,8 +340,8 @@ _1191236 Cats with 31 Cattributes_
 
 _26148 Cats with 15 Cattributes_
 
-|#|Total (%)|Cattribute|Code|
-|-|---------|----------|----|
+| #|Total (%)|Cattribute|Code|
+|-:|--------:|----------|----|
 | 1/15 | 154 (0.59) | [**junglebook**](https://www.cryptokitties.co/search?include=sale,sire,other&search=junglebook) IIII (w) | EN30 |
 | 2/15 | 378 (1.45) | [**floorislava**](https://www.cryptokitties.co/search?include=sale,sire,other&search=floorislava) III (u) | EN28 |
 | 3/15 | 401 (1.53) | [**dune**](https://www.cryptokitties.co/search?include=sale,sire,other&search=dune) I (i) | EN17 |
@@ -364,8 +363,8 @@ _26148 Cats with 15 Cattributes_
 
 _3783 Cats with 4 Cattributes_
 
-|#|Total (%)|Cattribute|
-|-|---------|----------|
+| #|Total (%)|Cattribute|
+|-:|--------:|----------|
 | 1/4 | 615 (16.26) | [**thatsawrap**](https://www.cryptokitties.co/search?include=sale,sire,other&search=thatsawrap) |
 | 2/4 | 921 (24.35) | [**prune**](https://www.cryptokitties.co/search?include=sale,sire,other&search=prune) |
 | 3/4 | 998 (26.38) | [**furball**](https://www.cryptokitties.co/search?include=sale,sire,other&search=furball) |
