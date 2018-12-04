@@ -1,7 +1,8 @@
 # Cattributes Rarity / Statistics
 
 
-(Source: [`api.cryptokitties.co/cattributes`](https://api.cryptokitties.co/cattributes), [Tabular Dataset (CSV)](../datasets/cattributes.csv))
+(Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [Tabular Dataset (CSV)](../datasets/cattributes.csv))
+
 
 ## Fur (Genes 0-3)
 
