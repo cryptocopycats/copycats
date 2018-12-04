@@ -25,7 +25,6 @@ Total , Name           , Type          , Code
    582, gemini         , coloreyes     ,   28
    595, candyshoppe    , eyes          ,   29
    613, firedup        , eyes          ,   26
-   615, thatsawrap     , prestige      ,  n/a
    647, wyrm           , wild          ,   30
    654, allyouneed     , pattern       ,   27
    688, isotope        , coloreyes     ,   04
@@ -42,11 +41,9 @@ Total , Name           , Type          , Code
    909, foghornpawhorn , wild          ,   26
    910, oasis          , coloreyes     ,   27
    913, jacked         , environment   ,   27
-   921, prune          , prestige      ,  n/a
    931, splat          , pattern       ,   16
    973, scorpius       , pattern       ,   24
    998, tendertears    , eyes          ,   20
-   998, furball        , prestige      ,  n/a
   1018, myparade       , environment   ,   20
   1031, arcreactor     , pattern       ,   22
   1070, cyborg         , color2        ,   00
@@ -58,7 +55,6 @@ Total , Name           , Type          , Code
   1188, fox            , body          ,   24
   1217, oceanid        , eyes          ,   24
   1218, majestic       , mouth         ,   22
-  1249, duckduckcat    , prestige      ,  n/a
   1269, drift          , environment   ,   23
   1297, frozen         , environment   ,   25
   1356, autumnmoon     , coloreyes     ,   26
