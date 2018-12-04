@@ -151,7 +151,7 @@ FANCIES.each do |key,h|
   if h[:special]
     line << "Special Edition "
   elsif h[:exclusive]
-    line << "Exlusive "
+    line << "Exclusive "
   else
   end
 
