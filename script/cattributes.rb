@@ -23,6 +23,21 @@ recs.each do |h|
 
   rec[ 0 ] += h['Total'].to_i   ## up totals
   rec[ 1 ] << [h['Name'],h['Code'],h['Total'].to_i]
+
+
+  ## double check traits if present / known / defined
+  trait = TRAITS_BY_NAME[ h['Name'] ]
+  if trait
+    if trait[:type] != h['Type'].to_sym
+      puts "mismatched trait - expected >#{trait[:type]}< got:"
+      pp h
+      exit 1
+    end
+  else
+    puts "unknown / undefined trait:"
+    pp h
+    exit 1
+  end
 end
 
 
