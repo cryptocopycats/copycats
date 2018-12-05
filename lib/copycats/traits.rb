@@ -17,7 +17,7 @@ TRAITS =
 {
   body: {
     genes: '0-3',
-    name:  'Fur',
+    name:  'Fur',  code: 'FU',
     kai: {
     '1' => 'savannah',
     '2' => 'selkirk',
@@ -55,7 +55,7 @@ TRAITS =
   },
   pattern: {
     genes: '4-7',
-    name: 'Pattern',
+    name: 'Pattern', code: 'PA',
     kai: {
     '1' => 'vigilante',
     '2' => 'tiger',
@@ -93,7 +93,7 @@ TRAITS =
   },
   coloreyes: {
     genes: '8-11',
-    name:  'Eye Color',
+    name:  'Eye Color', code: 'EC',
     kai: {
     '1' => 'thundergrey',
     '2' => 'gold',
@@ -131,7 +131,7 @@ TRAITS =
   },
   eyes: {
     genes: '12-15',
-    name: 'Eye Shape', ##  eye type
+    name: 'Eye Shape', code: 'ES',     ##  eye type
     kai: {
     '1' => 'swarley',
     '2' => 'wonky',
@@ -169,7 +169,7 @@ TRAITS =
   },
   color1: {
     genes: '16-19',
-    name: 'Base Color',   ##  colorprimary / body color
+    name: 'Base Color', code: 'BC',   ##  colorprimary / body color
     kai: {
     '1' => 'shadowgrey',
     '2' => 'salmon',
@@ -207,7 +207,7 @@ TRAITS =
   },
   color2: {
     genes: '20-23',
-    name:  'Highlight Color',  ## colorsecondary / sec color / pattern color
+    name:  'Highlight Color', code: 'HC',    ## colorsecondary / sec color / pattern color
     kai: {
     '1' => 'cyborg',
     '2' => 'springcrocus',
@@ -245,7 +245,7 @@ TRAITS =
   },
   color3: {
     genes: '24-27',
-    name: 'Accent Color',  ## colortertiary
+    name: 'Accent Color', code: 'AC',   ## colortertiary
     kai: {
     '1' => 'belleblue',
     '2' => 'sandalwood',
@@ -283,7 +283,7 @@ TRAITS =
   },
   wild: {
     genes: '28-31',
-    name: 'Wild',
+    name: 'Wild', code: 'WE',
     kai: {
     'h' => 'littlefoot',
     'i' => 'elk',
@@ -305,7 +305,7 @@ TRAITS =
   },
   mouth: {
     genes: '32-35',
-    name:  'Mouth',
+    name:  'Mouth', code: 'MO',
     kai: {
     '1' => 'whixtensions',
     '2' => 'wasntme',
@@ -341,9 +341,9 @@ TRAITS =
     'x' => ''
    }
   },
-  future1: {  ## todo/fix: change to environment
+  environment: {
       genes: '36-39',
-      name: 'Environment',
+      name: 'Environment', code: 'EN',
       kai: {
         'h' => 'salty',
         'i' => 'dune',
@@ -361,17 +361,103 @@ TRAITS =
         'v' => 'prism',
         'w' => 'junglebook',
         'x' => ''
-      }   ## use alpha_1, alpha_2, ... - why? why not?
+      }
   },
-  future2: {
+  secret: {
       genes: '40-43',
-      name: 'Y Gene',   ## todo: change to Y Gene or Y (see https://guide.cryptokitties.co/guide/cat-features/genes)
-      kai: { }   ## use beta_1, beta_2, ... - why? why not?
+      name: 'Secret Y Gene', code: 'SE',   ## todo: change to Y Gene or Y (see https://guide.cryptokitties.co/guide/cat-features/genes)
+      kai: { }
+      ## use alpha_1, alpha_2, ... - why? why not?
+      ## use beta_1, beta_2, ... - why? why not?
+      ## use gamma_1, gamma_2, ... - why? why not?
   },
-  future3: {  ## todo/fix: change to purrstige
+  prestige: {
       genes: '44-47',
-      name: 'Purrstige',
-      kai: { }   ## use gamma_1, gamma_2, ... - why? why not?
-      ##  prune, furball, duckduckcat, or thatsawrap
+      name: 'Purrstige', code: 'PU',
+      kai: { }
+      ##  prune, furball, duckduckcat, or thatsawrap - more like fancies (not really traits)
   }
 }
+
+
+
+### todo/check: move TIER mapping to Genome class or ... - why? why not?
+
+##################################
+#  Tier 0 (Base)           (1-g)
+#  Tier 1 (Mewtation I)    (h-p)
+#  Tier 2 (Mewtation II)   (q-t)
+#  Tier 3 (Mewtation III)  (u,v)
+#  Tier 4 (Mewtation IIII) (w)
+#
+TIER = {    ## todo/fix: use an algo to calculate - why? why not?
+  '1' => 0,
+  '2' => 0,
+  '3' => 0,
+  '4' => 0,
+  '5' => 0,
+  '6' => 0,
+  '7' => 0,
+  '8' => 0,
+  '9' => 0,
+  'a' => 0,
+  'b' => 0,
+  'c' => 0,
+  'd' => 0,
+  'e' => 0,
+  'f' => 0,
+  'g' => 0,
+  'h' => 1,
+  'i' => 1,
+  'j' => 1,
+  'k' => 1,
+  'm' => 1,
+  'n' => 1,
+  'o' => 1,
+  'p' => 1,
+  'q' => 2,
+  'r' => 2,
+  's' => 2,
+  't' => 2,
+  'u' => 3,
+  'v' => 3,
+  'w' => 4,
+  'x' => nil
+}
+
+## (quick 'n' dirty) kai to mutation/mewtation level (I,II,III,IIII)
+MUTATION_LEVEL = {
+  '1' => '',
+  '2' => '',
+  '3' => '',
+  '4' => '',
+  '5' => '',
+  '6' => '',
+  '7' => '',
+  '8' => '',
+  '9' => '',
+  'a' => '',
+  'b' => '',
+  'c' => '',
+  'd' => '',
+  'e' => '',
+  'f' => '',
+  'g' => '',
+  'h' => 'I',
+  'i' => 'I',
+  'j' => 'I',
+  'k' => 'I',
+  'm' => 'I',
+  'n' => 'I',
+  'o' => 'I',
+  'p' => 'I',
+  'q' => 'II',
+  'r' => 'II',
+  's' => 'II',
+  't' => 'II',
+  'u' => 'III',
+  'v' => 'III',
+  'w' => 'IIII',
+  'x' => ''
+}
+MEWTATION_LEVEL = MUTATION_LEVEL   ## add alias
