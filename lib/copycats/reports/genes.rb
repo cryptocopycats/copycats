@@ -51,12 +51,12 @@ end
 
 
 def make_table( items )
-  rows = make_rows( items, columns: 4 )
+  rows = make_rows( items, columns: 2 )    ## was 4
   pp rows
 
   buf = ""
-  buf << "|Kai|Code|Cattribute   |Kai|Code|Cattribute  |Kai|Code|Cattribute  |Kai|Code|Cattribute  |\n"
-  buf << "|--:|---:|-------------|--:|---:|------------|--:|---:|------------|--:|---:|------------|\n"
+  buf << "|Kai|Code|Cattribute   |Kai|Code|Cattribute  |\n"
+  buf << "|--:|---:|-------------|--:|---:|------------|\n"
 
   rows.each do |row|
     buf << "| "
@@ -83,7 +83,7 @@ end
 
 
 ## helpers
-def make_rows( items, columns: 4 )
+def make_rows( items, columns: 2 )
   offset = items.size / columns
   pp offset
 
@@ -97,7 +97,7 @@ end
 
 
   def save( path )
-    File.open( path, "w" ) do |f|
+    File.open( path, "w:utf-8" ) do |f|
       f.write build
     end
   end
