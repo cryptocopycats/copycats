@@ -1,4 +1,4 @@
-# Cattributes Statistics / Rarity
+# Cattributes Traits Rarity / Popularity Statistics
 
 (Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](../datasets/cattributes.csv))
 
