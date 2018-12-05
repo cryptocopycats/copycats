@@ -56,7 +56,7 @@ def make_table( items )
 
   buf = ""
   buf << "|Kai|Code|Cattribute   |Kai|Code|Cattribute  |Kai|Code|Cattribute  |Kai|Code|Cattribute  |\n"
-  buf << "|---|----|-------------|---|----|------------|---|----|------------|---|----|------------|\n"
+  buf << "|--:|---:|-------------|--:|---:|------------|--:|---:|------------|--:|---:|------------|\n"
 
   rows.each do |row|
     buf << "| "
@@ -68,7 +68,7 @@ def make_table( items )
       if name == '?'
         cattribute = "?"
       else
-        cattribute = "**#{kitties_search(name)}** #{MEWTATION_LEVEL[kai]}"
+        cattribute = "**[#{name}](#{kitties_search(name)})** #{MEWTATION_LEVEL[kai]}"
       end
 
       "#{item[0]} | #{item[1]} | #{cattribute}"
