@@ -23,7 +23,7 @@ def build
     items = []
     Kai::ALPHABET.each_char do |kai|
       value = trait[:kai][kai]
-      code  = '%02d' % Kai::NUMBER[kai]   ## e.g. 00, 01, 02, etc.
+      code  = "#{trait[:code]}%02d" % Kai::NUMBER[kai]   ## e.g. FU00, FU01, FU02, etc.
       value = '?'  if value.nil? || value.empty?
       items << [kai, code, value]
     end
