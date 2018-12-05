@@ -47,7 +47,7 @@ pp types
 
 buf = ""
 buf += <<TXT
-# Cattributes Statistics / Rarity
+# Cattributes Rarity / Popularity Statistics
 
 (Source: [`api.cryptokitties.co/cattributes` (JSON)](https://api.cryptokitties.co/cattributes), [(CSV)](../datasets/cattributes.csv))
 
