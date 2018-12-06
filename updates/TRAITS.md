@@ -369,5 +369,5 @@ Dec 22, 2017 (30d)
 - [**hintomint**](https://www.cryptokitties.co/search?include=sale,sire,other&search=hintomint)   - base color (BC14 / f) trait discovered. #Cattribute
 
 Dec 20, 2017 (28d)
-- [**alien**](https://www.cryptokitties.co/search?include=sale,sire,other&search=alien) I  - eye shape (ES17 / i = 3+4) trait discovered. #Cattribute #Mewtation
 - [**serpent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=serpent)   - eye shape (ES02 / 3) trait discovered. #Cattribute
+- [**alien**](https://www.cryptokitties.co/search?include=sale,sire,other&search=alien) I  - eye shape (ES17 / i = 3+4) trait discovered. #Cattribute #Mewtation

@@ -289,6 +289,6 @@ TRAITS_TIMELINE =
 
   hintomint:      { date: '2017-12-22' },
 
-  alien:          { date: '2017-12-20' },
   serpent:        { date: '2017-12-20' },
+  alien:          { date: '2017-12-20' },
 }
