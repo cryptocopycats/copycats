@@ -132,9 +132,8 @@ FANCIES.each do |key,h|
   month = date.month
 
 
-  buf << "\n"
-
   if last_date != date
+    buf << "\n"
     buf << date.strftime( '%b %-d, %Y')
 
     day_count = (date.to_date.jd - genesisdate.jd)+1

@@ -28,268 +28,267 @@ TRAITS_TIMELINE =
   moonrise:       { date: '2018-11-06' },
 
   ## october
-  Metime:      { date: '2018-10-26' },
-  Jacked:      { date: '2018-10-26' },
-  Prism:       { date: '2018-10-26' },
+  metime:      { date: '2018-10-26' },
+  jacked:      { date: '2018-10-26' },
+  prism:       { date: '2018-10-26' },
 
-  Isotope:     { date: '2018-10-23' },
-  Bridesmaid:   { date: '2018-10-23' },
-  Downbythebay: { date: '2018-10-23' },
-  Gemini:       { date: '2018-10-23' },
-  Kaleidoscope: { date: '2018-10-23' },
+  isotope:     { date: '2018-10-23' },
+  bridesmaid:   { date: '2018-10-23' },
+  downbythebay: { date: '2018-10-23' },
+  gemini:       { date: '2018-10-23' },
+  kaleidoscope: { date: '2018-10-23' },
 
-  Thatsawrap: { date: '2018-10-21' },    ## todo: move prestige to fancies!!!
+  ## thatsawrap: { date: '2018-10-21' },    ## todo: move prestige to fancies!!!
+  ## duckduckcat: { date: '2018-10-19' },   ## todo: move prestige to fancies!!!
 
-  Duckduckcat: { date: '2018-10-19' },
+  siberian: { date: '2018-10-17' },
+  lynx: { date: '2018-10-17' },
+  toyger:  { date: '2018-10-17' },
+  burmilla:  { date: '2018-10-17' },
+  liger:  { date: '2018-10-17' },
 
-  Siberian: { date: '2018-10-17' },
-  Lynx: { date: '2018-10-17' },
-  Toyger:  { date: '2018-10-17' },
-  Burmilla:  { date: '2018-10-17' },
-  Liger:  { date: '2018-10-17' },
+  moue: { date: '2018-10-10' },
+  majestic: { date: '2018-10-10' },
+  satiated: { date: '2018-10-10' },
+  struck: { date: '2018-10-10' },
+  delite: { date: '2018-10-10' },
 
-  Moue: { date: '2018-10-10' },
-  Majestic: { date: '2018-10-10' },
-  Satiated: { date: '2018-10-10' },
-  Struck: { date: '2018-10-10' },
-  Delite: { date: '2018-10-10' },
-
-  Myparade: { date: '2018-10-03' },
-  Roadtogold: { date: '2018-10-03' },
+  myparade: { date: '2018-10-03' },
+  roadtogold: { date: '2018-10-03' },
 
 
   ## september
-  Dreamboat: { date: '2018-09-21' },
-  Fallspice: { date: '2018-09-21' },
-  Mallowflower: { date: '2018-09-21' },
-  Hanauma: { date: '2018-09-21' },
-  Summerbonnet: { date: '2018-09-21' },
+  dreamboat: { date: '2018-09-21' },
+  fallspice: { date: '2018-09-21' },
+  mallowflower: { date: '2018-09-21' },
+  hanauma: { date: '2018-09-21' },
+  summerbonnet: { date: '2018-09-21' },
 
-  Prune: { date: '2018-09-19' },
-  Furball: { date: '2018-09-19' },
+  ## prune: { date: '2018-09-19' },     ## todo: move prestige to fancies!!!
+  ## furball: { date: '2018-09-19' },   ## todo: move prestige to fancies!!!
 
-  Firedup: { date: '2018-09-06' },
-  Hacker: { date: '2018-09-06' },
-  Drama: { date: '2018-09-06' },
-  Candyshoppe: { date: '2018-09-06' },
+  firedup: { date: '2018-09-06' },
+  hacker: { date: '2018-09-06' },
+  drama: { date: '2018-09-06' },
+  candyshoppe: { date: '2018-09-06' },
 
-  Asif: { date: '2018-09-05' },
+  asif: { date: '2018-09-05' },
 
   ## august
-  Dragonwings: { date: '2018-08-29' },
-  Aflutter: { date: '2018-08-29' },
-  Ducky: { date: '2018-08-29' },
+  dragonwings: { date: '2018-08-29' },
+  aflutter: { date: '2018-08-29' },
+  ducky: { date: '2018-08-29' },
 
-  Chantilly: { date: '2018-08-23' },
-  Mekong: { date: '2018-08-23' },
-  Fox: { date: '2018-08-23' },
-  Lykoi: { date: '2018-08-23' },
+  chantilly: { date: '2018-08-23' },
+  mekong: { date: '2018-08-23' },
+  fox: { date: '2018-08-23' },
+  lykoi: { date: '2018-08-23' },
 
-  Tundra: { date: '2018-08-17' },
-  Glacier: { date: '2018-08-17' },
-  Hyacinth: { date: '2018-08-17' },
-  Shamrock: { date: '2018-08-17' },
+  tundra: { date: '2018-08-17' },
+  glacier: { date: '2018-08-17' },
+  hyacinth: { date: '2018-08-17' },
+  shamrock: { date: '2018-08-17' },
 
-  Inflatablepool: { date: '2018-08-08' },
-  Peppermint: { date: '2018-08-08' },
-  Ooze: { date: '2018-08-08' },
-  Cyborg: { date: '2018-08-08' },
+  inflatablepool: { date: '2018-08-08' },
+  peppermint: { date: '2018-08-08' },
+  ooze: { date: '2018-08-08' },
+  cyborg: { date: '2018-08-08' },
 
-  Scorpius: { date: '2018-08-01' },
-  Splat:   { date: '2018-08-01' },
-  Vigilante:  { date: '2018-08-01' },
-  Avatar:   { date: '2018-08-01' },
+  scorpius: { date: '2018-08-01' },
+  splat:   { date: '2018-08-01' },
+  vigilante:  { date: '2018-08-01' },
+  avatar:   { date: '2018-08-01' },
 
   ## july
-  Topoftheworld: { date: '2018-07-25' },
-  Confuzzled:  { date: '2018-07-25' },
-  Samwise: { date: '2018-07-25' },
-  Walrus: { date: '2018-07-25' },
+  topoftheworld: { date: '2018-07-25' },
+  confuzzled:  { date: '2018-07-25' },
+  samwise: { date: '2018-07-25' },
+  walrus: { date: '2018-07-25' },
 
-  Olive: { date: '2018-07-20' },
-  Pinefresh: { date: '2018-07-20' },
-  Oasis: { date: '2018-07-20' },
-  Dioscuri: { date: '2018-07-20' },
+  olive: { date: '2018-07-20' },
+  pinefresh: { date: '2018-07-20' },
+  oasis: { date: '2018-07-20' },
+  dioscuri: { date: '2018-07-20' },
 
-  Juju: { date: '2018-07-18' },
-  Frozen: { date: '2018-07-18' },
+  juju: { date: '2018-07-18' },
+  frozen: { date: '2018-07-18' },
 
-  Kalahari: { date: '2018-07-13' },
-  Atlantis: { date: '2018-07-13' },
+  kalahari: { date: '2018-07-13' },
+  atlantis: { date: '2018-07-13' },
 
-  Fangtastic: { date: '2018-07-06' },
+  fangtastic: { date: '2018-07-06' },
 
   ## june
-  Littlefoot: { date: '2018-06-29' },
-  Dragontail: { date: '2018-06-29' },
+  littlefoot: { date: '2018-06-29' },
+  dragontail: { date: '2018-06-29' },
 
-  Padparadscha: { date: '2018-06-28' },
-  Rosequartz:   { date: '2018-06-28' },
-  Universe:     { date: '2018-06-28' },
+  padparadscha: { date: '2018-06-28' },
+  rosequartz:   { date: '2018-06-28' },
+  universe:     { date: '2018-06-28' },
 
-  Martian:   { date: '2018-06-22' },
-  Redvelvet: { date: '2018-06-22' },
-  Brownies:  { date: '2018-06-22' },
+  martian:   { date: '2018-06-22' },
+  redvelvet: { date: '2018-06-22' },
+  brownies:  { date: '2018-06-22' },
 
-  Wowza: { date: '2018-06-19' },
-  Tendertears: { date: '2018-06-19' },
+  wowza: { date: '2018-06-19' },
+  tendertears: { date: '2018-06-19' },
 
-  Impish: { date: '2018-06-14' },
+  impish: { date: '2018-06-14' },
 
-  Finalfrontier:  { date: '2018-06-11' },
+  finalfrontier:  { date: '2018-06-11' },
 
-  Cobalt:     { date: '2018-06-09' },
-  Cashewmilk: { date: '2018-06-09' },
-  Buttercup:  { date: '2018-06-09' },
+  cobalt:     { date: '2018-06-09' },
+  cashewmilk: { date: '2018-06-09' },
+  buttercup:  { date: '2018-06-09' },
 
-  Manul:  { date: '2018-06-05' },
-  Balinese: { date: '2018-06-05' },
-  Kurilian: { date: '2018-06-05' },
+  manul:  { date: '2018-06-05' },
+  balinese: { date: '2018-06-05' },
+  kurilian: { date: '2018-06-05' },
 
   ## may
-  Unicorn:  { date: '2018-05-31' },
-  Flapflap: { date: '2018-05-31' },
+  unicorn:  { date: '2018-05-31' },
+  flapflap: { date: '2018-05-31' },
 
-  Dahlia:    { date: '2018-05-29' },
-  Palejade:  { date: '2018-05-29' },
-  Autumnmoon: { date: '2018-05-29' },
+  dahlia:    { date: '2018-05-29' },
+  palejade:  { date: '2018-05-29' },
+  autumnmoon: { date: '2018-05-29' },
 
-  Razzledazzle: { date: '2018-05-24' },
-  Highsociety:  { date: '2018-05-24' },
-  Rorschach:    { date: '2018-05-24' },
+  razzledazzle: { date: '2018-05-24' },
+  highsociety:  { date: '2018-05-24' },
+  rorschach:    { date: '2018-05-24' },
 
-  Tinybox: { date: '2018-05-19' },
+  tinybox: { date: '2018-05-19' },
 
-  Butterscotch: { date: '2018-05-10' },
-  Garnet:  { date: '2018-05-10' },
-  Mertail: { date: '2018-05-10' },
-  Pearl:   { date: '2018-05-10' },
+  butterscotch: { date: '2018-05-10' },
+  garnet:  { date: '2018-05-10' },
+  mertail: { date: '2018-05-10' },
+  pearl:   { date: '2018-05-10' },
 
-  Highlander:  { date: '2018-05-08' },
-  Koladiviya:  { date: '2018-05-08' },
+  highlander:  { date: '2018-05-08' },
+  koladiviya:  { date: '2018-05-08' },
 
-  Swarley: { date: '2018-05-04' },
-  Oceanid: { date: '2018-05-04' },
-  Chameleon: { date: '2018-05-04' },
-  Bornwithit: { date: '2018-05-04' },
+  swarley: { date: '2018-05-04' },
+  oceanid: { date: '2018-05-04' },
+  chameleon: { date: '2018-05-04' },
+  bornwithit: { date: '2018-05-04' },
 
   ## april
-  Cinderella: { date: '2018-04-27' },
-  Lavender:   { date: '2018-04-27' },
+  cinderella: { date: '2018-04-27' },
+  lavender:   { date: '2018-04-27' },
 
-  Daemonhorns: { date: '2018-04-24' },
-  Salty:       { date: '2018-04-24' },
+  daemonhorns: { date: '2018-04-24' },
+  salty:       { date: '2018-04-24' },
 
-  Shale: { date: '2018-04-19' },
+  shale: { date: '2018-04-19' },
 
-  Eclipse:  { date: '2018-04-17' },
-  Parakeet: { date: '2018-04-17' },
+  eclipse:  { date: '2018-04-17' },
+  parakeet: { date: '2018-04-17' },
 
-  Daemonwings:   { date: '2018-04-13' },
+  daemonwings:   { date: '2018-04-13' },
 
-  Caffeine:      { date: '2018-04-10' },
+  caffeine:      { date: '2018-04-10' },
 
-  Frosting:         { date: '2018-04-02' },
-  Patrickstarfish:  { date: '2018-04-02' },
-  Mintmacaron:      { date: '2018-04-02' },
+  frosting:         { date: '2018-04-02' },
+  patrickstarfish:  { date: '2018-04-02' },
+  mintmacaron:      { date: '2018-04-02' },
 
 
   ## march
-  Doridnudibranch:  { date: '2018-03-30' },
+  doridnudibranch:  { date: '2018-03-30' },
 
-  Springcrocus:     { date: '2018-03-20' },
+  springcrocus:     { date: '2018-03-20' },
 
-  Thunderstruck:    { date: '2018-03-16' },
-  Rascal:           { date: '2018-03-16' },
+  thunderstruck:    { date: '2018-03-16' },
+  rascal:           { date: '2018-03-16' },
 
-  Dragonfruit:  { date: '2018-03-14' },
+  dragonfruit:  { date: '2018-03-14' },
 
-  Belch:  { date: '2018-03-09' },
+  belch:  { date: '2018-03-09' },
 
-  Pixiebob:    { date: '2018-03-08' },
-  Poisonberry: { date: '2018-03-08' },
-  Safetyvest:  { date: '2018-03-08' },
+  pixiebob:    { date: '2018-03-08' },
+  poisonberry: { date: '2018-03-08' },
+  safetyvest:  { date: '2018-03-08' },
 
-  Cyan:  { date: '2018-03-05' },
+  cyan:  { date: '2018-03-05' },
 
 
   ## february
-  Missmuffet: { date: '2018-02-28' },
-  Wiley:      { date: '2018-02-28' },
+  missmuffett: { date: '2018-02-28' },
+  wiley:      { date: '2018-02-28' },
 
-  Dippedcone:   { date: '2018-02-23' },
-  Leopard:      { date: '2018-02-23' },
+  dippedcone:   { date: '2018-02-23' },
+  leopard:      { date: '2018-02-23' },
 
-  Harbourfog:   { date: '2018-02-20' },
+  harbourfog:   { date: '2018-02-20' },
 
-  Baddate:      { date: '2018-02-13' },
+  baddate:      { date: '2018-02-13' },
 
-  Wuvme:  { date: '2018-02-12' },
-  Yokel:  { date: '2018-02-12' },
-  Starstruck:  { date: '2018-02-12' },
+  wuvme:  { date: '2018-02-12' },
+  yokel:  { date: '2018-02-12' },
+  starstruck:  { date: '2018-02-12' },
 
-  Egyptiankohl: { date: '2018-02-09' },
-  Bobtail: { date: '2018-02-09' },
+  egyptiankohl: { date: '2018-02-09' },
+  bobtail: { date: '2018-02-09' },
 
-  Tiger: { date: '2018-02-06' },
+  tiger: { date: '2018-02-06' },
 
-  Birman: { date: '2018-02-02' },
-  Coralsunrise: { date: '2018-02-02' },
+  birman: { date: '2018-02-02' },
+  coralsunrise: { date: '2018-02-02' },
 
   ## january
-  Forgetmenot: { date: '2018-01-30' },
-  Savannah: { date: '2018-01-30' },
-  Norwegianforest: { date: '2018-01-30' },
-  Twilightsparkle: { date: '2018-01-30' },
+  forgetmenot: { date: '2018-01-30' },
+  savannah: { date: '2018-01-30' },
+  norwegianforest: { date: '2018-01-30' },
+  twilightsparkle: { date: '2018-01-30' },
 
-  Trioculus: { date: '2018-01-26' },
+  trioculus: { date: '2018-01-26' },
 
-  Morningglory: { date: '2018-01-20' },
-  Apricot:      { date: '2018-01-20' },
-  Turtleback:   { date: '2018-01-20' },
-  Wasntme:      { date: '2018-01-20' },
-  Cheeky:       { date: '2018-01-20' },
+  morningglory: { date: '2018-01-20' },
+  apricot:      { date: '2018-01-20' },
+  turtleback:   { date: '2018-01-20' },
+  wasntme:      { date: '2018-01-20' },
+  cheeky:       { date: '2018-01-20' },
 
-  Sapphire:     { date: '2018-01-17' },
+  sapphire:     { date: '2018-01-17' },
 
-  Nachocheez:  { date: '2018-01-14' },
-  Koala:       { date: '2018-01-14' },
-  Chronic:     { date: '2018-01-14' },
-  Onyx:        { date: '2018-01-14' },
-  Sass:        { date: '2018-01-14' },
+  nachocheez:  { date: '2018-01-14' },
+  koala:       { date: '2018-01-14' },
+  chronic:     { date: '2018-01-14' },
+  onyx:        { date: '2018-01-14' },
+  sass:        { date: '2018-01-14' },
 
-  Slyboots:   { date: '2018-01-13' },
+  slyboots:   { date: '2018-01-13' },
 
-  Azaleablush:   { date: '2018-01-10' },
-  Spangled:      { date: '2018-01-10' },
+  azaleablush:   { date: '2018-01-10' },
+  spangled:      { date: '2018-01-10' },
 
-  Lilac:         { date: '2018-01-09' },
-  Bananacream:   { date: '2018-01-09' },
-  Verdigris:     { date: '2018-01-09' },
+  lilac:         { date: '2018-01-09' },
+  bananacream:   { date: '2018-01-09' },
+  verdigris:     { date: '2018-01-09' },
 
-  Neckbeard:    { date: '2018-01-06' },
-  Grim:         { date: '2018-01-06' },
-  Grimace:      { date: '2018-01-06' },
-  Stunned:      { date: '2018-01-06' },
+  neckbeard:    { date: '2018-01-06' },
+  grim:         { date: '2018-01-06' },
+  grimace:      { date: '2018-01-06' },
+  stunned:      { date: '2018-01-06' },
 
-  Wonky:        { date: '2018-01-04' },
-  Babypuke:     { date: '2018-01-04' },
-  Pumpkin:      { date: '2018-01-04' },
+  wonky:        { date: '2018-01-04' },
+  babypuke:     { date: '2018-01-04' },
+  pumpkin:      { date: '2018-01-04' },
 
-  Thundergrey:   { date: '2018-01-03' },
+  thundergrey:   { date: '2018-01-03' },
 
 
   ## 2017
   ## december
-  Selkirk:       { date: '2017-12-31' },
-  Icy:           { date: '2017-12-31' },
-  Flamingo:      { date: '2017-12-31' },
-  Seafoam:       { date: '2017-12-31' },
+  selkirk:       { date: '2017-12-31' },
+  icy:           { date: '2017-12-31' },
+  flamingo:      { date: '2017-12-31' },
+  seafoam:       { date: '2017-12-31' },
 
-  Elk:           { date: '2017-12-28' },
+  elk:           { date: '2017-12-28' },
 
-  Hintomint:      { date: '2017-12-22' },
+  hintomint:      { date: '2017-12-22' },
 
-  Serpent:        { date: '2017-12-20' },
-  Alien:          { date: '2017-12-20' }
+  alien:          { date: '2017-12-20' },
+  serpent:        { date: '2017-12-20' },
 }

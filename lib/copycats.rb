@@ -21,6 +21,8 @@ require 'csvreader'
 ## our own code
 require 'copycats/version'    # note: let version always go first
 require 'copycats/traits'
+require 'copycats/traits_timeline'
+
 require 'copycats/fancies'
 require 'copycats/gene'
 require 'copycats/genome'
