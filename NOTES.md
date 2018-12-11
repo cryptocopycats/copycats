@@ -2,11 +2,37 @@
 
 ## Todos
 
+- [ ] change formula / recipe to traits in traits.rb
+
+### How to name the group of four genes?
+
+use
+- Gene
+- Genes / G4 / Gene4x / ?
+- Gene Slice / Slice / Gene::Slice / Genome::Slice
+- Gene Family / Family
+- Gene Cluster / Cluster
+- Gene Group / Group
+- Gene Region / Region
+- Gene Seq / Sequence / ?
+- Gene Set / Set / ?
+- Multigene (?)
+- Zone / Unit / ?
+
+https://en.wikipedia.org/wiki/Gene
+
+> The term gene was introduced by Danish botanist, plant physiologist and geneticist Wilhelm Johannsen in 1905.
+> It is inspired by the ancient Greek: γόνος, gonos, that means offspring and procreation.
+
+https://en.wikipedia.org/wiki/Gene_family
+
+
+
+
 
 ### print traits with database id - why? why not?
 
 TRAIT_IDS.md - use / build a new page (report) - why? why not?
-
 
 
 ### Ruby SQL intersect with ActiveRecord
