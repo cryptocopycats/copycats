@@ -283,7 +283,7 @@ TRAITS =
   },
   wild: {
     genes: '28-31',
-    name: 'Wild', code: 'WE',
+    name: 'Wild Element', code: 'WE',
     kai: {
     'h' => 'littlefoot',
     'i' => 'elk',

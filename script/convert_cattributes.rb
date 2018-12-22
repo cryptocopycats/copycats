@@ -4,7 +4,10 @@
 require 'json'
 require 'pp'
 
-txt = File.read( "./dl/cattributes-2018-12-04.json" )
+#########
+## note: use https://api.cryptokitties.co/cattributes to download
+txt = File.read( "./dl/cattributes-2018-12-22.json" )
+
 
 data = JSON.parse( txt )
 pp data
