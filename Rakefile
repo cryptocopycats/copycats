@@ -15,13 +15,13 @@ Hoe.spec 'copycats' do
 
   # switch extension to .markdown for gihub formatting
   self.readme_file  = 'README.md'
-  self.history_file = 'HISTORY.md'
+  self.history_file = 'CHANGELOG.md'
 
   self.extra_deps = [
-    ['base32-kai'],
+    ['base32-alphabets', '>= 1.0.0'],
+    ['csvreader',        '>= 1.2.3'],
     ['activerecord'],
     ['sqlite3'],
-    ['csvreader']
   ]
 
   self.licenses = ['Public Domain']

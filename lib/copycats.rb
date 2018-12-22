@@ -14,8 +14,9 @@ require 'logger'    # note: use for ActiveRecord::Base.logger -- remove/replace 
 ## 3rd party gems
 require 'active_record'   ## todo: add sqlite3? etc.
 
-require 'base32-kai'      ## base32 / kai encoding / decoding for genes
+require 'base32-alphabets'      ## base32 / kai encoding / decoding for genes
 require 'csvreader'
+
 
 
 ## our own code
@@ -28,7 +29,6 @@ require 'copycats/gene'
 require 'copycats/genome'
 
 require 'copycats/schema'
-require 'copycats/data'
 
 require 'copycats/models/kitty'
 
@@ -36,6 +36,9 @@ require 'copycats/reports/kitty'
 require 'copycats/reports/mix'
 require 'copycats/reports/genes'
 require 'copycats/reports/traits'
+
+require 'copycats/import/setup'
+require 'copycats/import/read'
 
 require 'copycats/tool'
 
