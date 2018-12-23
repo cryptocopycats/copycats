@@ -110,7 +110,7 @@ def build_trait( key )
   elsif key =~ /_[0-9a-z]$/  # if base32 code e.g. wild_d - keep as is for now too
      "**#{key}**"
   elsif key == 'totesbasic'   ## quick hack for now - totesbasic has *3* genes
-    "Pattern (PA14, PA15, PA23) - **totesbasic** (f, g, p)"
+    "**totesbasic** - Pattern (PA14, PA15, PA23 / f, g, p)"
   else
     puts "lookup trait >#{key}<"
     trait = TRAITS_BY_NAME[ key ]
@@ -121,10 +121,11 @@ def build_trait( key )
     # rec[:type] = key   ## todo - use trait instead of type  (use string not symbol?) - why? why not?
 
     line = ""
+    line << "**#{trait[:name]}** #{MEWTATION_LEVEL[trait[:kai]]} - "
     line << "#{TRAITS[trait[:type]][:name]} "
-    line << "(#{trait[:code]}) - "
-    line << "**#{trait[:name]}** "
-    line << " ("
+    line << "("
+    line << trait[:code]
+    line << " / "
     line << trait[:kai]
     line << ")"
     line

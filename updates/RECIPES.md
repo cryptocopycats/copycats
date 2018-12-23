@@ -67,352 +67,352 @@ see <https://updates.cryptokitties.co>
 ## Purrstige Cattibutes
 
 [**Reindeer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:reindeer)   Dec 14 2018 - Jan 7 2019 (25d), 2 traits:
-- Wild Element (WE17) - **elk**  (i)
+- **elk** I - Wild Element (WE17 / i)
 - **PU24**, **PU25**, **PU26**, **PU27**
 
 
 [**Holidaycheer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:holidaycheer)   Dec 14 2018 - Jan 7 2019 (25d), 2 traits:
-- Wild Element (WE17) - **elk**  (i)
+- **elk** I - Wild Element (WE17 / i)
 - **PU28**, **PU29**
 
 
 [**Lit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:lit)   Dec 14 2018 - Jan 7 2019 (25d), 2 traits:
-- Wild Element (WE17) - **elk**  (i)
+- **elk** I - Wild Element (WE17 / i)
 - **PU30**
 
 
 [**Thatsawrap**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:thatsawrap)   Oct 20 - Nov 6 2018 (18d), 3 traits:
-- Fur (FU05) - **bobtail**  (6)
+- **bobtail**  - Fur (FU05 / 6)
 - **WE00**
 - **PU28**
 
 
 [**Duckduckcat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:duckduckcat)   Oct 20 - Nov 15 2018 (27d), 2 traits:
-- Mouth (MO26) - **neckbeard**  (s)
+- **neckbeard** II - Mouth (MO26 / s)
 - **PU24**, **PU25**, **PU26**
 
 
 [**Prune**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:prune)   Sep 18 - Sep 30 2018 (13d), 3 traits:
-- Fur (FU16) - **norwegianforest**  (h)
-- Pattern (PA14, PA15, PA23) - **totesbasic** (f, g, p)
+- **norwegianforest** I - Fur (FU16 / h)
+- **totesbasic** - Pattern (PA14, PA15, PA23 / f, g, p)
 - **PU25**
 
 
 [**Furball**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:furball)   Sep 19 - Sep 30 2018 (12d), 3 traits:
-- Fur (FU16) - **norwegianforest**  (h)
-- Pattern (PA14, PA15, PA23) - **totesbasic** (f, g, p)
+- **norwegianforest** I - Fur (FU16 / h)
+- **totesbasic** - Pattern (PA14, PA15, PA23 / f, g, p)
 - **PU26**
 
 
 ## Fancy Cats
 
 [**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula)   Dec 15 2018 - Nov 30 2019 (351d), 3 traits:
-- Pattern (PA05) - **camo**  (6)
-- Highlight Color (HC15) - **butterscotch**  (g)
-- Fur (FU24) - **fox**  (q)
+- **camo**  - Pattern (PA05 / 6)
+- **butterscotch**  - Highlight Color (HC15 / g)
+- **fox** II - Fur (FU24 / q)
 
 
 [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco)   Nov 30 - Dec 7 2018 (8d), 5 traits:
-- Fur (FU26) - **toyger**  (s)
-- Base Color (BC27) - **martian**  (t)
-- Highlight Color (HC24) - **peppermint**  (q)
-- Wild Element (WE28) - **dragonwings**  (u)
+- **toyger** II - Fur (FU26 / s)
+- **martian** II - Base Color (BC27 / t)
+- **peppermint** II - Highlight Color (HC24 / q)
+- **dragonwings** III - Wild Element (WE28 / u)
 - **SE03**
 
 
 [**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior)   Nov 26 - Dec 7 2018 (12d), 4 traits:
-- Fur (FU20) - **lynx**  (m)
-- Base Color (BC23) - **verdigris**  (p)
-- Wild Element (WE24) - **dragontail**  (q)
+- **lynx** I - Fur (FU20 / m)
+- **verdigris** I - Base Color (BC23 / p)
+- **dragontail** II - Wild Element (WE24 / q)
 - **SE03**
 
 
 [**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo)   Nov 21 - Dec 7 2018 (17d), 3 traits:
-- Fur (FU08) - **siberian**  (9)
-- Base Color (BC15) - **bananacream**  (g)
+- **siberian**  - Fur (FU08 / 9)
+- **bananacream**  - Base Color (BC15 / g)
 - **SE03**
 
 
 [**Pickles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pickles)    4 traits:
-- Fur (FU20) - **lynx**  (m)
-- Base Color (BC27) - **martian**  (t)
-- Pattern (PA19) - **highsociety**  (k)
-- Accent Color (AC07) - **emeraldgreen**  (8)
+- **lynx** I - Fur (FU20 / m)
+- **martian** II - Base Color (BC27 / t)
+- **highsociety** I - Pattern (PA19 / k)
+- **emeraldgreen**  - Accent Color (AC07 / 8)
 
 
 [**Dukecat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dukecat)    4 traits:
-- Fur (FU09) - **cymric**  (a)
-- Accent Color (AC22) - **periwinkle**  (o)
-- Eye Shape (ES05) - **simple**  (6)
-- Mouth (MO23) - **tongue**  (p)
+- **cymric**  - Fur (FU09 / a)
+- **periwinkle** I - Accent Color (AC22 / o)
+- **simple**  - Eye Shape (ES05 / 6)
+- **tongue** I - Mouth (MO23 / p)
 
 
 [**Sheila Purren**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:sheilapurren)    4 traits:
-- Base Color (BC05) - **mauveover**  (6)
-- Accent Color (AC03) - **icy**  (4)
-- Eye Shape (ES25) - **wingtips**  (r)
-- Mouth (MO12) - **fangtastic**  (d)
+- **mauveover**  - Base Color (BC05 / 6)
+- **icy**  - Accent Color (AC03 / 4)
+- **wingtips** II - Eye Shape (ES25 / r)
+- **fangtastic**  - Mouth (MO12 / d)
 
 
 [**Pawzilla**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawzilla)    4 traits:
-- Pattern (PA11) - **jaguar**  (c)
-- Highlight Color (HC25) - **universe**  (r)
-- Accent Color (AC20) - **atlantis**  (m)
-- Wild Element (WE16) - **littlefoot**  (h)
+- **jaguar**  - Pattern (PA11 / c)
+- **universe** II - Highlight Color (HC25 / r)
+- **atlantis** I - Accent Color (AC20 / m)
+- **littlefoot** I - Wild Element (WE16 / h)
 
 
 [**Meowstro**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:meowstro)    3 traits:
-- Base Color (BC25) - **onyx**  (r)
-- Eye Shape (ES09) - **wowza**  (a)
-- Eye Color (EC23) - **eclipse**  (p)
+- **onyx** II - Base Color (BC25 / r)
+- **wowza**  - Eye Shape (ES09 / a)
+- **eclipse** I - Eye Color (EC23 / p)
 
 
 [**Atlas**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:atlas)    4 traits:
-- Fur (FU18) - **highlander**  (j)
-- Accent Color (AC06) - **kittencream**  (7)
-- Eye Shape (ES00) - **swarley**  (1)
-- Mouth (MO25) - **topoftheworld**  (r)
+- **highlander** I - Fur (FU18 / j)
+- **kittencream**  - Accent Color (AC06 / 7)
+- **swarley**  - Eye Shape (ES00 / 1)
+- **topoftheworld** II - Mouth (MO25 / r)
 
 
 [**Purrity**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrity)    4 traits:
-- Fur (FU01) - **selkirk**  (2)
-- Eye Shape (ES12) - **chronic**  (d)
-- Base Color (BC16) - **cloudwhite**  (h)
-- Mouth (MO16) - **cheeky**  (h)
+- **selkirk**  - Fur (FU01 / 2)
+- **chronic**  - Eye Shape (ES12 / d)
+- **cloudwhite** I - Base Color (BC16 / h)
+- **cheeky** I - Mouth (MO16 / h)
 
 
 [**Squiddlesworth**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:squiddlesworth)    4 traits:
-- Fur (FU13) - **sphynx**  (e)
-- Base Color (BC22) - **redvelvet**  (o)
-- Accent Color (AC23) - **patrickstarfish**  (p)
-- Wild Element (WE24) - **dragontail**  (q)
+- **sphynx**  - Fur (FU13 / e)
+- **redvelvet** I - Base Color (BC22 / o)
+- **patrickstarfish** I - Accent Color (AC23 / p)
+- **dragontail** II - Wild Element (WE24 / q)
 
 
 [**Purrspero**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrspero)    4 traits:
-- Pattern (PA18) - **dippedcone**  (j)
-- Eye Shape (ES03) - **googly**  (4)
-- Highlight Color (HC06) - **royalpurple**  (7)
-- Mouth (MO08) - **beard**  (9)
+- **dippedcone** I - Pattern (PA18 / j)
+- **googly**  - Eye Shape (ES03 / 4)
+- **royalpurple**  - Highlight Color (HC06 / 7)
+- **beard**  - Mouth (MO08 / 9)
 
 
 [**Catbury**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:catbury)    6 traits:
-- Fur (FU15) - **ragdoll**  (g)
-- Eye Shape (ES06) - **crazy**  (7)
-- Highlight Color (HC14) - **chocolate**  (f)
-- Accent Color (AC27) - **mintmacaron**  (t)
-- Mouth (MO24) - **yokel**  (q)
+- **ragdoll**  - Fur (FU15 / g)
+- **crazy**  - Eye Shape (ES06 / 7)
+- **chocolate**  - Highlight Color (HC14 / f)
+- **mintmacaron** II - Accent Color (AC27 / t)
+- **yokel** II - Mouth (MO24 / q)
 - **WE02**
 
 
 [**Lulu**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:lulu)    4 traits:
-- Eye Color (EC15) - **cyan**  (g)
-- Base Color (BC23) - **verdigris**  (p)
-- Highlight Color (HC18) - **turtleback**  (j)
-- Environment (EN16) - **salty**  (h)
+- **cyan**  - Eye Color (EC15 / g)
+- **verdigris** I - Base Color (BC23 / p)
+- **turtleback** I - Highlight Color (HC18 / j)
+- **salty** I - Environment (EN16 / h)
 
 
 [**Boot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:boot)    4 traits:
-- Pattern (PA03) - **ganado**  (4)
-- Eye Shape (ES14) - **wiley**  (f)
-- Highlight Color (HC21) - **cerulian**  (n)
-- Mouth (MO07) - **rollercoaster**  (8)
+- **ganado**  - Pattern (PA03 / 4)
+- **wiley**  - Eye Shape (ES14 / f)
+- **cerulian** I - Highlight Color (HC21 / n)
+- **rollercoaster**  - Mouth (MO07 / 8)
 
 
 [**Raspoutine**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:raspoutine)    4 traits:
-- Eye Shape (ES27) - **buzzed**  (t)
-- Base Color (BC07) - **nachocheez**  (8)
-- Accent Color (AC01) - **sandalwood**  (2)
-- Mouth (MO06) - **belch**  (7)
+- **buzzed** II - Eye Shape (ES27 / t)
+- **nachocheez**  - Base Color (BC07 / 8)
+- **sandalwood**  - Accent Color (AC01 / 2)
+- **belch**  - Mouth (MO06 / 7)
 
 
 [**Kitty Pride**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:kittypride)    3 traits:
-- Eye Shape (ES18) - **fabulous**  (j)
-- Base Color (BC09) - **cinderella**  (a)
-- Highlight Color (HC23) - **garnet**  (p)
+- **fabulous** I - Eye Shape (ES18 / j)
+- **cinderella**  - Base Color (BC09 / a)
+- **garnet** I - Highlight Color (HC23 / p)
 
 
 [**Furrmingo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:furrmingo)    4 traits:
-- Fur (FU05) - **bobtail**  (6)
-- Highlight Color (HC02) - **egyptiankohl**  (3)
-- Accent Color (AC17) - **flamingo**  (i)
-- Mouth (MO00) - **whixtensions**  (1)
+- **bobtail**  - Fur (FU05 / 6)
+- **egyptiankohl**  - Highlight Color (HC02 / 3)
+- **flamingo** I - Accent Color (AC17 / i)
+- **whixtensions**  - Mouth (MO00 / 1)
 
 
 [**Page**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:page)    3 traits:
-- Pattern (PA02) - **rascal**  (3)
-- Accent Color (AC02) - **peach**  (3)
-- Mouth (MO01) - **wasntme**  (2)
+- **rascal**  - Pattern (PA02 / 3)
+- **peach**  - Accent Color (AC02 / 3)
+- **wasntme**  - Mouth (MO01 / 2)
 
 
 [**Schrödinger's Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:schrödingerscat)    4 traits:
-- Eye Color (EC09) - **forgetmenot**  (a)
-- Environment (EN19) - **tinybox**  (k)
+- **forgetmenot**  - Eye Color (EC09 / a)
+- **tinybox** I - Environment (EN19 / k)
 - **PU20**
 - **SE25**
 
 
 [**Chat Plongeur**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:chatplongeur)    3 traits:
-- Base Color (BC06) - **aquamarine**  (7)
-- Highlight Color (HC22) - **skyblue**  (o)
-- Accent Color (AC24) - **seafoam**  (q)
+- **aquamarine**  - Base Color (BC06 / 7)
+- **skyblue** I - Highlight Color (HC22 / o)
+- **seafoam** II - Accent Color (AC24 / q)
 
 
 [**Doc Purr**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:docpurr)    5 traits:
-- Fur (FU23) - **persian**  (p)
-- Pattern (PA12) - **spock**  (d)
-- Eye Shape (ES19) - **raisedbrow**  (k)
-- Highlight Color (HC09) - **violet**  (a)
-- Mouth (MO23) - **tongue**  (p)
+- **persian** I - Fur (FU23 / p)
+- **spock**  - Pattern (PA12 / d)
+- **raisedbrow** I - Eye Shape (ES19 / k)
+- **violet**  - Highlight Color (HC09 / a)
+- **tongue** I - Mouth (MO23 / p)
 
 
 [**Swish**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:swish)    4 traits:
-- Fur (FU16) - **norwegianforest**  (h)
-- Pattern (PA09) - **luckystripe**  (a)
-- Eye Shape (ES07) - **thicccbrowz**  (8)
-- Base Color (BC03) - **orangesoda**  (4)
+- **norwegianforest** I - Fur (FU16 / h)
+- **luckystripe**  - Pattern (PA09 / a)
+- **thicccbrowz**  - Eye Shape (ES07 / 8)
+- **orangesoda**  - Base Color (BC03 / 4)
 
 
 [**Flutterbee**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:flutterbee)    5 traits:
-- Base Color (BC16) - **cloudwhite**  (h)
-- Pattern (PA11) - **jaguar**  (c)
-- Highlight Color (HC13) - **lemonade**  (e)
-- Accent Color (AC12) - **azaleablush**  (d)
+- **cloudwhite** I - Base Color (BC16 / h)
+- **jaguar**  - Pattern (PA11 / c)
+- **lemonade**  - Highlight Color (HC13 / e)
+- **azaleablush**  - Accent Color (AC12 / d)
 - **WE14**
 
 
 [**Vernon**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:vernon)    6 traits:
-- Pattern (PA10) - **amur**  (b)
-- Eye Shape (ES18) - **fabulous**  (j)
-- Base Color (BC04) - **cottoncandy**  (5)
-- Highlight Color (HC01) - **springcrocus**  (2)
-- Accent Color (AC00) - **belleblue**  (1)
-- Mouth (MO15) - **soserious**  (g)
+- **amur**  - Pattern (PA10 / b)
+- **fabulous** I - Eye Shape (ES18 / j)
+- **cottoncandy**  - Base Color (BC04 / 5)
+- **springcrocus**  - Highlight Color (HC01 / 2)
+- **belleblue**  - Accent Color (AC00 / 1)
+- **soserious**  - Mouth (MO15 / g)
 
 
 [**Berry**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:berry)    5 traits:
-- Base Color (BC13) - **dragonfruit**  (e)
-- Pattern (PA17) - **thunderstruck**  (i)
-- Accent Color (AC07) - **emeraldgreen**  (8)
-- Highlight Color (HC05) - **apricot**  (6)
-- Eye Shape (ES05) - **simple**  (6)
+- **dragonfruit**  - Base Color (BC13 / e)
+- **thunderstruck** I - Pattern (PA17 / i)
+- **emeraldgreen**  - Accent Color (AC07 / 8)
+- **apricot**  - Highlight Color (HC05 / 6)
+- **simple**  - Eye Shape (ES05 / 6)
 
 
 [**Puss For Progress**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pussforprogress)    4 traits:
-- Fur (FU11) - **himalayan**  (c)
-- Accent Color (AC02) - **peach**  (3)
-- Highlight Color (HC17) - **safetyvest**  (i)
-- Mouth (MO03) - **gerbil**  (4)
+- **himalayan**  - Fur (FU11 / c)
+- **peach**  - Accent Color (AC02 / 3)
+- **safetyvest** I - Highlight Color (HC17 / i)
+- **gerbil**  - Mouth (MO03 / 4)
 
 
 [**Fortune Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:红包喵)    5 traits:
-- Base Color (BC08) - **harbourfog**  (9)
-- Pattern (PA08) - **calicool**  (9)
-- Highlight Color (HC08) - **swampgreen**  (9)
-- Eye Color (EC08) - **sapphire**  (9)
-- Mouth (MO08) - **beard**  (9)
+- **harbourfog**  - Base Color (BC08 / 9)
+- **calicool**  - Pattern (PA08 / 9)
+- **swampgreen**  - Highlight Color (HC08 / 9)
+- **sapphire**  - Eye Color (EC08 / 9)
+- **beard**  - Mouth (MO08 / 9)
 
 
 [**Lion Dance**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:咚咚锵)    4 traits:
-- Fur (FU27) - **manx**  (t)
-- Highlight Color (HC26) - **royalblue**  (s)
-- Eye Shape (ES03) - **googly**  (4)
-- Mouth (MO17) - **starstruck**  (i)
+- **manx** II - Fur (FU27 / t)
+- **royalblue** II - Highlight Color (HC26 / s)
+- **googly**  - Eye Shape (ES03 / 4)
+- **starstruck** I - Mouth (MO17 / i)
 
 
 [**Dog Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:汪星爷)    5 traits:
-- Pattern (PA20) - **tigerpunk**  (m)
-- Accent Color (AC22) - **periwinkle**  (o)
-- Highlight Color (HC11) - **barkbrown**  (c)
-- Eye Shape (ES23) - **sweetmeloncakes**  (p)
-- Mouth (MO24) - **yokel**  (q)
+- **tigerpunk** I - Pattern (PA20 / m)
+- **periwinkle** I - Accent Color (AC22 / o)
+- **barkbrown**  - Highlight Color (HC11 / c)
+- **sweetmeloncakes** I - Eye Shape (ES23 / p)
+- **yokel** II - Mouth (MO24 / q)
 
 
 [**Tabby**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:tabby)    4 traits:
-- Fur (FU14) - **ragamuffin**  (f)
-- Accent Color (AC14) - **morningglory**  (f)
-- Eye Shape (ES04) - **otaku**  (5)
-- Mouth (MO16) - **cheeky**  (h)
+- **ragamuffin**  - Fur (FU14 / f)
+- **morningglory**  - Accent Color (AC14 / f)
+- **otaku**  - Eye Shape (ES04 / 5)
+- **cheeky** I - Mouth (MO16 / h)
 
 
 [**Yuri Catsuki**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:yuricatsuki)    4 traits:
-- Fur (FU09) - **cymric**  (a)
-- Pattern (PA01) - **tiger**  (2)
-- Mouth (MO26) - **neckbeard**  (s)
-- Wild Element (WE17) - **elk**  (i)
+- **cymric**  - Fur (FU09 / a)
+- **tiger**  - Pattern (PA01 / 2)
+- **neckbeard** II - Mouth (MO26 / s)
+- **elk** I - Wild Element (WE17 / i)
 
 
 [**Mister Purrfect**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:misterpurrfect)    4 traits:
-- Highlight Color (HC14) - **chocolate**  (f)
-- Eye Shape (ES10) - **baddate**  (b)
-- Eye Color (EC07) - **strawberry**  (8)
-- Mouth (MO02) - **wuvme**  (3)
+- **chocolate**  - Highlight Color (HC14 / f)
+- **baddate**  - Eye Shape (ES10 / b)
+- **strawberry**  - Eye Color (EC07 / 8)
+- **wuvme**  - Mouth (MO02 / 3)
 
 
 [**Earnie**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:earnie)    4 traits:
-- Fur (FU03) - **birman**  (4)
-- Base Color (BC03) - **orangesoda**  (4)
-- Pattern (PA26) - **hotrod**  (s)
-- Mouth (MO11) - **grim**  (c)
+- **birman**  - Fur (FU03 / 4)
+- **orangesoda**  - Base Color (BC03 / 4)
+- **hotrod** II - Pattern (PA26 / s)
+- **grim**  - Mouth (MO11 / c)
 
 
 [**Momo-chan**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:momo-chan)    5 traits:
-- Base Color (BC25) - **onyx**  (r)
-- Pattern (PA21) - **henna**  (n)
-- Accent Color (AC19) - **bloodred**  (k)
-- Highlight Color (HC20) - **wolfgrey**  (m)
-- Eye Shape (ES22) - **sass**  (o)
+- **onyx** II - Base Color (BC25 / r)
+- **henna** I - Pattern (PA21 / n)
+- **bloodred** I - Accent Color (AC19 / k)
+- **wolfgrey** I - Highlight Color (HC20 / m)
+- **sass** I - Eye Shape (ES22 / o)
 
 
 [**Negato**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:negato)    4 traits:
-- Base Color (BC25) - **onyx**  (r)
-- Pattern (PA21) - **henna**  (n)
-- Highlight Color (HC20) - **wolfgrey**  (m)
-- Eye Shape (ES13) - **slyboots**  (e)
+- **onyx** II - Base Color (BC25 / r)
+- **henna** I - Pattern (PA21 / n)
+- **wolfgrey** I - Highlight Color (HC20 / m)
+- **slyboots**  - Eye Shape (ES13 / e)
 
 
 [**Stitches**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:stitches)    4 traits:
-- Base Color (BC14) - **hintomint**  (f)
-- Accent Color (AC24) - **seafoam**  (q)
-- Highlight Color (HC08) - **swampgreen**  (9)
-- Mouth (MO10) - **saycheese**  (b)
+- **hintomint**  - Base Color (BC14 / f)
+- **seafoam** II - Accent Color (AC24 / q)
+- **swampgreen**  - Highlight Color (HC08 / 9)
+- **saycheese**  - Mouth (MO10 / b)
 
 
 [**Phu Ziqaat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:phuziqaat)    4 traits:
-- Fur (FU10) - **chartreux**  (b)
-- Pattern (PA12) - **spock**  (d)
-- Eye Shape (ES17) - **alien**  (i)
-- Mouth (MO09) - **pouty**  (a)
+- **chartreux**  - Fur (FU10 / b)
+- **spock**  - Pattern (PA12 / d)
+- **alien** I - Eye Shape (ES17 / i)
+- **pouty**  - Mouth (MO09 / a)
 
 
 [**Santa Claws**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:santaclaws)    4 traits:
-- Base Color (BC16) - **cloudwhite**  (h)
-- Highlight Color (HC10) - **scarlet**  (b)
-- Mouth (MO08) - **beard**  (9)
+- **cloudwhite** I - Base Color (BC16 / h)
+- **scarlet**  - Highlight Color (HC10 / b)
+- **beard**  - Mouth (MO08 / 9)
 - **wild_d**
 
 
 [**Mistletoe**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:mistletoe)    3 traits:
-- Base Color (BC18) - **oldlace**  (j)
-- Eye Shape (ES06) - **crazy**  (7)
-- Mouth (MO03) - **gerbil**  (4)
+- **oldlace** I - Base Color (BC18 / j)
+- **crazy**  - Eye Shape (ES06 / 7)
+- **gerbil**  - Mouth (MO03 / 4)
 
 
 [**Dracula**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracula)    4 traits:
-- Fur (FU22) - **laperm**  (o)
-- Pattern (PA12) - **spock**  (d)
-- Eye Color (EC07) - **strawberry**  (8)
+- **laperm** I - Fur (FU22 / o)
+- **spock**  - Pattern (PA12 / d)
+- **strawberry**  - Eye Color (EC07 / 8)
 - **WE01**
 
 
 [**Du Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:ducat)    2 traits:
-- Fur (FU09) - **cymric**  (a)
-- Mouth (MO23) - **tongue**  (p)
+- **cymric**  - Fur (FU09 / a)
+- **tongue** I - Mouth (MO23 / p)
 
 
 [**Ship Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:shipcat)    4 traits:
-- Fur (FU13) - **sphynx**  (e)
-- Base Color (BC03) - **orangesoda**  (4)
-- Pattern (PA09) - **luckystripe**  (a)
-- Eye Shape (ES06) - **crazy**  (7)
+- **sphynx**  - Fur (FU13 / e)
+- **orangesoda**  - Base Color (BC03 / 4)
+- **luckystripe**  - Pattern (PA09 / a)
+- **crazy**  - Eye Shape (ES06 / 7)
 
 
