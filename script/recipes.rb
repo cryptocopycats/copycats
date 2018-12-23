@@ -148,6 +148,8 @@ end
 
 buf << "## Purrstige Cattributes"
 buf << "\n\n"
+buf << "_Special traits bred for a limited time only through a recipe._"
+buf << "\n\n"
 
 Catalog.prestiges.each do |key,h|
   date = Date.strptime( h[:date], '%Y-%m-%d' )
@@ -160,9 +162,15 @@ Catalog.prestiges.each do |key,h|
   name = ""
   name << h[:name]
 
+  buf << "**OPEN** " if h[:open]    # available for breeding now? NOT locked?
+
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )}), "
-  buf << "   "
+  buf << "(#{kitties_search_url( key, h )}) "
+
+  buf << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
+  buf << "+#{h[:overflow]}"   if h[:overflow]
+  buf << "), "
+
 
   if time_start.year == time_end.year
     buf << time_start.strftime( '%b %-d')
@@ -191,15 +199,22 @@ end
 
 buf << "## Fancy Cats"
 buf << "\n\n"
+buf << "_Cool-looking cats (with special art work) in limited quantities bred through a recipe._"
+buf << "\n\n"
 
 Catalog.fancies.each do |key,h|
 
   name = ""
   name << h[:name]
 
+  buf << "**OPEN** " if h[:open]    # available for breeding now? NOT locked?
+
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )}),"
-  buf << "   "
+  buf << "(#{kitties_search_url( key, h )}) "
+
+  buf << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
+  buf << "+#{h[:overflow]}"   if h[:overflow]
+  buf << "), "
 
   if h[:time]
     if h[:time][:start]

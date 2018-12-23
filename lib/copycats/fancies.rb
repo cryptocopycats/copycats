@@ -18,22 +18,30 @@
 ##     e.g. overflow: 1      #   888+1  (=889)
 
 
+##  use open - to mark "breedable" fancies - why? why not?
+##  open: true   or use limit: nil ????
+##
+
 FANCIES =
 {
   ## 2018
   ## December
   pawrula:  { name: 'Pawrula the Bright', date: '2018-12-15', time: { start: '2018-12-15', end: '2019-11-30' },
                 traits: ['camo', 'butterscotch', 'fox'],
-                desc: 'Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab' },
+                desc: 'Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab',
+                open: true },
  reindeer: { name: 'Reindeer', date: '2018-12-14',
               time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
-              traits: ['elk', ['PU24','PU25','PU26','PU27']] },
+              traits: ['elk', ['PU24','PU25','PU26','PU27']],
+               open: true },
  holidaycheer: { name: 'Holidaycheer', date: '2018-12-14',
                   time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
-                  traits: ['elk', ['PU28','PU29']] },
+                  traits: ['elk', ['PU28','PU29']],
+                  open: true },
   lit:      { name: 'Lit', date: '2018-12-14',
               time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
-               traits: ['elk', 'PU30'] },
+               traits: ['elk', 'PU30'],
+                open: true },
 
   ## November
   draco:                { name: 'Draco',    date: '2018-11-30', limit: 1115, time: { end: '2018-12-07' },
