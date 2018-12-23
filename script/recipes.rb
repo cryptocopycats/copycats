@@ -91,7 +91,7 @@ end
 
 
 
-buf << "## Purrstige Cattibutes (#{Catalog.prestiges.size})"
+buf << "## Purrstige Cattributes (#{Catalog.prestiges.size})"
 buf << "\n\n"
 buf << build_prestiges( Catalog.prestiges )
 buf << "\n\n\n"
@@ -146,7 +146,7 @@ end
 
 
 
-buf << "## Purrstige Cattibutes"
+buf << "## Purrstige Cattributes"
 buf << "\n\n"
 
 Catalog.prestiges.each do |key,h|
@@ -161,7 +161,7 @@ Catalog.prestiges.each do |key,h|
   name << h[:name]
 
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )})"
+  buf << "(#{kitties_search_url( key, h )}), "
   buf << "   "
 
   if time_start.year == time_end.year
@@ -173,7 +173,7 @@ Catalog.prestiges.each do |key,h|
   buf << time_end.strftime( '%b %-d %Y')
   buf << " (#{time_days}d),"
 
-  buf << " #{h[:traits].size} traits:"
+  buf << " **#{h[:traits].size}** traits:"
   buf << "\n"
 
   ## traits:
@@ -198,7 +198,7 @@ Catalog.fancies.each do |key,h|
   name << h[:name]
 
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )})"
+  buf << "(#{kitties_search_url( key, h )}),"
   buf << "   "
 
   if h[:time]
@@ -222,7 +222,7 @@ Catalog.fancies.each do |key,h|
     buf << " (#{time_days}d),"
   end
 
-  buf << " #{h[:traits].size} traits:"
+  buf << " **#{h[:traits].size}** traits:"
   buf << "\n"
 
   ## traits:
