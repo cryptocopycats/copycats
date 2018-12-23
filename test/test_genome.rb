@@ -39,21 +39,28 @@ def test_kitty_100000
   assert_equal "bloodred",    genome.color3
 
 
-  puts genome.genes[:color1].d
-  puts genome.genes[:color1].r1
-  puts genome.genes[:color1].r2
-  puts genome.genes[:color1].r3
+  puts genome.genes[:color1].p
+  puts genome.genes[:color1].h1
+  puts genome.genes[:color1].h2
+  puts genome.genes[:color1].h3
 
-  puts genome.genes[:eyes].d
-  puts genome.genes[:eyes].r1
-  puts genome.genes[:eyes].r2
-  puts genome.genes[:eyes].r3
+  assert_equal genome.genes[:color1].p,  genome.genes[:color1].d
+  assert_equal genome.genes[:color1].h1, genome.genes[:color1].r1
+  assert_equal genome.genes[:color1].h2, genome.genes[:color1].r2
+  assert_equal genome.genes[:color1].h3, genome.genes[:color1].r3
 
-  puts TRAITS[:eyes][ genome.genes[:eyes].d ]
-  puts TRAITS[:eyes][ genome.genes[:eyes].r1 ]
-  puts TRAITS[:eyes][ genome.genes[:eyes].r2 ]
-  puts TRAITS[:eyes][ genome.genes[:eyes].r3 ]
+
+  puts genome.genes[:eyes].p
+  puts genome.genes[:eyes].h1
+  puts genome.genes[:eyes].h2
+  puts genome.genes[:eyes].h3
+
+  puts TRAITS[:eyes][ genome.genes[:eyes].p ]
+  puts TRAITS[:eyes][ genome.genes[:eyes].h1 ]
+  puts TRAITS[:eyes][ genome.genes[:eyes].h2 ]
+  puts TRAITS[:eyes][ genome.genes[:eyes].h3 ]
 end
+
 
 def test_kitty_99895
   ## see https://cryptokittydex.com/kitties/99895

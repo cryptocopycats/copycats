@@ -21,18 +21,32 @@
 FANCIES =
 {
   ## 2018
+  ## December
+  pawrula:  { name: 'Pawrula the Bright', date: '2018-12-15', time: { start: '2018-12-15', end: '2019-11-30' },
+                traits: ['camo', 'butterscotch', 'fox'],
+                desc: 'Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab' },
+ reindeer: { name: 'Reindeer', date: '2018-12-14',
+              time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
+              traits: ['elk', ['PU24','PU25','PU26','PU27']] },
+ holidaycheer: { name: 'Holidaycheer', date: '2018-12-14',
+                  time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
+                  traits: ['elk', ['PU28','PU29']] },
+  lit:      { name: 'Lit', date: '2018-12-14',
+              time: { start: '2018-12-14', end: '2019-01-07' }, prestige: true,
+               traits: ['elk', 'PU30'] },
+
   ## November
-  draco:                { name: 'Draco',        date: '2018-11-30', time: { end: '2018-12-07' },
+  draco:                { name: 'Draco',    date: '2018-11-30', limit: 1115, time: { end: '2018-12-07' },
                           traits: ['toyger', 'martian', 'peppermint', 'dragonwings', 'SE03']},
   dracothemagnificent:  { name: 'Draco The Magnificent', date: '2018-11-27', limit: 12, exclusive: true, ids:	(270..281).to_a },
   bugcatv2:             { name: 'Bug Cat V2',            date: '2018-11-27', limit: 20, exclusive: true, ids: (167..186).to_a, desc: 'Bug Bounty II (Offers Contract) Kitty' },
-  dracojunior: { name: 'Draco Junior', date: '2018-11-26', time: { end: '2018-12-07' },
+  dracojunior: { name: 'Draco Junior',  date: '2018-11-26', limit: 1398, time: { end: '2018-12-07' },
                  traits: ['lynx', 'verdigris', 'dragontail', 'SE03']},
-  dreggo:      { name: 'Dreggo',       date: '2018-11-21', time: { end: '2018-12-07' },
+  dreggo:      { name: 'Dreggo',        date: '2018-11-21', limit: 3624, time: { end: '2018-12-07' },
                  traits: ['siberian', 'bananacream', 'SE03']},
   pickles:     { name: 'Pickles',      date: '2018-11-14',  limit: 303,
                  traits: ['lynx', 'martian', 'highsociety', 'emeraldgreen']},
-  lilbub:      { name: 'Lil Bub Ub Bub (BUB)',   date: '2018-11-13',  limit: 42, special: true },  ## for search use specialedition:
+  lilbub:      { name: 'Lil Bub Ub Bub (BUB)',   date: '2018-11-13',  limit: 468, special: true },  ## for search use specialedition:
 
   lilbubthemagicalspacecat: { name: 'Lil Bub Ub Bub (BUB) The Magical Space Cat', date: '2018-11-13', limit: 3, exclusive: true, ids: [266,267,268] },
 

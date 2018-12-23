@@ -1,30 +1,43 @@
 # encoding: utf-8
 
 
-### todo/check:
-##    find a better name for Gene (incl.4 genes)
-##      e.g. GeneFour, Gene4, GeneGroup, GeneSlice,TraitGenes,... -why? why not?
-
 class Gene
 
-  attr_reader :d, :r1, :r2, :r3
+
+
+
+### todo/check:
+##    find a better name for Slice(incl.4 genes)
+##      e.g. GeneFour, Gene4, GeneGroup, GeneSlice,TraitGenes,... - why? why not?
+
+class Slice   ## Gene::Slice (nested class)
+
+  attr_reader :p, :h1, :h2, :h3   # p(rimary), h(idden) 1, h(idden) 2, h(idden) 3
+
+  ## compat: add alias for ("old/classic") d, r1, r2, r3
   # d  (dominant gene)    -- todo/check: rename to just d instead of d0 - why? why not?
   # r1 (1st order recessive gene)
   # r2 (2nd order recessive gene)
   # r3 (3rd order recessive gene)
+  def d()  p;  end   # todo: use alias - why? why not?
+  def r1() h1; end
+  def r2() h2; end
+  def r3() h3; end
+
 
   def initialize( arg )
      ## (always) assume String in base32/kai for now
      kai = arg
      ## puts "Gene.initialize #{kai}"
      kai = kai.reverse
-     @d   = kai[0]
-     @r1  = kai[1]
-     @r2  = kai[2]
-     @r3  = kai[3]
+     @p   = kai[0]
+     @h1  = kai[1]
+     @h2  = kai[2]
+     @h3  = kai[3]
   end
 
-  def to_kai()  @r3 + @r2 + @r1 + @d; end   ## return a string in kai/base32 notation
+  def to_kai()  @h3 + @h2 + @h1 + @p; end   ## return a string in kai/base32 notation
+
 
   def swap
     puts "Gene#swap"
@@ -43,8 +56,8 @@ class Gene
   def mutate( other )
     puts "Gene#mutate"
 
-    gene1 = Kai::NUMBER[d]          ## dominant gene1
-    gene2 = Kai::NUMBER[other.d]    ## dominant gene2
+    gene1 = Kai::NUMBER[p]          ## primary/dominant gene1
+    gene2 = Kai::NUMBER[other.p]    ## primary/dominant gene2
     if gene1 > gene2
       gene1, gene2 = gene2, gene1     ## make sure gene2 is always bigger
     end
@@ -64,16 +77,16 @@ class Gene
   def mix_inner( other )
     puts "Gene#mix_inner"
 
-    new_d = mutate( other )
-    if new_d.nil?    ## no mutation of gene.d - use "regular" formula
-      new_d = Lottery.rand(100) < 50 ? d : other.d
+    new_p = mutate( other )
+    if new_p.nil?    ## no mutation of gene.p - use "regular" formula
+      new_p = Lottery.rand(100) < 50 ? p : other.p
     end
 
-    new_r1 = Lottery.rand(100) < 50 ? r1 : other.r1
-    new_r2 = Lottery.rand(100) < 50 ? r2 : other.r2
-    new_r3 = Lottery.rand(100) < 50 ? r3 : other.r3
+    new_h1 = Lottery.rand(100) < 50 ? h1 : other.h1
+    new_h2 = Lottery.rand(100) < 50 ? h2 : other.h2
+    new_h3 = Lottery.rand(100) < 50 ? h3 : other.h3
 
-    gene = Gene.new( new_r3 + new_r2 + new_r1 + new_d )
+    gene = Gene.new( new_h3 + new_h2 + new_h1 + new_p )
     pp gene
     gene
   end
@@ -89,4 +102,5 @@ class Gene
     gene
   end
 
+end  # class Slice
 end  # class Gene

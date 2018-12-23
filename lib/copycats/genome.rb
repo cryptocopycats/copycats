@@ -2,7 +2,7 @@
 
 
 class Genome
-  attr_reader :genes   ## hash of genes (key is gene type)
+  attr_reader :genes   ## hash of (sliced) genes (key is gene trait type)
 
   def initialize( arg )
     if arg.is_a? Hash
@@ -21,30 +21,37 @@ class Genome
     end
   end
 
+
   def build_genes( kai )
     kai = kai.reverse    ## note: reserve for easy left-to-right access
     @genes = {}   ## hash of genes (key is gene type)
     ## fix/todo: use as_json for "official" api order
     ## note: use insert order from "official" api
-    @genes[:body]      = Gene.new( kai[0,4].reverse )
-    @genes[:pattern]   = Gene.new( kai[4,4].reverse )
-    @genes[:coloreyes] = Gene.new( kai[8,4].reverse )
-    @genes[:eyes]      = Gene.new( kai[12,4].reverse )
-    @genes[:color1]    = Gene.new( kai[16,4].reverse )  ## colorprimary / body color / base color
-    @genes[:color2]    = Gene.new( kai[20,4].reverse )  ## colorsecondary / sec color / pattern color /  hi(light) color
-    @genes[:color3]    = Gene.new( kai[24,4].reverse )  ## colortertiary / acc(ent) color
-    @genes[:wild]      = Gene.new( kai[28,4].reverse )
-    @genes[:mouth]     = Gene.new( kai[32,4].reverse )
+    @genes[:body]        = Gene::Slice.new( kai[0,4].reverse )
+    @genes[:pattern]     = Gene::Slice.new( kai[4,4].reverse )
+    @genes[:coloreyes]   = Gene::Slice.new( kai[8,4].reverse )
+    @genes[:eyes]        = Gene::Slice.new( kai[12,4].reverse )
+    @genes[:color1]      = Gene::Slice.new( kai[16,4].reverse )  ## colorprimary   / body color / base color
+    @genes[:color2]      = Gene::Slice.new( kai[20,4].reverse )  ## colorsecondary / sec color / pattern color /  hi(light) color
+    @genes[:color3]      = Gene::Slice.new( kai[24,4].reverse )  ## colortertiary  / acc(ent) color
+    @genes[:wild]        = Gene::Slice.new( kai[28,4].reverse )
+    @genes[:mouth]       = Gene::Slice.new( kai[32,4].reverse )
+    @genes[:environment] = Gene::Slice.new( kai[36,4].reverse )
+    @genes[:secret]      = Gene::Slice.new( kai[40,4].reverse )
+    @genes[:prestige]    = Gene::Slice.new( kai[44,4].reverse )
   end
 
-  def body()      TRAITS[:body][:kai][ @genes[:body].d ]; end
-  def coloreyes() TRAITS[:coloreyes][:kai][ @genes[:coloreyes].d ]; end
-  def eyes()      TRAITS[:eyes][:kai][ @genes[:eyes].d ]; end
-  def pattern()   TRAITS[:pattern][:kai][ @genes[:pattern].d ]; end
-  def mouth()     TRAITS[:mouth][:kai][ @genes[:mouth].d ]; end
-  def color1()    TRAITS[:color1][:kai][ @genes[:color1].d ]; end
-  def color2()    TRAITS[:color2][:kai][ @genes[:color2].d ]; end
-  def color3()    TRAITS[:color3][:kai][ @genes[:color3].d ]; end
+  def body()      TRAITS[:body][:kai][ @genes[:body].p ]; end
+  def coloreyes() TRAITS[:coloreyes][:kai][ @genes[:coloreyes].p ]; end
+  def eyes()      TRAITS[:eyes][:kai][ @genes[:eyes].p ]; end
+  def pattern()   TRAITS[:pattern][:kai][ @genes[:pattern].p ]; end
+  def mouth()     TRAITS[:mouth][:kai][ @genes[:mouth].p ]; end
+  def color1()    TRAITS[:color1][:kai][ @genes[:color1].p ]; end
+  def color2()    TRAITS[:color2][:kai][ @genes[:color2].p ]; end
+  def color3()    TRAITS[:color3][:kai][ @genes[:color3].p ]; end
+
+  def wild()        TRAITS[:wild][:kai][ @genes[:wild].p ]; end
+  def environment() TRAITS[:environment][:kai][ @genes[:environment].p ]; end
 
 
 
@@ -60,7 +67,7 @@ class Genome
     sgenes = other.genes    ## sire genes
     new_genes  = {}
 
-    [:body,
+    [:body,      ### todo/fix: use TRAITS.keys or something - why? why not?
      :pattern,
      :coloreyes,
      :eyes,
@@ -68,7 +75,10 @@ class Genome
      :color2,
      :color3,
      :wild,
-     :mouth].each do |key|
+     :mouth,
+     :environment,
+     :secret,
+     :prestige].each do |key|
       mgene = mgenes[key]
       sgene = sgenes[key]
 
