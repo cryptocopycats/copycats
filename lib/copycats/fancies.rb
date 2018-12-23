@@ -128,7 +128,7 @@ FANCIES =
                           traits: ['persian','spock','raisedbrow','violet','tongue']},
   celestialcyberdimension: { name: 'Celestial Cyber Dimension', date: '2018-05-12', limit: 1, exclusive: true, ids: [127] },
   swish:               { name: 'Swish', date: '2018-05-08', limit: 2880,
-                          traits: ['norwegianforest', 'luckystripes', 'thicccbrowz', 'orangesoda']},
+                          traits: ['norwegianforest', 'luckystripe', 'thicccbrowz', 'orangesoda']},
 
   ## April
   flutterbee:  { name: 'Flutterbee', date: '2018-04-28', limit: 275,
@@ -177,7 +177,7 @@ FANCIES =
   santaclaws:   { name: 'Santa Claws',   date: '2017-12-12',  limit: 1000, overflow: 2, desc: 'Ho Ho Ho - Santa Claus Kitty',
                     traits: ['cloudwhite','scarlet','beard','wild_d']},
   mistletoe:    { name: 'Mistletoe',     date: '2017-12-09',  limit: 2000,  desc: "XMas Kitty",
-                   traits: ['odlace','crazy','gerbil']},
+                   traits: ['oldlace','crazy','gerbil']},
   dracula:      { name: 'Dracula',       date: '2017-12-01',  limit: 2000,
                    traits: ['laperm','spock','strawberry','WE01']},
 

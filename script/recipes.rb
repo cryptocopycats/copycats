@@ -15,7 +15,7 @@ pp Catalog.prestiges
 
 buf = ""
 buf += <<TXT
-# Updates - Trait Recipes / Formulas  - Fancy Cats, Purrstige Cattributes - Timeline
+# Updates - Trait Recipes / Formulas  - Purrstige Cattributes, Fancy Cats - Timeline
 
 see <https://updates.cryptokitties.co>
 
@@ -38,6 +38,30 @@ def kitties_search_url( key, h )
   end
 
   "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
+end
+
+def build_fancy( key, h )
+  name = ""
+  name << h[:name]
+  name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
+
+  line = "[**#{name}**]"
+  line << "(#{kitties_search_url( key, h )})"
+
+  line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
+  line << "+#{h[:overflow]}"    if h[:overflow]
+  line << ")"
+  line
+end
+
+
+def build_fancies( fancies )
+  buf = ""
+  fancies.each do |key,h|
+    buf << build_fancy( key, h )
+    buf << "\n"
+  end
+  buf
 end
 
 
@@ -66,30 +90,43 @@ end
 
 
 
+
 buf << "## Purrstige Cattibutes (#{Catalog.prestiges.size})"
 buf << "\n\n"
 buf << build_prestiges( Catalog.prestiges )
 buf << "\n\n\n"
 
+buf << "## Fancy Cats (#{Catalog.fancies.size})"
+buf << "\n\n"
+buf << build_fancies( Catalog.fancies )
+buf << "\n\n\n"
+
+
 
 
 def build_trait( key )
-  if key =~ /[A-Z]{2}[0-9]{2}/   # if code - keep as is
-     key
+  if key =~ /[A-Z]{2}[0-9]{2}/   # if code e.g. WE20 - keep as is
+     "**#{key}**"
+  elsif key =~ /_[0-9a-z]$/  # if base32 code e.g. wild_d - keep as is for now too
+     "**#{key}**"
+  elsif key == 'totesbasic'   ## quick hack for now - totesbasic has *3* genes
+    "Pattern (PA14, PA15, PA23) - **totesbasic** (f, g, p)"
   else
+    puts "lookup trait >#{key}<"
     trait = TRAITS_BY_NAME[ key ]
+    pp trait
     # rec[:name] = name
     # rec[:kai]  = kai
     # rec[:code] = code
     # rec[:type] = key   ## todo - use trait instead of type  (use string not symbol?) - why? why not?
 
     line = ""
-    line << trait[:name]
+    line << "#{TRAITS[trait[:type]][:name]} "
+    line << "(#{trait[:code]}) - "
+    line << "**#{trait[:name]}** "
     line << " ("
     line << trait[:kai]
-    line << ") - "
-    line << trait[:code]
-    line << " (#{TRAITS[trait[:type]][:name]})"
+    line << ")"
     line
   end
 end
@@ -106,6 +143,10 @@ def build_traits( key_or_keys )
   end
 end
 
+
+
+buf << "## Purrstige Cattibutes"
+buf << "\n\n"
 
 Catalog.prestiges.each do |key,h|
   date = Date.strptime( h[:date], '%Y-%m-%d' )
@@ -144,6 +185,54 @@ Catalog.prestiges.each do |key,h|
   buf << "\n\n"
 end
 
+
+
+
+buf << "## Fancy Cats"
+buf << "\n\n"
+
+Catalog.fancies.each do |key,h|
+
+  name = ""
+  name << h[:name]
+
+  buf << "[**#{name}**]"
+  buf << "(#{kitties_search_url( key, h )})"
+  buf << "   "
+
+  if h[:time]
+    if h[:time][:start]
+      time_start = Date.strptime( h[:time][:start], '%Y-%m-%d' )
+    else  ## "fallback" to discovery date
+      time_start = Date.strptime( h[:date], '%Y-%m-%d' )
+    end
+    time_end   = Date.strptime( h[:time][:end],   '%Y-%m-%d' )
+
+    time_days  = (time_end.to_date.jd - time_start.to_date.jd) + 1
+
+
+    if time_start.year == time_end.year
+      buf << time_start.strftime( '%b %-d')
+    else   # include year
+      buf << time_start.strftime( '%b %-d %Y')
+    end
+    buf << " - "
+    buf << time_end.strftime( '%b %-d %Y')
+    buf << " (#{time_days}d),"
+  end
+
+  buf << " #{h[:traits].size} traits:"
+  buf << "\n"
+
+  ## traits:
+  h[:traits].each do |trait_keys|
+    buf << "- "
+    buf << build_traits( trait_keys )
+    buf << "\n"
+  end
+
+  buf << "\n\n"
+end
 
 
 
