@@ -201,7 +201,6 @@ FANCIES =
 
 
 
-
 class Catalog    ## todo:  use a module - move to its own file -  why? why not?
 
   @@specials   = {}  # special edition fancies

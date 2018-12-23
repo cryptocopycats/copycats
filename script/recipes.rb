@@ -23,22 +23,6 @@ see <https://updates.cryptokitties.co>
 TXT
 
 
-def kitties_search_url( key, h )
-  ## note: use (official) chinese name for search param if present
-  param =  h[:name_cn] ? h[:name_cn] : key
-
-  if h[:special]
-    q = "specialedition:#{param}"    ## todo: urlescape param - why? why not?
-  elsif h[:exclusive]   ## just use fancy too - why? why not?
-    q = "exclusive:#{param}"
-  elsif h[:prestige]
-    q = "purrstige:#{param}"
-  else  ## assume fancy
-    q = "fancy:#{param}"
-  end
-
-  "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
-end
 
 def build_fancy( key, h )
   name = ""
@@ -93,14 +77,15 @@ end
 
 buf << "## Purrstige Cattributes (#{Catalog.prestiges.size})"
 buf << "\n\n"
-buf << "_Special traits bred for a limited time only through a recipe._"
+buf << "_Special traits for a limited time only bred through a recipe._"
 buf << "\n\n"
 buf << build_prestiges( Catalog.prestiges )
 buf << "\n\n\n"
 
+
 buf << "## Fancy Cats (#{Catalog.fancies.size})"
 buf << "\n\n"
-buf << "_Cool-looking cats (with special art work) in limited quantities bred through a recipe._"
+buf << "_Cool-looking cats (with special art work) in limited quantities or for a limited time only bred through a recipe._"
 buf << "\n\n"
 buf << build_fancies( Catalog.fancies )
 buf << "\n\n\n"
@@ -180,7 +165,7 @@ Catalog.prestiges.each do |key,h|
   buf << " - "
   buf << time_end.strftime( '%b %-d %Y')
   buf << " (#{time_days}d)"
-  buf << " - **OPEN** " if h[:open]    # available for breeding now? NOT locked?
+  buf << " - **OPEN**" if h[:open]    # available for breeding now? NOT locked?
   buf << ", "
 
 
@@ -235,11 +220,13 @@ Catalog.fancies.each do |key,h|
     buf << time_end.strftime( '%b %-d %Y')
     buf << " (#{time_days}d)"
 
-    buf << " - **OPEN** " if h[:open]    # available for breeding now? NOT locked?
+    buf << " - **OPEN**" if h[:open]    # available for breeding now? NOT locked?
     buf << ", "
   end
 
-  buf << " **#{h[:traits].size}** traits:"
+  buf << " **#{h[:traits].size}** traits"
+  buf << " + #{h[:variants].size} variants"  if h[:variants]
+  buf << ":"
   buf << "\n"
 
   ## traits:
@@ -266,11 +253,11 @@ Catalog.fancies.each do |key,h|
 
   if h[:variants]
     h[:variants].each do |variant_key,variant_h|
-      buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}-#{variant_key}.png)"
+      buf << "![](#{media_fancy_pic_url( key, variant_key )})"
       buf << "\n"
     end
   else
-    buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}.png)"
+    buf << "![](#{media_fancy_pic_url( key )})"
     buf << "\n"
   end
 

@@ -22,45 +22,6 @@ TXT
 
 
 
-def kitties_kitty_url( id )
-  "https://www.cryptokitties.co/kitty/#{id}"
-end
-
-
-def kitties_search_url( key, h )
-  ## note: use (official) chinese name for search param if present
-  param =  h[:name_cn] ? h[:name_cn] : key
-
-  if h[:special]
-    q = "specialedition:#{param}"    ## todo: urlescape param - why? why not?
-  elsif h[:exclusive]   ## just use fancy too - why? why not?
-    q = "exclusive:#{param}"
-  else  ## assume fancy
-    q = "fancy:#{param}"
-  end
-
-  "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
-end
-
-
-#################
-# fix/todo: use Catalog.specials etc.  - check for prestige/purrstige incl in fancies?
-
-specials   = {}  # special edition fancies
-exclusives = {}  # exclusive fancies
-fancies    = {}  # "normal" fancies
-
-FANCIES.each do |key,h|
-  if h[:special]
-    specials[key] = h
-  elsif h[:exclusive]
-    exclusives[key] = h
-  else
-    fancies[key] = h
-  end
-end
-
-
 
 def build_fancy( key, h )
   name = ""
@@ -87,19 +48,19 @@ def build_fancies( fancies )
 end
 
 
-buf << "## Special Edition Cats (#{specials.size})"
+buf << "## Special Edition Cats (#{Catalog.specials.size})"
 buf << "\n\n"
-buf << build_fancies( specials )
+buf << build_fancies( Catalog.specials )
 buf << "\n\n\n"
 
-buf << "## Exclusive Cats (#{exclusives.size})"
+buf << "## Exclusive Cats (#{Catalog.exclusives.size})"
 buf << "\n\n"
-buf << build_fancies( exclusives )
+buf << build_fancies( Catalog.exclusives )
 buf << "\n\n\n"
 
-buf << "## Fancy Cats (#{fancies.size})"
+buf << "## Fancy Cats (#{Catalog.fancies.size})"
 buf << "\n\n"
-buf << build_fancies( fancies )
+buf << build_fancies( Catalog.fancies )
 buf << "\n\n\n"
 
 
@@ -117,6 +78,11 @@ genesisdate = Date.new( 2017, 11, 23)   ## 2017-11-23
 
 
 FANCIES.each do |key,h|
+
+  ## note: skip prestige  (purrstige cattributes) entries
+  next   if h[:prestige]
+
+
   date = Date.strptime( h[:date], '%Y-%m-%d' )
 
   if year != date.year
@@ -201,11 +167,11 @@ FANCIES.each do |key,h|
 
   if h[:variants]
     h[:variants].each do |variant_key,variant_h|
-      buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}-#{variant_key}.png)"
+      buf << "![](#{media_fancy_pic_url( key, variant_key )})"
       buf << "\n"
     end
   else
-    buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}.png)"
+    buf << "![](#{media_fancy_pic_url( key )})"
     buf << "\n"
   end
 end

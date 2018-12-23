@@ -32,6 +32,8 @@ require 'copycats/schema'
 
 require 'copycats/models/kitty'
 
+require 'copycats/links'
+
 require 'copycats/reports/kitty'
 require 'copycats/reports/mix'
 require 'copycats/reports/genes'

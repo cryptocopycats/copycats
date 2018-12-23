@@ -5,7 +5,7 @@ see <https://updates.cryptokitties.co>
 
 ## Special Edition Cats (1)
 
-[**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (42)
+[**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (468)
 
 
 
@@ -30,11 +30,12 @@ see <https://updates.cryptokitties.co>
 
 
 
-## Fancy Cats (43)
+## Fancy Cats (44)
 
-[**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?)
-[**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (?)
-[**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo) (?)
+[**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula) (?)
+[**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (1115)
+[**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (1398)
+[**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo) (3624)
 [**Pickles**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pickles) (303)
 [**Dukecat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dukecat) (1366)
 [**Sheila Purren**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:sheilapurren) (1971)
@@ -82,10 +83,17 @@ see <https://updates.cryptokitties.co>
 
 ## 2018
 
+### December
+
+Dec 15, 2018 (388d)
+- [**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula) (?) Fancy Cat discovered -- Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab. #Fancy Cat
+
+![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pawrula.png)
+
 ### November
 
 Nov 30, 2018 (373d)
-- [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (?) Fancy Cat discovered. #Fancy Cat
+- [**Draco**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:draco) (1115) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-draco.png)
 
@@ -93,18 +101,17 @@ Nov 27, 2018 (370d)
 - Exclusive [**Draco The Magnificent**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:dracothemagnificent) (12 - [#270](https://www.cryptokitties.co/kitty/270), [#271](https://www.cryptokitties.co/kitty/271), [#272](https://www.cryptokitties.co/kitty/272), [#273](https://www.cryptokitties.co/kitty/273), [#274](https://www.cryptokitties.co/kitty/274), [#275](https://www.cryptokitties.co/kitty/275), [#276](https://www.cryptokitties.co/kitty/276), [#277](https://www.cryptokitties.co/kitty/277), [#278](https://www.cryptokitties.co/kitty/278), [#279](https://www.cryptokitties.co/kitty/279), [#280](https://www.cryptokitties.co/kitty/280), [#281](https://www.cryptokitties.co/kitty/281)) Fancy Cat released. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracothemagnificent.png)
-
 - Exclusive [**Bug Cat V2**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcatv2) (20 - [#167](https://www.cryptokitties.co/kitty/167), [#168](https://www.cryptokitties.co/kitty/168), [#169](https://www.cryptokitties.co/kitty/169), [#170](https://www.cryptokitties.co/kitty/170), [#171](https://www.cryptokitties.co/kitty/171), [#172](https://www.cryptokitties.co/kitty/172), [#173](https://www.cryptokitties.co/kitty/173), [#174](https://www.cryptokitties.co/kitty/174), [#175](https://www.cryptokitties.co/kitty/175), [#176](https://www.cryptokitties.co/kitty/176), [#177](https://www.cryptokitties.co/kitty/177), [#178](https://www.cryptokitties.co/kitty/178), [#179](https://www.cryptokitties.co/kitty/179), [#180](https://www.cryptokitties.co/kitty/180), [#181](https://www.cryptokitties.co/kitty/181), [#182](https://www.cryptokitties.co/kitty/182), [#183](https://www.cryptokitties.co/kitty/183), [#184](https://www.cryptokitties.co/kitty/184), [#185](https://www.cryptokitties.co/kitty/185), [#186](https://www.cryptokitties.co/kitty/186)) Fancy Cat released -- Bug Bounty II (Offers Contract) Kitty. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcatv2.png)
 
 Nov 26, 2018 (369d)
-- [**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (?) Fancy Cat discovered. #Fancy Cat
+- [**Draco Junior**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dracojunior) (1398) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dracojunior.png)
 
 Nov 21, 2018 (364d)
-- [**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo) (?) Fancy Cat discovered. #Fancy Cat
+- [**Dreggo**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:dreggo) (3624) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-dreggo.png)
 
@@ -114,10 +121,9 @@ Nov 14, 2018 (357d)
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pickles.png)
 
 Nov 13, 2018 (356d)
-- Special Edition [**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (42) Fancy Cat released. #Fancy Cat #Special Edition
+- Special Edition [**Lil Bub Ub Bub (BUB)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=specialedition:lilbub) (468) Fancy Cat released. #Fancy Cat #Special Edition
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbub.png)
-
 - Exclusive [**Lil Bub Ub Bub (BUB) The Magical Space Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:lilbubthemagicalspacecat) (3 - [#266](https://www.cryptokitties.co/kitty/266), [#267](https://www.cryptokitties.co/kitty/267), [#268](https://www.cryptokitties.co/kitty/268)) Fancy Cat released. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lilbubthemagicalspacecat.png)
@@ -167,7 +173,6 @@ Aug 23, 2018 (274d)
 - [**Purrity**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:purrity) (5984) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-purrity.png)
-
 - Exclusive [**Rabbid Kitty**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:rabbidkitty) (6 - [#260](https://www.cryptokitties.co/kitty/260), [#261](https://www.cryptokitties.co/kitty/261), [#262](https://www.cryptokitties.co/kitty/262), [#263](https://www.cryptokitties.co/kitty/263), [#264](https://www.cryptokitties.co/kitty/264), [#265](https://www.cryptokitties.co/kitty/265)) Fancy Cat released -- Ubisoft Blockchain Heroes Hackathon. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-rabbidkitty.png)
@@ -293,15 +298,12 @@ Mar 8, 2018 (106d)
 - [**Puss For Progress**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pussforprogress) (1920) Fancy Cat discovered -- Women's Day. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-pussforprogress.png)
-
 - [**Fortune Cat (红包喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:红包喵) (888) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-fortunecat.png)
-
 - Exclusive [**Golden Dragon Cat (帝龙喵)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:帝龙喵) (1 - [#888](https://www.cryptokitties.co/kitty/888)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendragoncat.png)
-
 - Exclusive [**Golden Dog Cat (旺财汪)**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:旺财汪) (11 - [#1802](https://www.cryptokitties.co/kitty/1802), [#1803](https://www.cryptokitties.co/kitty/1803), [#1805](https://www.cryptokitties.co/kitty/1805), [#1806](https://www.cryptokitties.co/kitty/1806), [#1808](https://www.cryptokitties.co/kitty/1808), [#1809](https://www.cryptokitties.co/kitty/1809), [#1812](https://www.cryptokitties.co/kitty/1812), [#1816](https://www.cryptokitties.co/kitty/1816), [#1825](https://www.cryptokitties.co/kitty/1825), [#1826](https://www.cryptokitties.co/kitty/1826), [#1827](https://www.cryptokitties.co/kitty/1827), [#1828](https://www.cryptokitties.co/kitty/1828)) Fancy Cat released -- China Launch. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-goldendogcat.png)
@@ -406,7 +408,6 @@ Nov 23, 2017 (1d)
 - [**Ship Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:shipcat) (2000) Fancy Cat discovered. #Fancy Cat
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-shipcat.png)
-
 - Exclusive [**Bug Cat**](https://www.cryptokitties.co/search?include=sale,sire,other&search=exclusive:bugcat) (3 - [#101](https://www.cryptokitties.co/kitty/101), [#102](https://www.cryptokitties.co/kitty/102), [#103](https://www.cryptokitties.co/kitty/103)) Fancy Cat released -- Bug Bounty Kitty. #Fancy Cat #Exclusive
 
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-bugcat.png)
