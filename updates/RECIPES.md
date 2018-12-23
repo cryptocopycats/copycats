@@ -70,17 +70,17 @@ _Cool-looking cats (with special art work) in limited quantities or for a limite
 
 ## Purrstige Cattributes
 
-[**Reindeer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:reindeer)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN**,  **2** traits:
+[**Reindeer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:reindeer)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN** -,  **2** traits:
 - **elk** I - Wild Element (WE17 / i)
 - **PU24**, **PU25**, **PU26**, **PU27**
 
 
-[**Holidaycheer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:holidaycheer)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN**,  **2** traits:
+[**Holidaycheer**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:holidaycheer)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN** -,  **2** traits:
 - **elk** I - Wild Element (WE17 / i)
 - **PU28**, **PU29**
 
 
-[**Lit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:lit)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN**,  **2** traits:
+[**Lit**](https://www.cryptokitties.co/search?include=sale,sire,other&search=purrstige:lit)  (?), Dec 14 2018 - Jan 7 2019 (25d) - **OPEN** -,  **2** traits:
 - **elk** I - Wild Element (WE17 / i)
 - **PU30**
 
@@ -110,7 +110,7 @@ _Cool-looking cats (with special art work) in limited quantities or for a limite
 
 ## Fancy Cats
 
-[**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula)  (?), Dec 15 2018 - Nov 30 2019 (351d) - **OPEN**,  **3** traits:
+[**Pawrula the Bright**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:pawrula)  (?), Dec 15 2018 - Nov 30 2019 (351d) - **OPEN** -,  **3** traits:
 - **camo**  - Pattern (PA05 / 6)
 - **butterscotch**  - Highlight Color (HC15 / g)
 - **fox** II - Fur (FU24 / q)
@@ -245,7 +245,7 @@ _Cool-looking cats (with special art work) in limited quantities or for a limite
 ![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-lulu.png)
 
 
-[**Boot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:boot)  (1440),  **4** traits + 8 variants:
+[**Boot**](https://www.cryptokitties.co/search?include=sale,sire,other&search=fancy:boot)  (1440),  **4** traits + **8** variants:
 - **ganado**  - Pattern (PA03 / 4)
 - **wiley**  - Eye Shape (ES14 / f)
 - **cerulian** I - Highlight Color (HC21 / n)

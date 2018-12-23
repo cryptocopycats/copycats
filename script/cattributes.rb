@@ -57,9 +57,6 @@ TXT
 
 
 
-def kitties_search( q )
- "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
-end
 
 
 
@@ -92,7 +89,7 @@ TRAITS.each do |key,h|
     percent = Float(100*count)/Float(total)
 
     buf << "| #{rank} | #{count} (#{('%2.2f' % percent)}) | "
-    buf << "[**#{name}**](#{kitties_search(name)}) "
+    buf << "[**#{name}**](#{kitties_search_url(name)}) "
     buf << "#{MEWTATION_LEVEL[kai]} | #{h[:code]}#{code} | #{kai} |"
 
     buf << "\n"

@@ -29,7 +29,7 @@ def build_fancy( key, h )
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
   line = "[**#{name}**]"
-  line << "(#{kitties_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( key, h )})"
 
   line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
   line << "+#{h[:overflow]}"    if h[:overflow]
@@ -129,7 +129,7 @@ FANCIES.each do |key,h|
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
   line << "[**#{name}**]"
-  line << "(#{kitties_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( key, h )})"
 
 
   line << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known

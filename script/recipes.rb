@@ -30,7 +30,7 @@ def build_fancy( key, h )
   name << " (#{h[:name_cn]})"  if h[:name_cn]   # add chinese name if present
 
   line = "[**#{name}**]"
-  line << "(#{kitties_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( key, h )})"
 
   line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
   line << "+#{h[:overflow]}"    if h[:overflow]
@@ -54,7 +54,7 @@ def build_prestige( key, h )
   name << h[:name]
 
   line = "[**#{name}**]"
-  line << "(#{kitties_search_url( key, h )})"
+  line << "(#{kitties_fancy_search_url( key, h )})"
 
   line << " (#{h[:limit] ? h[:limit] : '?'}"    # add limit if present/known
   line << "+#{h[:overflow]}"    if h[:overflow]
@@ -150,7 +150,7 @@ Catalog.prestiges.each do |key,h|
   name << h[:name]
 
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )}) "
+  buf << "(#{kitties_fancy_search_url( key, h )}) "
 
   buf << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
   buf << "+#{h[:overflow]}"   if h[:overflow]
@@ -165,7 +165,7 @@ Catalog.prestiges.each do |key,h|
   buf << " - "
   buf << time_end.strftime( '%b %-d %Y')
   buf << " (#{time_days}d)"
-  buf << " - **OPEN**" if h[:open]    # available for breeding now? NOT locked?
+  buf << " - **OPEN** -" if h[:open]    # available for breeding now? NOT locked?
   buf << ", "
 
 
@@ -194,7 +194,7 @@ Catalog.fancies.each do |key,h|
   name << h[:name]
 
   buf << "[**#{name}**]"
-  buf << "(#{kitties_search_url( key, h )}) "
+  buf << "(#{kitties_fancy_search_url( key, h )}) "
 
   buf << " (#{h[:limit] ? h[:limit] : '?'}"     # add limit if present/known
   buf << "+#{h[:overflow]}"   if h[:overflow]
@@ -220,12 +220,12 @@ Catalog.fancies.each do |key,h|
     buf << time_end.strftime( '%b %-d %Y')
     buf << " (#{time_days}d)"
 
-    buf << " - **OPEN**" if h[:open]    # available for breeding now? NOT locked?
+    buf << " - **OPEN** -" if h[:open]    # available for breeding now? NOT locked?
     buf << ", "
   end
 
   buf << " **#{h[:traits].size}** traits"
-  buf << " + #{h[:variants].size} variants"  if h[:variants]
+  buf << " + **#{h[:variants].size}** variants"  if h[:variants]
   buf << ":"
   buf << "\n"
 

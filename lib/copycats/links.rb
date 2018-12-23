@@ -8,7 +8,12 @@ def kitties_kitty_url( id )
   "https://www.cryptokitties.co/kitty/#{id}"
 end
 
-def kitties_search_url( key, h )
+
+def kitties_search_url( q )
+ "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
+end
+
+def kitties_fancy_search_url( key, h )   ## todo: find a better name - why? why not?
   ## todo/fix: add h[:name] to hash (no need for key)
 
   ## note: use (official) chinese name for search param if present
@@ -27,6 +32,8 @@ def kitties_search_url( key, h )
   "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
 end
 
+## alias :kitties_special_search_url :kitties_fancy_search_url
+def kitties_special_search_url( key, h ) kitties_fancy_search_url( key, h); end
 
 
 
