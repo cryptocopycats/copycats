@@ -42,6 +42,10 @@ def kitties_search_url( key, h )
   "https://www.cryptokitties.co/search?include=sale,sire,other&search=#{q}"
 end
 
+
+#################
+# fix/todo: use Catalog.specials etc.  - check for prestige/purrstige incl in fancies?
+
 specials   = {}  # special edition fancies
 exclusives = {}  # exclusive fancies
 fancies    = {}  # "normal" fancies
