@@ -93,10 +93,14 @@ end
 
 buf << "## Purrstige Cattributes (#{Catalog.prestiges.size})"
 buf << "\n\n"
+buf << "_Special traits bred for a limited time only through a recipe._"
+buf << "\n\n"
 buf << build_prestiges( Catalog.prestiges )
 buf << "\n\n\n"
 
 buf << "## Fancy Cats (#{Catalog.fancies.size})"
+buf << "\n\n"
+buf << "_Cool-looking cats (with special art work) in limited quantities bred through a recipe._"
 buf << "\n\n"
 buf << build_fancies( Catalog.fancies )
 buf << "\n\n\n"
@@ -148,8 +152,6 @@ end
 
 buf << "## Purrstige Cattributes"
 buf << "\n\n"
-buf << "_Special traits bred for a limited time only through a recipe._"
-buf << "\n\n"
 
 Catalog.prestiges.each do |key,h|
   date = Date.strptime( h[:date], '%Y-%m-%d' )
@@ -161,8 +163,6 @@ Catalog.prestiges.each do |key,h|
 
   name = ""
   name << h[:name]
-
-  buf << "**OPEN** " if h[:open]    # available for breeding now? NOT locked?
 
   buf << "[**#{name}**]"
   buf << "(#{kitties_search_url( key, h )}) "
@@ -179,7 +179,10 @@ Catalog.prestiges.each do |key,h|
   end
   buf << " - "
   buf << time_end.strftime( '%b %-d %Y')
-  buf << " (#{time_days}d),"
+  buf << " (#{time_days}d)"
+  buf << " - **OPEN** " if h[:open]    # available for breeding now? NOT locked?
+  buf << ", "
+
 
   buf << " **#{h[:traits].size}** traits:"
   buf << "\n"
@@ -199,15 +202,11 @@ end
 
 buf << "## Fancy Cats"
 buf << "\n\n"
-buf << "_Cool-looking cats (with special art work) in limited quantities bred through a recipe._"
-buf << "\n\n"
 
 Catalog.fancies.each do |key,h|
 
   name = ""
   name << h[:name]
-
-  buf << "**OPEN** " if h[:open]    # available for breeding now? NOT locked?
 
   buf << "[**#{name}**]"
   buf << "(#{kitties_search_url( key, h )}) "
@@ -234,7 +233,10 @@ Catalog.fancies.each do |key,h|
     end
     buf << " - "
     buf << time_end.strftime( '%b %-d %Y')
-    buf << " (#{time_days}d),"
+    buf << " (#{time_days}d)"
+
+    buf << " - **OPEN** " if h[:open]    # available for breeding now? NOT locked?
+    buf << ", "
   end
 
   buf << " **#{h[:traits].size}** traits:"
@@ -244,6 +246,31 @@ Catalog.fancies.each do |key,h|
   h[:traits].each do |trait_keys|
     buf << "- "
     buf << build_traits( trait_keys )
+    buf << "\n"
+  end
+
+  if h[:variants]
+    h[:variants].each do |variant_key,variant_h|
+      buf << "  - **#{variant_h[:name]}** (#{variant_h[:limit]}), **#{variant_h[:traits].size}** trait:\n"
+      variant_h[:traits].each do |trait_keys|
+        buf << "     - "
+        buf << build_traits( trait_keys )
+        buf << "\n"
+      end
+    end
+  end
+
+
+  ## add pics too (why? why not?)
+  buf << "\n"
+
+  if h[:variants]
+    h[:variants].each do |variant_key,variant_h|
+      buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}-#{variant_key}.png)"
+      buf << "\n"
+    end
+  else
+    buf << "![](https://cryptocopycats.github.io/media/kitties/100x100/fancy-#{key}.png)"
     buf << "\n"
   end
 
