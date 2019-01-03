@@ -211,3 +211,35 @@ s+t = v
 u+v = w
 w+x = x
 ```
+
+
+## Fancies
+
+Stephen Curry Kitties
+
+Three kitties created in the likeness of Stephen Curry, an NBA player.
+These three kittis were ChefFurry, StephFurThree, and #30Furry (Kitty ids: 130, 230, and 330 respectively). However, shortly after releasing these kitties, their pages were removed. Currently the CryptoKitties team states:
+
+We have reason to believe Steph wasn't as involved in the CurryKitties as we thought.
+Until we're sure he's an active participant, we're suspending the campaign.
+
+---
+
+- 帝龙喵 (GoldenDragonCat)  888
+- 旺财汪 (GoldDogCat) 1802, 1803, 1805, 1806, 1808, 1809, 1812, 1816, 1826, 1827, 1828
+
+Fancies:
+- 汪星爷/DogCat 88 tigerpunk, sweetlemoncakes, barkbrown, periwinkle, yokel
+- 咚咚锵/LionDanceCat 888 manx, googly, royalblue, starstruck
+- 红包喵/FortuneCat 888
+
+http://www.cryptokittieswiki.com/Fancies/
+
+
+http://www.cryptokittieswiki.com/contracts/
+
+Trait Releases
+
+In early April, 2018, trait releases were changed in gen0 kitties.
+Specifically, after the Family Jewels update when new traits were released, it was relatively easy to snipe the diamond. This lead to automation that would quickly purchase the kitty. Therefore traits were changed so they would be introduced at H3 and then after some time go up to H2, till they are at the highest level they will achieve. While this did not eliminated the automation, it made the process require more investment and breeding to get the diamond.1
+
