@@ -24,8 +24,21 @@
 
 FANCIES =
 {
+  ## 2019
+  ## January
+
+  
   ## 2018
   ## December
+  catzy: { name: 'Catzy', date: '2018-12-31', limit: 10, ids: (1137653..1137662).to_a,
+           special: true,
+           desc: 'Changpeng "CZ" Zhao - CEO of Binance - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk' },
+  purremyallaire: { name: 'Purremy Allaire', date: '2018-12-31', limit: 10, ids: (1137663..1137672).to_a,
+                    special: true,
+                    desc: 'Jeremy Allaire - Top 10 Blockchain Influencer of the Year 2018 by CoinDesk' },
+  genedough: { name: 'Gene Dough', date: '2018-12-23', time: { end: '2019-01-07' },
+                traits: ['hotcocoa', 'mittens', 'frosting'],
+                open: true },
   pawrula:  { name: 'Pawrula the Bright', date: '2018-12-15', time: { start: '2018-12-15', end: '2019-11-30' },
                 traits: ['camo', 'butterscotch', 'fox'],
                 desc: 'Neha Narula - Director of the Digital Currency Initiative at the MIT Media Lab',
