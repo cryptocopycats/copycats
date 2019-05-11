@@ -520,15 +520,6 @@ genes.map { |gene| gene.kitty }     # get kitties (from gene)
 ```
 
 
-
-## Quick References / Cheat Sheets
-
-[Traits](TRAITS.md) - Traits (Cattributes) Charts with Mutation (Mewtations) Pairs and Tiers
-
-[Genes](GENES.md)  - Fur (0-3) • Pattern (4-7) • Eye Color (8-11) • Eye Shape (12-15) • Base Color (16-19) • Highlight Color (20-23) • Accent Color (24-27) • Wild (28-31) • Mouth (32-35) • Future 1 (36-39) • Future 2 (40-43) • Future 3 (44-47)
-
-
-
 ## Datasets
 
 [(Crypto) Kitties on the Blockchain](https://github.com/cryptocopycats/kitties) -
@@ -555,15 +546,14 @@ $ gem install copycats
 ```
 
 
-## Questions? Comments?
-
-Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
-
-
-
 ## License
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
 The `copycats` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
+
+
+## Questions? Comments?
+
+Post them on the [cryptokitties reddit](https://www.reddit.com/r/cryptokitties). Thanks.
