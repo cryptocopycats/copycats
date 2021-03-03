@@ -1,0 +1,53 @@
+
+<a href="/">« Index</a>
+
+<h1>Kitty #<%= kitty.id %></h2>
+
+Generation: <%= kitty.gen %>
+<br>
+Birthdate:  <%= kitty.birthdate %>  (<%= Date.today.jd - kitty.birthdate.to_date.jd %> days ago)
+<br>
+Day count:  <%= kitty.day_count %>
+<br>
+Genes (Kai): <%= kitty.genes_kai %>
+
+
+<ul>
+<% kitty.genes.each do |gene|
+      trait      = Copycats::Model::Trait.find( gene.trait_id )
+      trait_type = Copycats::Model::TraitType.find( trait.trait_type_id )
+   %>
+ <li>
+   <%= gene.n %> --
+   <%= gene.gene %> -
+   <%= trait.name %>
+   (<%= trait.kai %>) -
+   <%= trait_type.name %>
+ </li>
+<% end %>
+</ul>
+
+
+<p>
+More Profile Pages:
+</p>
+
+<ul>
+  <li>CryptoKitty - <a href="https://www.cryptokitties.co/kitty/<%= kitty.id %>">#<%= kitty.id %></a>
+      (<a href="https://api.cryptokitties.co/kitties/<%= kitty.id %>">API</a>)
+  </li>
+  <li>CryptoKittydex - <a href="https://cryptokittydex.com/kitties/<%= kitty.id %>">#<%= kitty.id %></a>
+  </li>
+  <!-- check: needs "dummy" k2 para ? -->
+  <li>KittyCalc - <a href="https://kittycalc.co/read/?k1=<%= kitty.id %>&k2=461679">#<%= kitty.id %></a>
+  </li>
+</ul>
+
+
+<!--
+<pre>
+<%=h kitty.pretty_inspect %>
+
+<%=h kitty.genes.pretty_inspect %>
+</pre>
+-->

@@ -1,0 +1,16 @@
+<h1>Bitcat - Bit Catalog Kitty Browser</h1>
+
+<div>
+  <form action='/' method='post'>
+    <input type='text' name='kitty[id]' placeholder='1,2,3,...'>
+    <input type='submit' value='Show Kitty'>
+  </form>
+</div>
+
+
+<p>
+Try
+  <% Copycats::Model::Kitty.limit(10).each do |kitty| %>
+     <a href="kitty/<%= kitty.id %>">#<%= kitty.id %></a>
+  <% end %>
+</p>
